@@ -1,0 +1,22 @@
+cmake_minimum_required(VERSION 3.16)
+project(Gtest)
+
+set(CMAKE_CXX_STANDARD 17)
+
+set(link_lib glog pthread gtest)
+set(link_math_lib armadillo blas lapack)
+
+aux_source_directory(../test/ TESTCPPSRC)
+aux_source_directory(../src/ TESTCPPSRC_T)
+aux_source_directory(../src/data DATASRC_T)
+aux_source_directory(../src/layer LAYERSRC_T)
+aux_source_directory(../src/operator OPERATERSRC_T)
+aux_source_directory(../src/runtime RUNTIMESRC_T)
+
+add_executable(Gtest ${TESTCPPSRC} ${TESTCPPSRC_T} ${DATASRC_T} ${LAYERSRC_T} ${OPERATERSRC_T} ${RUNTIMESRC_T})
+
+include_directories(
+    ../include
+)
+
+target_link_libraries(Gtest ${link_lib} ${link_math_lib})

@@ -1,0 +1,24 @@
+cmake_minimum_required(VERSION 3.16)
+project(Rcinfer)
+
+set(CMAKE_CXX_STANDARD 17)
+
+set(link_lib glog pthread gtest)
+set(link_math_lib armadillo blas lapack)
+
+aux_source_directory(./src CPPSRC)
+aux_source_directory(./src/data DATASRC)
+aux_source_directory(./src/layer LAYERSRC)
+aux_source_directory(./src/operator OPERATERSRC)
+aux_source_directory(./src/runtime RUNTIMESRC)
+
+add_executable(Rcinfer ${CPPSRC} ${DATASRC} ${LAYERSRC} ${OPERATERSRC} ${RUNTIMESRC} main.cpp)
+
+include_directories(
+    ./include
+)
+
+target_link_libraries(Rcinfer ${link_lib} ${link_math_lib})
+
+# enable_testing()
+add_subdirectory(test)
