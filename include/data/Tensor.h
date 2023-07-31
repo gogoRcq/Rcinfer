@@ -66,6 +66,12 @@ public:
 
     std::shared_ptr<Tensor<T>> clone();
 
+    static std::shared_ptr<Tensor<T>> ElementAdd(const std::shared_ptr<Tensor<T>> &tensor1,
+                                                 const std::shared_ptr<Tensor<T>> &tensor2);
+    
+    static std::shared_ptr<Tensor<T>> ElementMultiply(const std::shared_ptr<Tensor<T>> &tensor1,
+                                                      const std::shared_ptr<Tensor<T>> &tensor2);
+
 };
 
 

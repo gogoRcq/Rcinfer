@@ -1,7 +1,9 @@
 #include "data/Tensor.h"
 #include "glog/logging.h"
+#include <_types/_uint32_t.h>
 #include <iostream>
 #include "common.h"
+#include <memory>
 #include <vector>
 
 namespace rq {
@@ -210,6 +212,50 @@ void Tensor<T>::flatten() {
 template<class T>
 std::shared_ptr<Tensor<T>> Tensor<T>::clone() {
     return std::make_shared<Tensor<T>>(*this);
+}
+
+template<class T>
+std::shared_ptr<Tensor<T>> Tensor<T>::ElementAdd(const std::shared_ptr<Tensor<T>> &tensor1,
+                                                 const std::shared_ptr<Tensor<T>> &tensor2) {
+    CHECK(tensor1 != nullptr && tensor2 != nullptr) << "null tensor!";
+    CHECK(!tensor1->empty() && !tensor2 ->empty()) << "empty tensor!";
+    CHECK(tensor1->shapes() == tensor2->shapes()) << "error shape!";
+    std::shared_ptr<Tensor<T>> output = std::make_shared<Tensor<T>>(tensor1->rows(), tensor1->cols(), tensor1->channels());
+    output->data() = tensor1->data() + tensor2->data(); 
+    return output;
+}
+
+template<class T>
+std::shared_ptr<Tensor<T>> Tensor<T>::ElementMultiply(const std::shared_ptr<Tensor<T>> &tensor1,
+                                                      const std::shared_ptr<Tensor<T>> &tensor2) {
+    CHECK(tensor1 != nullptr && tensor2 != nullptr) << "null tensor!";
+    CHECK(!tensor1->empty() && !tensor2 ->empty()) << "empty tensor!";
+    if(tensor1->shapes() == tensor2->shapes()) {
+        std::shared_ptr<Tensor<T>> output = std::make_shared<Tensor<T>>(tensor1->rows(), tensor1->cols(), tensor1->channels());
+        output->data() = tensor1->data() % tensor2->data();  // 逐元素乘法
+        return output;
+    } else {
+        CHECK(tensor1->channels() == tensor2->channels()) << "error shape";
+        uint32_t channels = tensor1->channels();
+        std::shared_ptr<Tensor<T>> tensor1_;
+        std::shared_ptr<Tensor<T>> tensor2_;
+        if (tensor2->rows() == 1 && tensor2->cols() == 1) {
+            tensor1_ = tensor1;
+            tensor2_ = tensor2; 
+        } else if (tensor1->cols() == 1 && tensor1->rows() == 1) {
+            tensor1_ = tensor2;
+            tensor2_ = tensor1; 
+        } else {
+            LOG(FATAL) << "error shape"; 
+        }
+        std::shared_ptr<Tensor<T>> input_tensor2 = std::make_shared<Tensor<T>>(tensor1_->rows(), tensor1_->cols(), channels);
+        for (uint32_t i = 0; i < channels; ++i) {
+            input_tensor2->at(i).fill(tensor2_->index(i));
+        }
+        std::shared_ptr<Tensor<T>> output_tensor = std::make_shared<Tensor<T>>(tensor1_->rows(), tensor1_->cols(), channels);
+        output_tensor->data() = input_tensor2->data() % tensor1_->data();
+        return output_tensor;
+    }                     
 }
 
 INSTALLCLASS(Tensor);

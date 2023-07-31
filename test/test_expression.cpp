@@ -2,60 +2,90 @@
 // Created by fss on 23-1-15.
 //
 
+#include "data/Tensor.h"
+#include "operator/ExpressionOperator.h"
 #include "runtime/PraseExpression.h"
 #include <gtest/gtest.h>
 #include <glog/logging.h>
+#include "layer/ExpressionLayer.h"
+#include "LayerRegister.h"
 
 
-// static void ShowNodes(const std::shared_ptr<rq::TokenNode> &node) {
-//   if (!node) {
-//     return;
-//   }
-//   // 中序遍历的顺序
-//   ShowNodes(node->left);
-//   if (node->numIndex < 0) {
-//     if (node->numIndex == -int(rq::TokenType::TokenAdd)) {
-//       LOG(INFO) << "ADD";
-//     } else if (node->numIndex == -int(rq::TokenType::TokenMul)) {
-//       LOG(INFO) << "MUL";
-//     } else if (node->numIndex == -int(rq::TokenType::TokenDiv)) {
-//       LOG(INFO) << "DIV";
-//     }
-//   } else {
-//     LOG(INFO) << "NUM: " << node->numIndex;
-//   }
-//   ShowNodes(node->right);
-// }
 
-// TEST(test_expression, expression1) {
-//   using namespace rq;
-//   const std::string &statement = "add(@1,@2)";
-//   ExpressionParser parser(statement);
-//   const auto &node_tokens = parser.generate();
-//   ShowNodes(node_tokens);
-// }
 
-// TEST(test_expression, expression3) {
-//   using namespace rq;
-//   const std::string &statement = "add(mul(@0,@1),mul(@2,add(@3,@4)))";
-//   ExpressionParser parser(statement);
-//   const auto &node_tokens = parser.generate();
-//   ShowNodes(node_tokens);
-// }
+typedef rq::Tensor<float> ftensor;
 
-// TEST(test_expression, expression4) {
-//   using namespace rq;
-//   const std::string &statement = "add(mul(@0,@1),mul(@2,@3))";
-//   ExpressionParser parser(statement);
-//   const auto &node_tokens = parser.generate();
-//   ShowNodes(node_tokens);
-// }
+TEST(test_expression, add) {
+    using namespace rq;
+    const std::string &expr = "add(@0,@1)";
+    std::shared_ptr<ExpressionOperator> expression_op = std::make_shared<ExpressionOperator>(expr);
+    std::shared_ptr<Layer<float>> expr_layer = LayerRegister<float>::creatorLayer(expression_op);
+    std::vector<std::shared_ptr<ftensor >> inputs;
+    std::vector<std::shared_ptr<ftensor >> outputs;
 
-// TEST(test_expression, expression5) {
-//   using namespace rq;
-//   const std::string &statement = "add(div(@0,@1),@2)";
-//   ExpressionParser parser(statement);
-//   const auto &node_tokens = parser.generate();
-//   ShowNodes(node_tokens);
-// }
+    int batch_size = 4;
+    for (int i = 0; i < batch_size; ++i) {
+        std::shared_ptr<ftensor> input = std::make_shared<ftensor>(224, 224, 3);
+        input->fill(1.f);
+        inputs.push_back(input);
+    }
+
+    for (int i = 0; i < batch_size; ++i) {
+        std::shared_ptr<ftensor> input = std::make_shared<ftensor>(224, 224, 3);
+        input->fill(2.f);
+        inputs.push_back(input);
+    }
+
+    for (int i = 0; i < batch_size; ++i) {
+        std::shared_ptr<ftensor> output = std::make_shared<ftensor>(224, 224, 3);
+        outputs.push_back(output);
+    }
+    expr_layer->forwards(inputs, outputs);
+    for (int i = 0; i < batch_size; ++i) {
+        const auto &result = outputs.at(i);
+        for (int j = 0; j < result->size(); ++j) {
+            ASSERT_EQ(result->index(j), 3.f);
+        }
+    }
+}
+
+TEST(test_expression, complex) {
+    using namespace rq;
+    const std::string &expr = "add(mul(@0,@1),@2)";
+    std::shared_ptr<ExpressionOperator> expression_op = std::make_shared<ExpressionOperator>(expr);
+    std::shared_ptr<Layer<float>> expr_layer = LayerRegister<float>::creatorLayer(expression_op);
+    std::vector<std::shared_ptr<ftensor >> inputs;
+    std::vector<std::shared_ptr<ftensor >> outputs;
+
+    int batch_size = 4;
+    for (int i = 0; i < batch_size; ++i) {
+        std::shared_ptr<ftensor> input = std::make_shared<ftensor>(3, 224, 224);
+        input->fill(1.f);
+        inputs.push_back(input);
+    }
+
+    for (int i = 0; i < batch_size; ++i) {
+        std::shared_ptr<ftensor> input = std::make_shared<ftensor>(3, 224, 224);
+        input->fill(2.f);
+        inputs.push_back(input);
+    }
+
+    for (int i = 0; i < batch_size; ++i) {
+        std::shared_ptr<ftensor> input = std::make_shared<ftensor>(3, 224, 224);
+        input->fill(3.f);
+        inputs.push_back(input);
+    }
+
+    for (int i = 0; i < batch_size; ++i) {
+        std::shared_ptr<ftensor> output = std::make_shared<ftensor>(3, 224, 224);
+        outputs.push_back(output);
+    }
+    expr_layer->forwards(inputs, outputs);
+    for (int i = 0; i < batch_size; ++i) {
+        const auto &result = outputs.at(i);
+        for (int j = 0; j < result->size(); ++j) {
+            ASSERT_EQ(result->index(j), 5.f);
+        }
+    }
+}
 

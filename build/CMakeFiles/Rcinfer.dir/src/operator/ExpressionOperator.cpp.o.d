@@ -1,39 +1,37 @@
-test/CMakeFiles/Gtest.dir/test_expression.cpp.o: \
-  /Users/rcq/home/cppprojs/Rcinfer/test/test_expression.cpp \
-  /Users/rcq/home/cppprojs/Rcinfer/./include/data/Tensor.h \
-  /opt/homebrew/include/armadillo \
-  /opt/homebrew/include/armadillo_bits/config.hpp \
-  /opt/homebrew/include/armadillo_bits/compiler_check.hpp \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cstdlib \
+CMakeFiles/Rcinfer.dir/src/operator/ExpressionOperator.cpp.o: \
+  /Users/rcq/home/cppprojs/Rcinfer/src/operator/ExpressionOperator.cpp \
+  /Users/rcq/home/cppprojs/Rcinfer/./include/operator/ExpressionOperator.h \
+  /Users/rcq/home/cppprojs/Rcinfer/./include/operator/Operator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__config_site \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__verbose_abort \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__availability \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/stdlib.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/stdlib.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/Availability.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/AvailabilityVersions.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/AvailabilityInternal.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/version \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/ios \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ios/fpos.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iosfwd \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__mbstate_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/wchar.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/stddef.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stddef.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/__stddef_max_align_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/wchar.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/cdefs.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_symbol_aliasing.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_posix_availability.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/machine/_types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/arm/_types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_pthread/_pthread_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/wait.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_pid_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_id_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/signal.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/appleapiopts.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/machine/signal.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/arm/signal.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/machine/_mcontext.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/arm/_mcontext.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/mach/machine/_structs.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/mach/arm/_structs.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/Availability.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/AvailabilityVersions.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/AvailabilityInternal.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_null.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_size_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_mbstate_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/machine/types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/arm/types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_int8_t.h \
@@ -46,13 +44,33 @@ test/CMakeFiles/Gtest.dir/test_expression.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_u_int64_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_intptr_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_uintptr_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_sigaltstack.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_ucontext.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_sigset_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_size_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_uid_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/resource.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_ct_rune_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_rune_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_wchar_t.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stdarg.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/stdio.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/stdio.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/_stdio.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_va_list.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/stdio.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/_ctermid.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_off_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_ssize_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/time.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_clock_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_time_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_timespec.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/_wctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/__wctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_wint_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/_types/_wctype_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/ctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/ctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/_ctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/runetype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__locale \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cctype \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cstdint \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/stdint.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/stdint.h \
@@ -62,63 +80,23 @@ test/CMakeFiles/Gtest.dir/test_expression.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/_types/_uint64_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/_types/_intmax_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/_types/_uintmax_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_timeval.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/machine/endian.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/arm/endian.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_endian.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/libkern/_OSByteOrder.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/libkern/arm/OSByteOrder.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/arm/arch.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/alloca.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_ct_rune_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_rune_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_wchar_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_null.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/malloc/_malloc.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_dev_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_mode_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cstddef \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/locale.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/locale.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/_locale.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/memory \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/copy.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/unwrap_iter.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__iterator/iterator_traits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__iterator/incrementable_traits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_primary_template.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/enable_if.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/integral_constant.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_integral.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/remove_cv.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/remove_const.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/remove_volatile.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/stddef.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stddef.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/__stddef_max_align_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/version \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cstdio \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/stdio.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/stdio.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/_stdio.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_va_list.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/stdio.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/_ctermid.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_off_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_ssize_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cstring \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/string.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/string.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_rsize_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_errno_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/strings.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/climits \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/limits.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/limits.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/limits.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/machine/limits.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/arm/limits.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/arm/_limits.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/syslimits.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cstdint \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cmath \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/math.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/math.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/promote.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_same.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__utility/declval.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/limits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/integral_constant.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_valid_expansion.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/concepts \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__concepts/arithmetic.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_signed_integer.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_unsigned_integer.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/type_traits \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/invoke.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/add_lvalue_reference.h \
@@ -127,6 +105,11 @@ test/CMakeFiles/Gtest.dir/test_expression.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_const.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_volatile.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/remove_reference.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cstddef \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_integral.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/remove_cv.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/remove_const.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/remove_volatile.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/conditional.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/decay.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/add_pointer.h \
@@ -141,6 +124,7 @@ test/CMakeFiles/Gtest.dir/test_expression.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_reference_wrapper.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_void.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/nat.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__utility/declval.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__utility/forward.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/add_const.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/add_cv.h \
@@ -225,45 +209,6 @@ test/CMakeFiles/Gtest.dir/test_expression.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/rank.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/remove_pointer.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/type_identity.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__undef_macros \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/ctime \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/time.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_clock_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_time_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_timespec.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iostream \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/ios \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ios/fpos.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iosfwd \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__mbstate_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/wchar.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/wchar.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_mbstate_t.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stdarg.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/_wctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/__wctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_wint_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/_types/_wctype_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/runetype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__locale \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cctype \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/locale.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/locale.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/_locale.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/memory \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/copy.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/unwrap_iter.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__iterator/iterator_traits.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__iterator/incrementable_traits.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_primary_template.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_valid_expansion.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/concepts \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__concepts/arithmetic.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_signed_integer.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_unsigned_integer.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__concepts/assignable.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__concepts/common_reference_with.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__concepts/convertible_to.h \
@@ -296,6 +241,39 @@ test/CMakeFiles/Gtest.dir/test_expression.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__iterator/next.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__iterator/advance.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__utility/unreachable.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cstdlib \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/stdlib.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/stdlib.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/wait.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_pid_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_id_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/signal.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/appleapiopts.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/machine/signal.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/arm/signal.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/machine/_mcontext.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/arm/_mcontext.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/mach/machine/_structs.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/mach/arm/_structs.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_sigaltstack.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_ucontext.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_sigset_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_uid_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/resource.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_timeval.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/machine/endian.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/arm/endian.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_endian.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/libkern/_OSByteOrder.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/libkern/arm/OSByteOrder.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/arm/arch.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/alloca.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/malloc/_malloc.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_dev_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_mode_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/limits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__undef_macros \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__utility/pair.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__compare/common_comparison_category.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__compare/ordering.h \
@@ -321,6 +299,12 @@ test/CMakeFiles/Gtest.dir/test_expression.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ranges/dangling.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ranges/view_interface.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ranges/empty.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cstring \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/string.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/string.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_rsize_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_errno_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/strings.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/move.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/iterator_operations.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/iter_swap.h \
@@ -360,6 +344,10 @@ test/CMakeFiles/Gtest.dir/test_expression.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__compare/weak_order.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__compare/strong_order.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__bit/bit_cast.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cmath \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/math.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/math.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/promote.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__compare/compare_strong_order_fallback.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__compare/compare_weak_order_fallback.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__compare/is_eq.h \
@@ -380,11 +368,20 @@ test/CMakeFiles/Gtest.dir/test_expression.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/atomic \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__chrono/duration.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/ratio \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/climits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/limits.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/limits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/limits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/machine/limits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/arm/limits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/arm/_limits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/syslimits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__thread/poll_with_backoff.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__chrono/high_resolution_clock.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__chrono/steady_clock.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__chrono/time_point.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__chrono/system_clock.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/ctime \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/file_time_type.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__chrono/file_clock.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__thread/timed_backoff_policy.h \
@@ -480,6 +477,7 @@ test/CMakeFiles/Gtest.dir/test_expression.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/find_end.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/search.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/find_first_of.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cstdio \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cwchar \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cwctype \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/wctype.h \
@@ -735,76 +733,9 @@ test/CMakeFiles/Gtest.dir/test_expression.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/fstream \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/filesystem \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/file_status.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/file_type.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/perms.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/path.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iomanip \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/operations.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/perm_options.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/space_info.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/directory_iterator.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/directory_options.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/u8path.h \
+  /Users/rcq/home/cppprojs/Rcinfer/./include/runtime/PraseExpression.h \
+  /usr/local/include/glog/logging.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/sstream \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/complex \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/map \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__tree \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/random \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/bernoulli_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/uniform_real_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/generate_canonical.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/binomial_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/cauchy_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/chi_squared_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/gamma_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/exponential_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/clamp_to_integral.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/default_random_engine.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/linear_congruential_engine.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/is_seed_sequence.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/discard_block_engine.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/discrete_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/numeric \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/accumulate.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/adjacent_difference.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/exclusive_scan.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/gcd_lcm.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/inclusive_scan.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/inner_product.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/iota.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/midpoint.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/partial_sum.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/reduce.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/transform_exclusive_scan.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/transform_inclusive_scan.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/transform_reduce.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/extreme_value_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/fisher_f_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/geometric_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/negative_binomial_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/poisson_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/normal_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/independent_bits_engine.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/knuth_b.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/shuffle_order_engine.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/lognormal_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/mersenne_twister_engine.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/piecewise_constant_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/piecewise_linear_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/random_device.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/ranlux.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/subtract_with_carry_engine.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/seed_seq.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/student_t_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/weibull_distribution.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/unistd.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/unistd.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_posix_vdisable.h \
@@ -813,670 +744,10 @@ test/CMakeFiles/Gtest.dir/test_expression.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_select.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_uuid_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/gethostuuid.h \
-  /opt/homebrew/include/armadillo_bits/compiler_setup.hpp \
-  /opt/homebrew/include/armadillo_bits/include_hdf5.hpp \
-  /opt/homebrew/include/armadillo_bits/include_superlu.hpp \
-  /opt/homebrew/include/supermatrix.h \
-  /opt/homebrew/include/superlu_enum_consts.h \
-  /opt/homebrew/include/armadillo_bits/arma_forward.hpp \
-  /opt/homebrew/include/armadillo_bits/arma_static_check.hpp \
-  /opt/homebrew/include/armadillo_bits/typedef_elem.hpp \
-  /opt/homebrew/include/armadillo_bits/typedef_elem_check.hpp \
-  /opt/homebrew/include/armadillo_bits/typedef_mat.hpp \
-  /opt/homebrew/include/armadillo_bits/arma_str.hpp \
-  /opt/homebrew/include/armadillo_bits/arma_version.hpp \
-  /opt/homebrew/include/armadillo_bits/arma_config.hpp \
-  /opt/homebrew/include/armadillo_bits/traits.hpp \
-  /opt/homebrew/include/armadillo_bits/promote_type.hpp \
-  /opt/homebrew/include/armadillo_bits/upgrade_val.hpp \
-  /opt/homebrew/include/armadillo_bits/restrictors.hpp \
-  /opt/homebrew/include/armadillo_bits/access.hpp \
-  /opt/homebrew/include/armadillo_bits/span.hpp \
-  /opt/homebrew/include/armadillo_bits/distr_param.hpp \
-  /opt/homebrew/include/armadillo_bits/constants.hpp \
-  /opt/homebrew/include/armadillo_bits/constants_old.hpp \
-  /opt/homebrew/include/armadillo_bits/mp_misc.hpp \
-  /opt/homebrew/include/armadillo_bits/arma_rel_comparators.hpp \
-  /opt/homebrew/include/armadillo_bits/fill.hpp \
-  /opt/homebrew/include/armadillo_bits/arma_rng_cxx03.hpp \
-  /opt/homebrew/include/armadillo_bits/arma_rng.hpp \
-  /opt/homebrew/include/armadillo_bits/Base_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/BaseCube_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/SpBase_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/def_blas.hpp \
-  /opt/homebrew/include/armadillo_bits/def_atlas.hpp \
-  /opt/homebrew/include/armadillo_bits/def_lapack.hpp \
-  /opt/homebrew/include/armadillo_bits/def_arpack.hpp \
-  /opt/homebrew/include/armadillo_bits/def_superlu.hpp \
-  /opt/homebrew/include/armadillo_bits/def_fftw3.hpp \
-  /opt/homebrew/include/armadillo_bits/translate_blas.hpp \
-  /opt/homebrew/include/armadillo_bits/translate_atlas.hpp \
-  /opt/homebrew/include/armadillo_bits/translate_lapack.hpp \
-  /opt/homebrew/include/armadillo_bits/translate_arpack.hpp \
-  /opt/homebrew/include/armadillo_bits/translate_superlu.hpp \
-  /opt/homebrew/include/armadillo_bits/translate_fftw3.hpp \
-  /opt/homebrew/include/armadillo_bits/cond_rel_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/arrayops_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/podarray_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/auxlib_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/sp_auxlib_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/injector_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/Mat_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/Col_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/Row_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/Cube_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/xvec_htrans_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/xtrans_mat_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/SizeMat_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/SizeCube_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/SpValProxy_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/SpMat_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/SpCol_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/SpRow_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/SpSubview_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/SpSubview_col_list_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/spdiagview_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/MapMat_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/typedef_mat_fixed.hpp \
-  /opt/homebrew/include/armadillo_bits/field_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/subview_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/subview_elem1_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/subview_elem2_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/subview_field_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/subview_cube_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/diagview_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/subview_each_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/subview_cube_each_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/subview_cube_slices_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/hdf5_name.hpp \
-  /opt/homebrew/include/armadillo_bits/csv_name.hpp \
-  /opt/homebrew/include/armadillo_bits/diskio_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/wall_clock_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/running_stat_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/running_stat_vec_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/Op_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/CubeToMatOp_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/OpCube_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/SpOp_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/SpToDOp_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/eOp_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/eOpCube_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/mtOp_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/mtOpCube_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/mtSpOp_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/Glue_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/eGlue_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/mtGlue_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/SpGlue_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/mtSpGlue_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/GlueCube_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/eGlueCube_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/mtGlueCube_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/eop_core_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/eglue_core_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/Gen_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/GenCube_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_diagmat_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_diagvec_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_dot_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_det_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_log_det_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_inv_gen_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_inv_spd_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_htrans_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_max_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_min_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_index_max_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_index_min_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_mean_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_median_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_sort_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_sort_index_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_sum_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_stddev_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_strans_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_var_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_repmat_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_repelem_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_reshape_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_vectorise_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_resize_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_cov_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_cor_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_shift_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_shuffle_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_prod_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_pinv_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_dotext_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_flip_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_reverse_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_princomp_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_misc_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_orth_null_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_relational_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_find_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_find_unique_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_chol_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_cx_scalar_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_trimat_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_cumsum_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_cumprod_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_symmat_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_hist_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_unique_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_toeplitz_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_fft_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_any_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_all_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_normalise_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_clamp_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_expmat_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_nonzeros_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_diff_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_norm_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_vecnorm_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_norm2est_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_sqrtmat_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_logmat_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_range_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_chi2rnd_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_wishrnd_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_roots_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_cond_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_rcond_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_sp_plus_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_sp_minus_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_powmat_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_rank_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_row_as_mat_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/op_col_as_mat_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/glue_times_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/glue_mixed_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/glue_cov_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/glue_cor_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/glue_kron_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/glue_cross_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/glue_join_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/glue_relational_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/glue_solve_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/glue_conv_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/glue_toeplitz_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/glue_hist_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/glue_histc_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/glue_max_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/glue_min_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/glue_trapz_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/glue_atan2_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/glue_hypot_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/glue_polyfit_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/glue_polyval_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/glue_intersect_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/glue_affmul_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/glue_mvnrnd_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/glue_quantile_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/glue_powext_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/gmm_misc_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/gmm_diag_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/gmm_full_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/spop_max_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/spop_min_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/spop_sum_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/spop_strans_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/spop_htrans_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/spop_misc_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/spop_diagmat_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/spop_mean_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/spop_var_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/spop_trimat_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/spop_symmat_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/spop_normalise_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/spop_reverse_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/spop_repmat_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/spop_vectorise_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/spop_norm_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/spop_vecnorm_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/spglue_plus_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/spglue_minus_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/spglue_schur_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/spglue_times_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/spglue_join_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/spglue_kron_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/spglue_min_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/spglue_max_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/spglue_merge_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/spglue_relational_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/spsolve_factoriser_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/newarp_EigsSelect.hpp \
-  /opt/homebrew/include/armadillo_bits/newarp_DenseGenMatProd_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/newarp_SparseGenMatProd_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/newarp_SparseGenRealShiftSolve_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/newarp_DoubleShiftQR_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/newarp_GenEigsSolver_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/newarp_SymEigsSolver_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/newarp_SymEigsShiftSolver_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/newarp_TridiagEigen_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/newarp_UpperHessenbergEigen_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/newarp_UpperHessenbergQR_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/debug.hpp \
-  /opt/homebrew/include/armadillo_bits/memory.hpp \
-  /opt/homebrew/include/armadillo_bits/arma_cmath.hpp \
-  /opt/homebrew/include/armadillo_bits/unwrap.hpp \
-  /opt/homebrew/include/armadillo_bits/unwrap_cube.hpp \
-  /opt/homebrew/include/armadillo_bits/unwrap_spmat.hpp \
-  /opt/homebrew/include/armadillo_bits/Proxy.hpp \
-  /opt/homebrew/include/armadillo_bits/ProxyCube.hpp \
-  /opt/homebrew/include/armadillo_bits/SpProxy.hpp \
-  /opt/homebrew/include/armadillo_bits/diagmat_proxy.hpp \
-  /opt/homebrew/include/armadillo_bits/strip.hpp \
-  /opt/homebrew/include/armadillo_bits/eop_aux.hpp \
-  /opt/homebrew/include/armadillo_bits/arma_ostream_bones.hpp \
-  /opt/homebrew/include/armadillo_bits/arma_ostream_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_n_unique.hpp \
-  /opt/homebrew/include/armadillo_bits/operator_plus.hpp \
-  /opt/homebrew/include/armadillo_bits/operator_minus.hpp \
-  /opt/homebrew/include/armadillo_bits/operator_times.hpp \
-  /opt/homebrew/include/armadillo_bits/operator_schur.hpp \
-  /opt/homebrew/include/armadillo_bits/operator_div.hpp \
-  /opt/homebrew/include/armadillo_bits/operator_relational.hpp \
-  /opt/homebrew/include/armadillo_bits/operator_cube_plus.hpp \
-  /opt/homebrew/include/armadillo_bits/operator_cube_minus.hpp \
-  /opt/homebrew/include/armadillo_bits/operator_cube_times.hpp \
-  /opt/homebrew/include/armadillo_bits/operator_cube_schur.hpp \
-  /opt/homebrew/include/armadillo_bits/operator_cube_div.hpp \
-  /opt/homebrew/include/armadillo_bits/operator_cube_relational.hpp \
-  /opt/homebrew/include/armadillo_bits/operator_ostream.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_conv_to.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_max.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_min.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_index_max.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_index_min.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_accu.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_sum.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_diagmat.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_diagvec.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_inv.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_inv_sympd.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_trace.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_trans.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_det.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_log_det.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_eig_gen.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_eig_sym.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_eig_pair.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_lu.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_zeros.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_ones.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_eye.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_misc.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_orth_null.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_regspace.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_find.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_find_unique.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_elem.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_approx_equal.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_norm.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_vecnorm.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_dot.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_randu.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_randn.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_trig.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_mean.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_median.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_stddev.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_var.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_sort.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_sort_index.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_strans.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_chol.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_qr.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_svd.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_solve.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_repmat.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_repelem.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_reshape.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_vectorise.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_resize.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_cov.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_cor.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_shift.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_shuffle.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_prod.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_eps.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_pinv.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_rank.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_kron.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_flip.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_reverse.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_as_scalar.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_princomp.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_cross.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_join.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_conv.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_trunc_exp.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_trunc_log.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_toeplitz.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_trimat.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_trimat_ind.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_cumsum.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_cumprod.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_symmat.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_sylvester.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_hist.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_histc.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_unique.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_fft.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_fft2.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_any.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_all.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_size.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_numel.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_inplace_strans.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_inplace_trans.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_randi.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_randg.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_cond_rcond.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_normalise.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_clamp.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_expmat.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_nonzeros.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_interp1.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_interp2.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_qz.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_diff.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_hess.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_schur.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_kmeans.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_sqrtmat.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_logmat.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_trapz.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_range.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_polyfit.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_polyval.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_intersect.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_normpdf.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_log_normpdf.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_normcdf.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_mvnrnd.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_chi2rnd.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_wishrnd.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_roots.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_randperm.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_quantile.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_powmat.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_powext.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_speye.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_spones.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_sprandn.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_sprandu.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_eigs_sym.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_eigs_gen.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_spsolve.hpp \
-  /opt/homebrew/include/armadillo_bits/fn_svds.hpp \
-  /opt/homebrew/include/armadillo_bits/hdf5_misc.hpp \
-  /opt/homebrew/include/armadillo_bits/fft_engine_kissfft.hpp \
-  /opt/homebrew/include/armadillo_bits/fft_engine_fftw3.hpp \
-  /opt/homebrew/include/armadillo_bits/band_helper.hpp \
-  /opt/homebrew/include/armadillo_bits/sym_helper.hpp \
-  /opt/homebrew/include/armadillo_bits/trimat_helper.hpp \
-  /opt/homebrew/include/armadillo_bits/mul_gemv.hpp \
-  /opt/homebrew/include/armadillo_bits/mul_gemm.hpp \
-  /opt/homebrew/include/armadillo_bits/mul_gemm_mixed.hpp \
-  /opt/homebrew/include/armadillo_bits/mul_syrk.hpp \
-  /opt/homebrew/include/armadillo_bits/mul_herk.hpp \
-  /opt/homebrew/include/armadillo_bits/Op_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/CubeToMatOp_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/OpCube_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/SpOp_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/SpToDOp_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/mtOp_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/mtOpCube_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/mtSpOp_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/Glue_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/GlueCube_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/SpGlue_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/mtSpGlue_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/eOp_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/eOpCube_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/eGlue_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/eGlueCube_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/mtGlue_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/mtGlueCube_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/Base_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/BaseCube_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/SpBase_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/Gen_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/GenCube_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/eop_core_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/eglue_core_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/cond_rel_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/arrayops_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/podarray_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/auxlib_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/sp_auxlib_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/injector_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/Mat_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/Col_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/Row_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/Cube_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/xvec_htrans_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/xtrans_mat_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/SizeMat_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/SizeCube_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/field_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/subview_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/subview_elem1_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/subview_elem2_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/subview_field_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/subview_cube_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/diagview_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/subview_each_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/subview_cube_each_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/subview_cube_slices_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/SpValProxy_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/SpMat_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/SpMat_iterators_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/SpCol_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/SpRow_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/SpSubview_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/SpSubview_iterators_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/SpSubview_col_list_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/spdiagview_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/MapMat_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/diskio_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/wall_clock_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/running_stat_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/running_stat_vec_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_diagmat_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_diagvec_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_dot_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_det_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_log_det_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_inv_gen_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_inv_spd_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_htrans_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_max_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_index_max_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_index_min_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_min_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_mean_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_median_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_sort_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_sort_index_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_sum_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_stddev_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_strans_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_var_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_repmat_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_repelem_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_reshape_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_vectorise_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_resize_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_cov_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_cor_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_shift_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_shuffle_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_prod_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_pinv_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_dotext_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_flip_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_reverse_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_princomp_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_misc_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_orth_null_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_relational_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_find_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_find_unique_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_chol_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_cx_scalar_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_trimat_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_cumsum_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_cumprod_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_symmat_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_hist_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_unique_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_toeplitz_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_fft_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_any_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_all_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_normalise_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_clamp_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_expmat_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_nonzeros_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_diff_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_norm_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_vecnorm_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_norm2est_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_sqrtmat_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_logmat_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_range_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_chi2rnd_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_wishrnd_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_roots_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_cond_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_rcond_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_sp_plus_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_sp_minus_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_powmat_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_rank_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_row_as_mat_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/op_col_as_mat_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/glue_times_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/glue_mixed_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/glue_cov_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/glue_cor_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/glue_kron_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/glue_cross_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/glue_join_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/glue_relational_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/glue_solve_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/glue_conv_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/glue_toeplitz_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/glue_hist_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/glue_histc_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/glue_max_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/glue_min_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/glue_trapz_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/glue_atan2_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/glue_hypot_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/glue_polyfit_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/glue_polyval_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/glue_intersect_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/glue_affmul_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/glue_mvnrnd_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/glue_quantile_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/glue_powext_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/gmm_misc_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/gmm_diag_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/gmm_full_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/spop_max_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/spop_min_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/spop_sum_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/spop_strans_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/spop_htrans_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/spop_misc_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/spop_diagmat_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/spop_mean_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/spop_var_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/spop_trimat_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/spop_symmat_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/spop_normalise_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/spop_reverse_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/spop_repmat_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/spop_vectorise_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/spop_norm_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/spop_vecnorm_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/spglue_plus_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/spglue_minus_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/spglue_schur_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/spglue_times_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/spglue_join_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/spglue_kron_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/spglue_min_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/spglue_max_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/spglue_merge_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/spglue_relational_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/spsolve_factoriser_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/newarp_cx_attrib.hpp \
-  /opt/homebrew/include/armadillo_bits/newarp_SortEigenvalue.hpp \
-  /opt/homebrew/include/armadillo_bits/newarp_DenseGenMatProd_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/newarp_SparseGenMatProd_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/newarp_SparseGenRealShiftSolve_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/newarp_DoubleShiftQR_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/newarp_GenEigsSolver_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/newarp_SymEigsSolver_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/newarp_SymEigsShiftSolver_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/newarp_TridiagEigen_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/newarp_UpperHessenbergEigen_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/newarp_UpperHessenbergQR_meat.hpp \
-  /opt/homebrew/include/armadillo_bits/compiler_setup_post.hpp \
-  /usr/local/include/glog/logging.h /usr/local/include/glog/platform.h \
-  /usr/local/include/glog/export.h \
+  /usr/local/include/glog/platform.h /usr/local/include/glog/export.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/inttypes.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/xlocale/_inttypes.h \
   /usr/local/include/glog/log_severity.h \
-  /usr/local/include/glog/vlog_is_on.h \
-  /Users/rcq/home/cppprojs/Rcinfer/./include/operator/ExpressionOperator.h \
-  /Users/rcq/home/cppprojs/Rcinfer/./include/operator/Operator.h \
-  /Users/rcq/home/cppprojs/Rcinfer/./include/runtime/PraseExpression.h \
-  /usr/local/include/gtest/gtest.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/set \
-  /usr/local/include/gtest/gtest-assertion-result.h \
-  /usr/local/include/gtest/gtest-message.h \
-  /usr/local/include/gtest/internal/gtest-port.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/stat.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_s_ifmt.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_filesec_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/AvailabilityMacros.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/TargetConditionals.h \
-  /usr/local/include/gtest/internal/custom/gtest-port.h \
-  /usr/local/include/gtest/internal/gtest-port-arch.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/regex.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/_regex.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/xlocale/_regex.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/condition_variable \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/any \
-  /usr/local/include/gtest/gtest-death-test.h \
-  /usr/local/include/gtest/internal/gtest-death-test-internal.h \
-  /usr/local/include/gtest/gtest-matchers.h \
-  /usr/local/include/gtest/gtest-printers.h \
-  /usr/local/include/gtest/internal/gtest-internal.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/float.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/float.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/float.h \
-  /usr/local/include/gtest/internal/gtest-filepath.h \
-  /usr/local/include/gtest/internal/gtest-string.h \
-  /usr/local/include/gtest/internal/gtest-type-util.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cxxabi.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__cxxabi_config.h \
-  /usr/local/include/gtest/internal/custom/gtest-printers.h \
-  /usr/local/include/gtest/gtest-param-test.h \
-  /usr/local/include/gtest/internal/gtest-param-util.h \
-  /usr/local/include/gtest/gtest-test-part.h \
-  /usr/local/include/gtest/gtest-typed-test.h \
-  /usr/local/include/gtest/gtest_pred_impl.h \
-  /usr/local/include/gtest/gtest_prod.h \
-  /Users/rcq/home/cppprojs/Rcinfer/./include/layer/ExpressionLayer.h \
-  /Users/rcq/home/cppprojs/Rcinfer/./include/layer/Layer.h \
-  /Users/rcq/home/cppprojs/Rcinfer/./include/LayerRegister.h
+  /usr/local/include/glog/vlog_is_on.h

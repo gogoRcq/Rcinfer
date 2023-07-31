@@ -14,7 +14,7 @@ namespace rq {
 template<class T>
 class ExpressionLayer : public Layer<T> {
 public:
-    explicit ExpressionLayer(const std::shared_ptr<Operator>& op) {
+    explicit ExpressionLayer(const std::shared_ptr<Operator>& op) : Layer<T>("expression") {
         CHECK(op != nullptr && op->opType == OperatorType::rOperatorExpression) << "error op";
         ExpressionOperator* expressionOp = dynamic_cast<ExpressionOperator*>(op.get());
         CHECK(expressionOp != nullptr);
