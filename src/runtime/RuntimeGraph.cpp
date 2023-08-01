@@ -169,6 +169,7 @@ void RuntimeGraph<T>::InitGraphParams(const std::map<std::string, pnnx::Paramete
             }
             case int(RuntimeParamType::rParameterBool): {
                 std::shared_ptr<RuntimeParam> runtimeParam = std::make_shared<RuntimeParamBool>();
+                runtimeParam
                 runtimeOperator->params.insert({name, runtimeParam});
                 break;
             }

@@ -25,6 +25,12 @@
 },
 {
   "directory": "/Users/rcq/home/cppprojs/Rcinfer/build",
+  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Rcinfer.dir/src/layer/ConvLayer.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/ConvLayer.cpp",
+  "file": "/Users/rcq/home/cppprojs/Rcinfer/src/layer/ConvLayer.cpp",
+  "output": "CMakeFiles/Rcinfer.dir/src/layer/ConvLayer.cpp.o"
+},
+{
+  "directory": "/Users/rcq/home/cppprojs/Rcinfer/build",
   "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Rcinfer.dir/src/layer/ExpressionLayer.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/ExpressionLayer.cpp",
   "file": "/Users/rcq/home/cppprojs/Rcinfer/src/layer/ExpressionLayer.cpp",
   "output": "CMakeFiles/Rcinfer.dir/src/layer/ExpressionLayer.cpp.o"
@@ -52,6 +58,12 @@
   "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Rcinfer.dir/src/layer/SigmoidLayer.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/SigmoidLayer.cpp",
   "file": "/Users/rcq/home/cppprojs/Rcinfer/src/layer/SigmoidLayer.cpp",
   "output": "CMakeFiles/Rcinfer.dir/src/layer/SigmoidLayer.cpp.o"
+},
+{
+  "directory": "/Users/rcq/home/cppprojs/Rcinfer/build",
+  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Rcinfer.dir/src/operator/ConvOperator.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/operator/ConvOperator.cpp",
+  "file": "/Users/rcq/home/cppprojs/Rcinfer/src/operator/ConvOperator.cpp",
+  "output": "CMakeFiles/Rcinfer.dir/src/operator/ConvOperator.cpp.o"
 },
 {
   "directory": "/Users/rcq/home/cppprojs/Rcinfer/build",
@@ -121,6 +133,12 @@
 },
 {
   "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
+  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/test_conv.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/test/test_conv.cpp",
+  "file": "/Users/rcq/home/cppprojs/Rcinfer/test/test_conv.cpp",
+  "output": "test/CMakeFiles/Gtest.dir/test_conv.cpp.o"
+},
+{
+  "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
   "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/test_expression.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/test/test_expression.cpp",
   "file": "/Users/rcq/home/cppprojs/Rcinfer/test/test_expression.cpp",
   "output": "test/CMakeFiles/Gtest.dir/test_expression.cpp.o"
@@ -187,6 +205,12 @@
 },
 {
   "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
+  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/layer/ConvLayer.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/ConvLayer.cpp",
+  "file": "/Users/rcq/home/cppprojs/Rcinfer/src/layer/ConvLayer.cpp",
+  "output": "test/CMakeFiles/Gtest.dir/__/src/layer/ConvLayer.cpp.o"
+},
+{
+  "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
   "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/layer/ExpressionLayer.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/ExpressionLayer.cpp",
   "file": "/Users/rcq/home/cppprojs/Rcinfer/src/layer/ExpressionLayer.cpp",
   "output": "test/CMakeFiles/Gtest.dir/__/src/layer/ExpressionLayer.cpp.o"
@@ -214,6 +238,12 @@
   "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/layer/SigmoidLayer.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/SigmoidLayer.cpp",
   "file": "/Users/rcq/home/cppprojs/Rcinfer/src/layer/SigmoidLayer.cpp",
   "output": "test/CMakeFiles/Gtest.dir/__/src/layer/SigmoidLayer.cpp.o"
+},
+{
+  "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
+  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/operator/ConvOperator.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/operator/ConvOperator.cpp",
+  "file": "/Users/rcq/home/cppprojs/Rcinfer/src/operator/ConvOperator.cpp",
+  "output": "test/CMakeFiles/Gtest.dir/__/src/operator/ConvOperator.cpp.o"
 },
 {
   "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",

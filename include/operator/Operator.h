@@ -10,7 +10,8 @@ enum class OperatorType {
     rOperatorRelu = 0,
     rOperatorSigmoid = 1,
     rOperatorMaxPooling = 2,
-    rOperatorExpression = 3
+    rOperatorExpression = 3,
+    rOperatorConv = 4
 };
 
 class Operator {

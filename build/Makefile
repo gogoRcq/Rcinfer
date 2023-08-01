@@ -262,6 +262,30 @@ src/data/Tensor.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/data/Tensor.cpp.s
 .PHONY : src/data/Tensor.cpp.s
 
+src/layer/ConvLayer.o: src/layer/ConvLayer.cpp.o
+.PHONY : src/layer/ConvLayer.o
+
+# target to build an object file
+src/layer/ConvLayer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/layer/ConvLayer.cpp.o
+.PHONY : src/layer/ConvLayer.cpp.o
+
+src/layer/ConvLayer.i: src/layer/ConvLayer.cpp.i
+.PHONY : src/layer/ConvLayer.i
+
+# target to preprocess a source file
+src/layer/ConvLayer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/layer/ConvLayer.cpp.i
+.PHONY : src/layer/ConvLayer.cpp.i
+
+src/layer/ConvLayer.s: src/layer/ConvLayer.cpp.s
+.PHONY : src/layer/ConvLayer.s
+
+# target to generate assembly for a file
+src/layer/ConvLayer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/layer/ConvLayer.cpp.s
+.PHONY : src/layer/ConvLayer.cpp.s
+
 src/layer/ExpressionLayer.o: src/layer/ExpressionLayer.cpp.o
 .PHONY : src/layer/ExpressionLayer.o
 
@@ -381,6 +405,30 @@ src/layer/SigmoidLayer.s: src/layer/SigmoidLayer.cpp.s
 src/layer/SigmoidLayer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/layer/SigmoidLayer.cpp.s
 .PHONY : src/layer/SigmoidLayer.cpp.s
+
+src/operator/ConvOperator.o: src/operator/ConvOperator.cpp.o
+.PHONY : src/operator/ConvOperator.o
+
+# target to build an object file
+src/operator/ConvOperator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/operator/ConvOperator.cpp.o
+.PHONY : src/operator/ConvOperator.cpp.o
+
+src/operator/ConvOperator.i: src/operator/ConvOperator.cpp.i
+.PHONY : src/operator/ConvOperator.i
+
+# target to preprocess a source file
+src/operator/ConvOperator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/operator/ConvOperator.cpp.i
+.PHONY : src/operator/ConvOperator.cpp.i
+
+src/operator/ConvOperator.s: src/operator/ConvOperator.cpp.s
+.PHONY : src/operator/ConvOperator.s
+
+# target to generate assembly for a file
+src/operator/ConvOperator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/operator/ConvOperator.cpp.s
+.PHONY : src/operator/ConvOperator.cpp.s
 
 src/operator/ExpressionOperator.o: src/operator/ExpressionOperator.cpp.o
 .PHONY : src/operator/ExpressionOperator.o
@@ -623,6 +671,9 @@ help:
 	@echo "... src/data/Tensor.o"
 	@echo "... src/data/Tensor.i"
 	@echo "... src/data/Tensor.s"
+	@echo "... src/layer/ConvLayer.o"
+	@echo "... src/layer/ConvLayer.i"
+	@echo "... src/layer/ConvLayer.s"
 	@echo "... src/layer/ExpressionLayer.o"
 	@echo "... src/layer/ExpressionLayer.i"
 	@echo "... src/layer/ExpressionLayer.s"
@@ -638,6 +689,9 @@ help:
 	@echo "... src/layer/SigmoidLayer.o"
 	@echo "... src/layer/SigmoidLayer.i"
 	@echo "... src/layer/SigmoidLayer.s"
+	@echo "... src/operator/ConvOperator.o"
+	@echo "... src/operator/ConvOperator.i"
+	@echo "... src/operator/ConvOperator.s"
 	@echo "... src/operator/ExpressionOperator.o"
 	@echo "... src/operator/ExpressionOperator.i"
 	@echo "... src/operator/ExpressionOperator.s"

@@ -226,6 +226,30 @@ __/src/data/Tensor.cpp.s:
 	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/data/Tensor.cpp.s
 .PHONY : __/src/data/Tensor.cpp.s
 
+__/src/layer/ConvLayer.o: __/src/layer/ConvLayer.cpp.o
+.PHONY : __/src/layer/ConvLayer.o
+
+# target to build an object file
+__/src/layer/ConvLayer.cpp.o:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/ConvLayer.cpp.o
+.PHONY : __/src/layer/ConvLayer.cpp.o
+
+__/src/layer/ConvLayer.i: __/src/layer/ConvLayer.cpp.i
+.PHONY : __/src/layer/ConvLayer.i
+
+# target to preprocess a source file
+__/src/layer/ConvLayer.cpp.i:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/ConvLayer.cpp.i
+.PHONY : __/src/layer/ConvLayer.cpp.i
+
+__/src/layer/ConvLayer.s: __/src/layer/ConvLayer.cpp.s
+.PHONY : __/src/layer/ConvLayer.s
+
+# target to generate assembly for a file
+__/src/layer/ConvLayer.cpp.s:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/ConvLayer.cpp.s
+.PHONY : __/src/layer/ConvLayer.cpp.s
+
 __/src/layer/ExpressionLayer.o: __/src/layer/ExpressionLayer.cpp.o
 .PHONY : __/src/layer/ExpressionLayer.o
 
@@ -345,6 +369,30 @@ __/src/layer/SigmoidLayer.s: __/src/layer/SigmoidLayer.cpp.s
 __/src/layer/SigmoidLayer.cpp.s:
 	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/SigmoidLayer.cpp.s
 .PHONY : __/src/layer/SigmoidLayer.cpp.s
+
+__/src/operator/ConvOperator.o: __/src/operator/ConvOperator.cpp.o
+.PHONY : __/src/operator/ConvOperator.o
+
+# target to build an object file
+__/src/operator/ConvOperator.cpp.o:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/operator/ConvOperator.cpp.o
+.PHONY : __/src/operator/ConvOperator.cpp.o
+
+__/src/operator/ConvOperator.i: __/src/operator/ConvOperator.cpp.i
+.PHONY : __/src/operator/ConvOperator.i
+
+# target to preprocess a source file
+__/src/operator/ConvOperator.cpp.i:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/operator/ConvOperator.cpp.i
+.PHONY : __/src/operator/ConvOperator.cpp.i
+
+__/src/operator/ConvOperator.s: __/src/operator/ConvOperator.cpp.s
+.PHONY : __/src/operator/ConvOperator.s
+
+# target to generate assembly for a file
+__/src/operator/ConvOperator.cpp.s:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/operator/ConvOperator.cpp.s
+.PHONY : __/src/operator/ConvOperator.cpp.s
 
 __/src/operator/ExpressionOperator.o: __/src/operator/ExpressionOperator.cpp.o
 .PHONY : __/src/operator/ExpressionOperator.o
@@ -586,6 +634,30 @@ test_Rule.cpp.s:
 	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/test_Rule.cpp.s
 .PHONY : test_Rule.cpp.s
 
+test_conv.o: test_conv.cpp.o
+.PHONY : test_conv.o
+
+# target to build an object file
+test_conv.cpp.o:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/test_conv.cpp.o
+.PHONY : test_conv.cpp.o
+
+test_conv.i: test_conv.cpp.i
+.PHONY : test_conv.i
+
+# target to preprocess a source file
+test_conv.cpp.i:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/test_conv.cpp.i
+.PHONY : test_conv.cpp.i
+
+test_conv.s: test_conv.cpp.s
+.PHONY : test_conv.s
+
+# target to generate assembly for a file
+test_conv.cpp.s:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/test_conv.cpp.s
+.PHONY : test_conv.cpp.s
+
 test_expression.o: test_expression.cpp.o
 .PHONY : test_expression.o
 
@@ -775,6 +847,9 @@ help:
 	@echo "... __/src/data/Tensor.o"
 	@echo "... __/src/data/Tensor.i"
 	@echo "... __/src/data/Tensor.s"
+	@echo "... __/src/layer/ConvLayer.o"
+	@echo "... __/src/layer/ConvLayer.i"
+	@echo "... __/src/layer/ConvLayer.s"
 	@echo "... __/src/layer/ExpressionLayer.o"
 	@echo "... __/src/layer/ExpressionLayer.i"
 	@echo "... __/src/layer/ExpressionLayer.s"
@@ -790,6 +865,9 @@ help:
 	@echo "... __/src/layer/SigmoidLayer.o"
 	@echo "... __/src/layer/SigmoidLayer.i"
 	@echo "... __/src/layer/SigmoidLayer.s"
+	@echo "... __/src/operator/ConvOperator.o"
+	@echo "... __/src/operator/ConvOperator.i"
+	@echo "... __/src/operator/ConvOperator.s"
 	@echo "... __/src/operator/ExpressionOperator.o"
 	@echo "... __/src/operator/ExpressionOperator.i"
 	@echo "... __/src/operator/ExpressionOperator.s"
@@ -820,6 +898,9 @@ help:
 	@echo "... test_Rule.o"
 	@echo "... test_Rule.i"
 	@echo "... test_Rule.s"
+	@echo "... test_conv.o"
+	@echo "... test_conv.i"
+	@echo "... test_conv.s"
 	@echo "... test_expression.o"
 	@echo "... test_expression.i"
 	@echo "... test_expression.s"

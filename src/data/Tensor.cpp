@@ -1,6 +1,7 @@
 #include "data/Tensor.h"
 #include "glog/logging.h"
 #include <_types/_uint32_t.h>
+#include <_types/_uint64_t.h>
 #include <iostream>
 #include "common.h"
 #include <memory>
@@ -9,7 +10,15 @@
 namespace rq {
 
 template<class T>
-Tensor<T>::Tensor(uint32_t row, uint32_t col, uint32_t channel):tsData(row, col, channel), rawShapes({row, col, channel}){}
+Tensor<T>::Tensor(uint32_t row, uint32_t col, uint32_t channel) : tsData(row, col, channel), rawShapes({row, col, channel}){
+    if (channel == 1 && row == 1) {
+        rawShapes = {col};
+    } else if (channel == 1) {
+        rawShapes = {col , row};
+    } else {
+        rawShapes = {col, row, channel};
+    }
+}
 
 template<class T>
 Tensor<T>::Tensor(const Tensor<T>& tensor){
@@ -59,6 +68,11 @@ template<class T>
 std::vector<uint32_t> Tensor<T>::shapes() const {
     CHECK(!this->tsData.empty());
     return {this->channels(), this->rows(), this->cols()};
+}
+
+template<class T>
+const std::vector<uint32_t>& Tensor<T>::raw_shapes() const {
+    return this->rawShapes;
 }
 
 template<class T>
@@ -256,6 +270,82 @@ std::shared_ptr<Tensor<T>> Tensor<T>::ElementMultiply(const std::shared_ptr<Tens
         output_tensor->data() = input_tensor2->data() % tensor1_->data();
         return output_tensor;
     }                     
+}
+
+template<class T>
+void Tensor<T>::ReRawshape(const std::vector<uint32_t> &shapes) {
+    CHECK(!shapes.empty() && shapes.size() <= 3);
+    auto originSize = this->size();
+    uint64_t curSize = 1;
+    for (uint32_t shape : shapes) {
+        curSize *= (uint64_t)shape;
+    }
+    CHECK(originSize == curSize);
+
+    if (shapes.size() == 3) {
+        this->tsData.reshape(shapes[0], shapes[1], shapes[2]);
+        this->rawShapes = {shapes[0], shapes[1], shapes[2]};
+    } else if (shapes.size() == 2) {
+        this->tsData.reshape(shapes.at(0), shapes.at(1), 1);
+        this->rawShapes = {shapes.at(0), shapes.at(1)};
+    } else {
+        this->tsData.reshape(shapes.at(0), 1, 1);
+        this->rawShapes = {shapes.at(0)};
+    }
+}
+
+template<class T>
+void Tensor<T>::ReRawView(const std::vector<uint32_t> &shapes) {
+    CHECK(!shapes.empty() && shapes.size() <= 3);
+    auto originSize = this->size();
+    uint64_t curSize = 1;
+    for (uint32_t shape : shapes) {
+        curSize *= (uint64_t)shape;
+    }
+    CHECK(originSize == curSize);
+
+    std::vector<uint32_t> targetShapes; // row col channel
+    if (shapes.size() == 3) {
+        targetShapes = {shapes[0], shapes[1], shapes[2]};
+        this->rawShapes = {shapes[0], shapes[1], shapes[2]};
+    } else if (shapes.size() == 2) {
+        targetShapes = {shapes.at(0), shapes.at(1), 1};
+        this->rawShapes = {shapes.at(0), shapes.at(1)};
+    } else {
+        targetShapes = {shapes.at(0), 1, 1};
+        this->rawShapes = {shapes.at(0)};
+    }
+    this->ReView(targetShapes);
+}
+
+template<class T>
+void Tensor<T>::ReView(const std::vector<uint32_t> &shapes) {
+    const uint32_t target_rows = shapes.at(0);
+    const uint32_t target_cols = shapes.at(1);
+    const uint32_t target_channels = shapes.at(2);
+    arma::Cube<T> new_data(target_rows, target_cols, target_channels);
+
+    const uint32_t plane_size = target_rows * target_cols;
+    for (uint32_t c = 0; c < this->tsData.n_slices; ++c) {
+        const arma::Mat<T> &channel = this->tsData.slice(c);
+        for (uint32_t c_ = 0; c_ < this->tsData.n_cols; ++c_) {
+            const T *colptr = channel.colptr(c_);
+            for (uint32_t r = 0; r < this->tsData.n_rows; ++r) {
+                const uint32_t pos_index = c * tsData.n_rows * tsData.n_cols + r * tsData.n_cols + c_;
+                const uint32_t ch = pos_index / plane_size;
+                const uint32_t row = (pos_index - ch * plane_size) / target_cols;
+                const uint32_t col = (pos_index - ch * plane_size - row * target_cols);
+                new_data.at(row, col, ch) = *(colptr + r);
+            }
+        }
+  }
+  this->tsData = new_data;
+}
+
+template<class T>
+const T *Tensor<T>::raw_ptr() const {
+  CHECK(!this->tsData.empty());
+  return this->tsData.memptr();
 }
 
 INSTALLCLASS(Tensor);

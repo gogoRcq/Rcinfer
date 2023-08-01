@@ -11,8 +11,10 @@ namespace rq{
 template<class T>
 class Tensor {
 private:
-    std::vector<uint32_t> rawShapes;
+    std::vector<uint32_t> rawShapes; // 用来记录真实的维度， size 来判断
     arma::Cube<T> tsData;
+    void ReView(const std::vector<uint32_t> &shapes);
+
 public:
     explicit Tensor() = default;
     Tensor(uint32_t row, uint32_t col, uint32_t channel);
@@ -31,6 +33,8 @@ public:
     bool empty() const;
 
     std::vector<uint32_t> shapes() const;
+
+    const std::vector<uint32_t> &raw_shapes() const;
 
     arma::Cube<T>& data();
 
@@ -71,6 +75,12 @@ public:
     
     static std::shared_ptr<Tensor<T>> ElementMultiply(const std::shared_ptr<Tensor<T>> &tensor1,
                                                       const std::shared_ptr<Tensor<T>> &tensor2);
+
+    void ReRawshape(const std::vector<uint32_t> &shapes); // 列优先 reshape
+
+    void ReRawView(const std::vector<uint32_t> &shapes); // 行有线 reshape
+
+    const T *raw_ptr() const;
 
 };
 

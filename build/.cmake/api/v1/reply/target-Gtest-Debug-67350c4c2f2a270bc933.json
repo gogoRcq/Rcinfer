@@ -109,7 +109,10 @@
 				22,
 				23,
 				24,
-				25
+				25,
+				26,
+				27,
+				28
 			]
 		}
 	],
@@ -197,7 +200,10 @@
 				22,
 				23,
 				24,
-				25
+				25,
+				26,
+				27,
+				28
 			]
 		}
 	],
@@ -207,6 +213,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "test/test_Rule.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "test/test_conv.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -278,6 +290,12 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
+			"path" : "src/layer/ConvLayer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
 			"path" : "src/layer/ExpressionLayer.cpp",
 			"sourceGroupIndex" : 0
 		},
@@ -303,6 +321,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "src/layer/SigmoidLayer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/operator/ConvOperator.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{

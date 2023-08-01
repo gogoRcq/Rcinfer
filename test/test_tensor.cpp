@@ -63,3 +63,46 @@ TEST(test_tensor, padding1) {
 	}
 	LOG(INFO) << "Test2 passed!";
 }
+
+TEST(test_tensor, reshape) {
+	using namespace rq;
+	Tensor<float> tensor(3, 3, 1);
+
+	arma::fmat input_data = "71 22 63;"
+							"12 13 99;"
+							"52 15 19;";
+	tensor.at(0) = input_data;
+	LOG(INFO) << "origin data:";
+	LOG(INFO) << tensor.data(); 
+	auto tensor1 = tensor.clone();
+
+	tensor.ReRawshape({9});
+	LOG(INFO) << "current data:";
+	LOG(INFO) << tensor.data(); 
+
+	tensor1->ReRawView({9});
+	LOG(INFO) << "current data:";
+	LOG(INFO) << tensor1->data(); 
+}
+
+TEST(test_tensor, reshape_3d) {
+	using namespace rq;
+	Tensor<float> tensor(3, 3, 2);
+
+	arma::fmat input_data = "71 22 63;"
+							"12 13 99;"
+							"52 15 19;";
+	tensor.at(0) = input_data;
+	tensor.at(1) = input_data;
+	LOG(INFO) << "origin data:";
+	LOG(INFO) << tensor.data(); 
+	auto tensor1 = tensor.clone();
+
+	tensor.ReRawshape({1, 3, 6});
+	LOG(INFO) << "current data:";
+	LOG(INFO) << tensor.data(); 
+
+	tensor1->ReRawView({1, 3, 6});
+	LOG(INFO) << "current data:";
+	LOG(INFO) << tensor1->data(); 
+}
