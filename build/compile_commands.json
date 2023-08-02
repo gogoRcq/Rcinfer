@@ -145,6 +145,18 @@
 },
 {
   "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
+  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/test_forward1.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/test/test_forward1.cpp",
+  "file": "/Users/rcq/home/cppprojs/Rcinfer/test/test_forward1.cpp",
+  "output": "test/CMakeFiles/Gtest.dir/test_forward1.cpp.o"
+},
+{
+  "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
+  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/test_init_graph.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/test/test_init_graph.cpp",
+  "file": "/Users/rcq/home/cppprojs/Rcinfer/test/test_init_graph.cpp",
+  "output": "test/CMakeFiles/Gtest.dir/test_init_graph.cpp.o"
+},
+{
+  "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
   "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/test_loadData.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/test/test_loadData.cpp",
   "file": "/Users/rcq/home/cppprojs/Rcinfer/test/test_loadData.cpp",
   "output": "test/CMakeFiles/Gtest.dir/test_loadData.cpp.o"

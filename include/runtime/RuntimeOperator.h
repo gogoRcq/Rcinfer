@@ -25,7 +25,7 @@ public:
     std::unordered_map<std::string, std::shared_ptr<RuntimeOperator<T>>> outputOperators; // 输出节点名和节点对应
 
     std::vector<std::shared_ptr<RuntimeOperand<T>>> inputOperandsSeq; // 节点的输入操作数 顺序存放
-    std::unordered_map<std::string, std::shared_ptr<RuntimeOperand<T>>>  inputOperands; // 节点的输入操作数 
+    std::unordered_map<std::string, std::shared_ptr<RuntimeOperand<T>>> inputOperands; // 节点的输入操作数 
 
     std::unordered_map<std::string, std::shared_ptr<RuntimeParam>> params; // 算子的参数信息
     std::unordered_map<std::string, std::shared_ptr<RuntimeAttr<T>>> attributes; // 算子的权重信息

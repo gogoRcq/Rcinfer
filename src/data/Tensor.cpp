@@ -67,7 +67,7 @@ bool Tensor<T>::empty() const {
 template<class T>
 std::vector<uint32_t> Tensor<T>::shapes() const {
     CHECK(!this->tsData.empty());
-    return {this->channels(), this->rows(), this->cols()};
+    return {this->rows(), this->cols(), this->channels()};
 }
 
 template<class T>

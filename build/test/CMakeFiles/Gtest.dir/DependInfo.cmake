@@ -31,6 +31,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/rcq/home/cppprojs/Rcinfer/test/test_Rule.cpp" "test/CMakeFiles/Gtest.dir/test_Rule.cpp.o" "gcc" "test/CMakeFiles/Gtest.dir/test_Rule.cpp.o.d"
   "/Users/rcq/home/cppprojs/Rcinfer/test/test_conv.cpp" "test/CMakeFiles/Gtest.dir/test_conv.cpp.o" "gcc" "test/CMakeFiles/Gtest.dir/test_conv.cpp.o.d"
   "/Users/rcq/home/cppprojs/Rcinfer/test/test_expression.cpp" "test/CMakeFiles/Gtest.dir/test_expression.cpp.o" "gcc" "test/CMakeFiles/Gtest.dir/test_expression.cpp.o.d"
+  "/Users/rcq/home/cppprojs/Rcinfer/test/test_forward1.cpp" "test/CMakeFiles/Gtest.dir/test_forward1.cpp.o" "gcc" "test/CMakeFiles/Gtest.dir/test_forward1.cpp.o.d"
+  "/Users/rcq/home/cppprojs/Rcinfer/test/test_init_graph.cpp" "test/CMakeFiles/Gtest.dir/test_init_graph.cpp.o" "gcc" "test/CMakeFiles/Gtest.dir/test_init_graph.cpp.o.d"
   "/Users/rcq/home/cppprojs/Rcinfer/test/test_loadData.cpp" "test/CMakeFiles/Gtest.dir/test_loadData.cpp.o" "gcc" "test/CMakeFiles/Gtest.dir/test_loadData.cpp.o.d"
   "/Users/rcq/home/cppprojs/Rcinfer/test/test_main.cpp" "test/CMakeFiles/Gtest.dir/test_main.cpp.o" "gcc" "test/CMakeFiles/Gtest.dir/test_main.cpp.o.d"
   "/Users/rcq/home/cppprojs/Rcinfer/test/test_maxpooling.cpp" "test/CMakeFiles/Gtest.dir/test_maxpooling.cpp.o" "gcc" "test/CMakeFiles/Gtest.dir/test_maxpooling.cpp.o.d"

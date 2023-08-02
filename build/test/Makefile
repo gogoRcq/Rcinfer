@@ -682,6 +682,54 @@ test_expression.cpp.s:
 	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/test_expression.cpp.s
 .PHONY : test_expression.cpp.s
 
+test_forward1.o: test_forward1.cpp.o
+.PHONY : test_forward1.o
+
+# target to build an object file
+test_forward1.cpp.o:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/test_forward1.cpp.o
+.PHONY : test_forward1.cpp.o
+
+test_forward1.i: test_forward1.cpp.i
+.PHONY : test_forward1.i
+
+# target to preprocess a source file
+test_forward1.cpp.i:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/test_forward1.cpp.i
+.PHONY : test_forward1.cpp.i
+
+test_forward1.s: test_forward1.cpp.s
+.PHONY : test_forward1.s
+
+# target to generate assembly for a file
+test_forward1.cpp.s:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/test_forward1.cpp.s
+.PHONY : test_forward1.cpp.s
+
+test_init_graph.o: test_init_graph.cpp.o
+.PHONY : test_init_graph.o
+
+# target to build an object file
+test_init_graph.cpp.o:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/test_init_graph.cpp.o
+.PHONY : test_init_graph.cpp.o
+
+test_init_graph.i: test_init_graph.cpp.i
+.PHONY : test_init_graph.i
+
+# target to preprocess a source file
+test_init_graph.cpp.i:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/test_init_graph.cpp.i
+.PHONY : test_init_graph.cpp.i
+
+test_init_graph.s: test_init_graph.cpp.s
+.PHONY : test_init_graph.s
+
+# target to generate assembly for a file
+test_init_graph.cpp.s:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/test_init_graph.cpp.s
+.PHONY : test_init_graph.cpp.s
+
 test_loadData.o: test_loadData.cpp.o
 .PHONY : test_loadData.o
 
@@ -904,6 +952,12 @@ help:
 	@echo "... test_expression.o"
 	@echo "... test_expression.i"
 	@echo "... test_expression.s"
+	@echo "... test_forward1.o"
+	@echo "... test_forward1.i"
+	@echo "... test_forward1.s"
+	@echo "... test_init_graph.o"
+	@echo "... test_init_graph.i"
+	@echo "... test_init_graph.s"
 	@echo "... test_loadData.o"
 	@echo "... test_loadData.i"
 	@echo "... test_loadData.s"
