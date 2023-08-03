@@ -64,32 +64,15 @@ CMAKE_BINARY_DIR = /Users/rcq/home/cppprojs/Rcinfer/build
 
 # The main recursive "all" target.
 all: CMakeFiles/Rcinfer.dir/all
-all: test/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall: test/preinstall
+preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/Rcinfer.dir/clean
-clean: test/clean
 .PHONY : clean
-
-#=============================================================================
-# Directory level rules for directory test
-
-# Recursive "all" directory target.
-test/all: test/CMakeFiles/Gtest.dir/all
-.PHONY : test/all
-
-# Recursive "preinstall" directory target.
-test/preinstall:
-.PHONY : test/preinstall
-
-# Recursive "clean" directory target.
-test/clean: test/CMakeFiles/Gtest.dir/clean
-.PHONY : test/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/Rcinfer.dir
@@ -98,12 +81,12 @@ test/clean: test/CMakeFiles/Gtest.dir/clean
 CMakeFiles/Rcinfer.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54 "Built target Rcinfer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14 "Built target Rcinfer"
 .PHONY : CMakeFiles/Rcinfer.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Rcinfer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Rcinfer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles 0
 .PHONY : CMakeFiles/Rcinfer.dir/rule
@@ -116,32 +99,6 @@ Rcinfer: CMakeFiles/Rcinfer.dir/rule
 CMakeFiles/Rcinfer.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/clean
 .PHONY : CMakeFiles/Rcinfer.dir/clean
-
-#=============================================================================
-# Target rules for target test/CMakeFiles/Gtest.dir
-
-# All Build rule for target.
-test/CMakeFiles/Gtest.dir/all:
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/depend
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32 "Built target Gtest"
-.PHONY : test/CMakeFiles/Gtest.dir/all
-
-# Build rule for subdir invocation for target.
-test/CMakeFiles/Gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles 32
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/Gtest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles 0
-.PHONY : test/CMakeFiles/Gtest.dir/rule
-
-# Convenience name for target.
-Gtest: test/CMakeFiles/Gtest.dir/rule
-.PHONY : Gtest
-
-# clean rule for target.
-test/CMakeFiles/Gtest.dir/clean:
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/clean
-.PHONY : test/CMakeFiles/Gtest.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

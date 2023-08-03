@@ -69,164 +69,10 @@ include test/CMakeFiles/Gtest.dir/progress.make
 # Include the compile flags for this target's objects.
 include test/CMakeFiles/Gtest.dir/flags.make
 
-test/CMakeFiles/Gtest.dir/test_Rule.cpp.o: test/CMakeFiles/Gtest.dir/flags.make
-test/CMakeFiles/Gtest.dir/test_Rule.cpp.o: /Users/rcq/home/cppprojs/Rcinfer/test/test_Rule.cpp
-test/CMakeFiles/Gtest.dir/test_Rule.cpp.o: test/CMakeFiles/Gtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/Gtest.dir/test_Rule.cpp.o"
-	cd /Users/rcq/home/cppprojs/Rcinfer/build/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/Gtest.dir/test_Rule.cpp.o -MF CMakeFiles/Gtest.dir/test_Rule.cpp.o.d -o CMakeFiles/Gtest.dir/test_Rule.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/test/test_Rule.cpp
-
-test/CMakeFiles/Gtest.dir/test_Rule.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gtest.dir/test_Rule.cpp.i"
-	cd /Users/rcq/home/cppprojs/Rcinfer/build/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rcq/home/cppprojs/Rcinfer/test/test_Rule.cpp > CMakeFiles/Gtest.dir/test_Rule.cpp.i
-
-test/CMakeFiles/Gtest.dir/test_Rule.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gtest.dir/test_Rule.cpp.s"
-	cd /Users/rcq/home/cppprojs/Rcinfer/build/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rcq/home/cppprojs/Rcinfer/test/test_Rule.cpp -o CMakeFiles/Gtest.dir/test_Rule.cpp.s
-
-test/CMakeFiles/Gtest.dir/test_conv.cpp.o: test/CMakeFiles/Gtest.dir/flags.make
-test/CMakeFiles/Gtest.dir/test_conv.cpp.o: /Users/rcq/home/cppprojs/Rcinfer/test/test_conv.cpp
-test/CMakeFiles/Gtest.dir/test_conv.cpp.o: test/CMakeFiles/Gtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/CMakeFiles/Gtest.dir/test_conv.cpp.o"
-	cd /Users/rcq/home/cppprojs/Rcinfer/build/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/Gtest.dir/test_conv.cpp.o -MF CMakeFiles/Gtest.dir/test_conv.cpp.o.d -o CMakeFiles/Gtest.dir/test_conv.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/test/test_conv.cpp
-
-test/CMakeFiles/Gtest.dir/test_conv.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gtest.dir/test_conv.cpp.i"
-	cd /Users/rcq/home/cppprojs/Rcinfer/build/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rcq/home/cppprojs/Rcinfer/test/test_conv.cpp > CMakeFiles/Gtest.dir/test_conv.cpp.i
-
-test/CMakeFiles/Gtest.dir/test_conv.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gtest.dir/test_conv.cpp.s"
-	cd /Users/rcq/home/cppprojs/Rcinfer/build/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rcq/home/cppprojs/Rcinfer/test/test_conv.cpp -o CMakeFiles/Gtest.dir/test_conv.cpp.s
-
-test/CMakeFiles/Gtest.dir/test_expression.cpp.o: test/CMakeFiles/Gtest.dir/flags.make
-test/CMakeFiles/Gtest.dir/test_expression.cpp.o: /Users/rcq/home/cppprojs/Rcinfer/test/test_expression.cpp
-test/CMakeFiles/Gtest.dir/test_expression.cpp.o: test/CMakeFiles/Gtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object test/CMakeFiles/Gtest.dir/test_expression.cpp.o"
-	cd /Users/rcq/home/cppprojs/Rcinfer/build/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/Gtest.dir/test_expression.cpp.o -MF CMakeFiles/Gtest.dir/test_expression.cpp.o.d -o CMakeFiles/Gtest.dir/test_expression.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/test/test_expression.cpp
-
-test/CMakeFiles/Gtest.dir/test_expression.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gtest.dir/test_expression.cpp.i"
-	cd /Users/rcq/home/cppprojs/Rcinfer/build/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rcq/home/cppprojs/Rcinfer/test/test_expression.cpp > CMakeFiles/Gtest.dir/test_expression.cpp.i
-
-test/CMakeFiles/Gtest.dir/test_expression.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gtest.dir/test_expression.cpp.s"
-	cd /Users/rcq/home/cppprojs/Rcinfer/build/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rcq/home/cppprojs/Rcinfer/test/test_expression.cpp -o CMakeFiles/Gtest.dir/test_expression.cpp.s
-
-test/CMakeFiles/Gtest.dir/test_forward1.cpp.o: test/CMakeFiles/Gtest.dir/flags.make
-test/CMakeFiles/Gtest.dir/test_forward1.cpp.o: /Users/rcq/home/cppprojs/Rcinfer/test/test_forward1.cpp
-test/CMakeFiles/Gtest.dir/test_forward1.cpp.o: test/CMakeFiles/Gtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object test/CMakeFiles/Gtest.dir/test_forward1.cpp.o"
-	cd /Users/rcq/home/cppprojs/Rcinfer/build/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/Gtest.dir/test_forward1.cpp.o -MF CMakeFiles/Gtest.dir/test_forward1.cpp.o.d -o CMakeFiles/Gtest.dir/test_forward1.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/test/test_forward1.cpp
-
-test/CMakeFiles/Gtest.dir/test_forward1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gtest.dir/test_forward1.cpp.i"
-	cd /Users/rcq/home/cppprojs/Rcinfer/build/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rcq/home/cppprojs/Rcinfer/test/test_forward1.cpp > CMakeFiles/Gtest.dir/test_forward1.cpp.i
-
-test/CMakeFiles/Gtest.dir/test_forward1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gtest.dir/test_forward1.cpp.s"
-	cd /Users/rcq/home/cppprojs/Rcinfer/build/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rcq/home/cppprojs/Rcinfer/test/test_forward1.cpp -o CMakeFiles/Gtest.dir/test_forward1.cpp.s
-
-test/CMakeFiles/Gtest.dir/test_init_graph.cpp.o: test/CMakeFiles/Gtest.dir/flags.make
-test/CMakeFiles/Gtest.dir/test_init_graph.cpp.o: /Users/rcq/home/cppprojs/Rcinfer/test/test_init_graph.cpp
-test/CMakeFiles/Gtest.dir/test_init_graph.cpp.o: test/CMakeFiles/Gtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object test/CMakeFiles/Gtest.dir/test_init_graph.cpp.o"
-	cd /Users/rcq/home/cppprojs/Rcinfer/build/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/Gtest.dir/test_init_graph.cpp.o -MF CMakeFiles/Gtest.dir/test_init_graph.cpp.o.d -o CMakeFiles/Gtest.dir/test_init_graph.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/test/test_init_graph.cpp
-
-test/CMakeFiles/Gtest.dir/test_init_graph.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gtest.dir/test_init_graph.cpp.i"
-	cd /Users/rcq/home/cppprojs/Rcinfer/build/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rcq/home/cppprojs/Rcinfer/test/test_init_graph.cpp > CMakeFiles/Gtest.dir/test_init_graph.cpp.i
-
-test/CMakeFiles/Gtest.dir/test_init_graph.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gtest.dir/test_init_graph.cpp.s"
-	cd /Users/rcq/home/cppprojs/Rcinfer/build/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rcq/home/cppprojs/Rcinfer/test/test_init_graph.cpp -o CMakeFiles/Gtest.dir/test_init_graph.cpp.s
-
-test/CMakeFiles/Gtest.dir/test_loadData.cpp.o: test/CMakeFiles/Gtest.dir/flags.make
-test/CMakeFiles/Gtest.dir/test_loadData.cpp.o: /Users/rcq/home/cppprojs/Rcinfer/test/test_loadData.cpp
-test/CMakeFiles/Gtest.dir/test_loadData.cpp.o: test/CMakeFiles/Gtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object test/CMakeFiles/Gtest.dir/test_loadData.cpp.o"
-	cd /Users/rcq/home/cppprojs/Rcinfer/build/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/Gtest.dir/test_loadData.cpp.o -MF CMakeFiles/Gtest.dir/test_loadData.cpp.o.d -o CMakeFiles/Gtest.dir/test_loadData.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/test/test_loadData.cpp
-
-test/CMakeFiles/Gtest.dir/test_loadData.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gtest.dir/test_loadData.cpp.i"
-	cd /Users/rcq/home/cppprojs/Rcinfer/build/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rcq/home/cppprojs/Rcinfer/test/test_loadData.cpp > CMakeFiles/Gtest.dir/test_loadData.cpp.i
-
-test/CMakeFiles/Gtest.dir/test_loadData.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gtest.dir/test_loadData.cpp.s"
-	cd /Users/rcq/home/cppprojs/Rcinfer/build/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rcq/home/cppprojs/Rcinfer/test/test_loadData.cpp -o CMakeFiles/Gtest.dir/test_loadData.cpp.s
-
-test/CMakeFiles/Gtest.dir/test_main.cpp.o: test/CMakeFiles/Gtest.dir/flags.make
-test/CMakeFiles/Gtest.dir/test_main.cpp.o: /Users/rcq/home/cppprojs/Rcinfer/test/test_main.cpp
-test/CMakeFiles/Gtest.dir/test_main.cpp.o: test/CMakeFiles/Gtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object test/CMakeFiles/Gtest.dir/test_main.cpp.o"
-	cd /Users/rcq/home/cppprojs/Rcinfer/build/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/Gtest.dir/test_main.cpp.o -MF CMakeFiles/Gtest.dir/test_main.cpp.o.d -o CMakeFiles/Gtest.dir/test_main.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/test/test_main.cpp
-
-test/CMakeFiles/Gtest.dir/test_main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gtest.dir/test_main.cpp.i"
-	cd /Users/rcq/home/cppprojs/Rcinfer/build/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rcq/home/cppprojs/Rcinfer/test/test_main.cpp > CMakeFiles/Gtest.dir/test_main.cpp.i
-
-test/CMakeFiles/Gtest.dir/test_main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gtest.dir/test_main.cpp.s"
-	cd /Users/rcq/home/cppprojs/Rcinfer/build/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rcq/home/cppprojs/Rcinfer/test/test_main.cpp -o CMakeFiles/Gtest.dir/test_main.cpp.s
-
-test/CMakeFiles/Gtest.dir/test_maxpooling.cpp.o: test/CMakeFiles/Gtest.dir/flags.make
-test/CMakeFiles/Gtest.dir/test_maxpooling.cpp.o: /Users/rcq/home/cppprojs/Rcinfer/test/test_maxpooling.cpp
-test/CMakeFiles/Gtest.dir/test_maxpooling.cpp.o: test/CMakeFiles/Gtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object test/CMakeFiles/Gtest.dir/test_maxpooling.cpp.o"
-	cd /Users/rcq/home/cppprojs/Rcinfer/build/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/Gtest.dir/test_maxpooling.cpp.o -MF CMakeFiles/Gtest.dir/test_maxpooling.cpp.o.d -o CMakeFiles/Gtest.dir/test_maxpooling.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/test/test_maxpooling.cpp
-
-test/CMakeFiles/Gtest.dir/test_maxpooling.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gtest.dir/test_maxpooling.cpp.i"
-	cd /Users/rcq/home/cppprojs/Rcinfer/build/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rcq/home/cppprojs/Rcinfer/test/test_maxpooling.cpp > CMakeFiles/Gtest.dir/test_maxpooling.cpp.i
-
-test/CMakeFiles/Gtest.dir/test_maxpooling.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gtest.dir/test_maxpooling.cpp.s"
-	cd /Users/rcq/home/cppprojs/Rcinfer/build/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rcq/home/cppprojs/Rcinfer/test/test_maxpooling.cpp -o CMakeFiles/Gtest.dir/test_maxpooling.cpp.s
-
-test/CMakeFiles/Gtest.dir/test_runtime1.cpp.o: test/CMakeFiles/Gtest.dir/flags.make
-test/CMakeFiles/Gtest.dir/test_runtime1.cpp.o: /Users/rcq/home/cppprojs/Rcinfer/test/test_runtime1.cpp
-test/CMakeFiles/Gtest.dir/test_runtime1.cpp.o: test/CMakeFiles/Gtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object test/CMakeFiles/Gtest.dir/test_runtime1.cpp.o"
-	cd /Users/rcq/home/cppprojs/Rcinfer/build/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/Gtest.dir/test_runtime1.cpp.o -MF CMakeFiles/Gtest.dir/test_runtime1.cpp.o.d -o CMakeFiles/Gtest.dir/test_runtime1.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/test/test_runtime1.cpp
-
-test/CMakeFiles/Gtest.dir/test_runtime1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gtest.dir/test_runtime1.cpp.i"
-	cd /Users/rcq/home/cppprojs/Rcinfer/build/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rcq/home/cppprojs/Rcinfer/test/test_runtime1.cpp > CMakeFiles/Gtest.dir/test_runtime1.cpp.i
-
-test/CMakeFiles/Gtest.dir/test_runtime1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gtest.dir/test_runtime1.cpp.s"
-	cd /Users/rcq/home/cppprojs/Rcinfer/build/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rcq/home/cppprojs/Rcinfer/test/test_runtime1.cpp -o CMakeFiles/Gtest.dir/test_runtime1.cpp.s
-
-test/CMakeFiles/Gtest.dir/test_sigmoid.cpp.o: test/CMakeFiles/Gtest.dir/flags.make
-test/CMakeFiles/Gtest.dir/test_sigmoid.cpp.o: /Users/rcq/home/cppprojs/Rcinfer/test/test_sigmoid.cpp
-test/CMakeFiles/Gtest.dir/test_sigmoid.cpp.o: test/CMakeFiles/Gtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object test/CMakeFiles/Gtest.dir/test_sigmoid.cpp.o"
-	cd /Users/rcq/home/cppprojs/Rcinfer/build/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/Gtest.dir/test_sigmoid.cpp.o -MF CMakeFiles/Gtest.dir/test_sigmoid.cpp.o.d -o CMakeFiles/Gtest.dir/test_sigmoid.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/test/test_sigmoid.cpp
-
-test/CMakeFiles/Gtest.dir/test_sigmoid.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gtest.dir/test_sigmoid.cpp.i"
-	cd /Users/rcq/home/cppprojs/Rcinfer/build/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rcq/home/cppprojs/Rcinfer/test/test_sigmoid.cpp > CMakeFiles/Gtest.dir/test_sigmoid.cpp.i
-
-test/CMakeFiles/Gtest.dir/test_sigmoid.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gtest.dir/test_sigmoid.cpp.s"
-	cd /Users/rcq/home/cppprojs/Rcinfer/build/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rcq/home/cppprojs/Rcinfer/test/test_sigmoid.cpp -o CMakeFiles/Gtest.dir/test_sigmoid.cpp.s
-
-test/CMakeFiles/Gtest.dir/test_tensor.cpp.o: test/CMakeFiles/Gtest.dir/flags.make
-test/CMakeFiles/Gtest.dir/test_tensor.cpp.o: /Users/rcq/home/cppprojs/Rcinfer/test/test_tensor.cpp
-test/CMakeFiles/Gtest.dir/test_tensor.cpp.o: test/CMakeFiles/Gtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object test/CMakeFiles/Gtest.dir/test_tensor.cpp.o"
-	cd /Users/rcq/home/cppprojs/Rcinfer/build/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/Gtest.dir/test_tensor.cpp.o -MF CMakeFiles/Gtest.dir/test_tensor.cpp.o.d -o CMakeFiles/Gtest.dir/test_tensor.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/test/test_tensor.cpp
-
-test/CMakeFiles/Gtest.dir/test_tensor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gtest.dir/test_tensor.cpp.i"
-	cd /Users/rcq/home/cppprojs/Rcinfer/build/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rcq/home/cppprojs/Rcinfer/test/test_tensor.cpp > CMakeFiles/Gtest.dir/test_tensor.cpp.i
-
-test/CMakeFiles/Gtest.dir/test_tensor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gtest.dir/test_tensor.cpp.s"
-	cd /Users/rcq/home/cppprojs/Rcinfer/build/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rcq/home/cppprojs/Rcinfer/test/test_tensor.cpp -o CMakeFiles/Gtest.dir/test_tensor.cpp.s
-
 test/CMakeFiles/Gtest.dir/__/src/LayerRegister.cpp.o: test/CMakeFiles/Gtest.dir/flags.make
 test/CMakeFiles/Gtest.dir/__/src/LayerRegister.cpp.o: /Users/rcq/home/cppprojs/Rcinfer/src/LayerRegister.cpp
 test/CMakeFiles/Gtest.dir/__/src/LayerRegister.cpp.o: test/CMakeFiles/Gtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object test/CMakeFiles/Gtest.dir/__/src/LayerRegister.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/Gtest.dir/__/src/LayerRegister.cpp.o"
 	cd /Users/rcq/home/cppprojs/Rcinfer/build/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/Gtest.dir/__/src/LayerRegister.cpp.o -MF CMakeFiles/Gtest.dir/__/src/LayerRegister.cpp.o.d -o CMakeFiles/Gtest.dir/__/src/LayerRegister.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/LayerRegister.cpp
 
 test/CMakeFiles/Gtest.dir/__/src/LayerRegister.cpp.i: cmake_force
@@ -240,7 +86,7 @@ test/CMakeFiles/Gtest.dir/__/src/LayerRegister.cpp.s: cmake_force
 test/CMakeFiles/Gtest.dir/__/src/common.cpp.o: test/CMakeFiles/Gtest.dir/flags.make
 test/CMakeFiles/Gtest.dir/__/src/common.cpp.o: /Users/rcq/home/cppprojs/Rcinfer/src/common.cpp
 test/CMakeFiles/Gtest.dir/__/src/common.cpp.o: test/CMakeFiles/Gtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object test/CMakeFiles/Gtest.dir/__/src/common.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/CMakeFiles/Gtest.dir/__/src/common.cpp.o"
 	cd /Users/rcq/home/cppprojs/Rcinfer/build/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/Gtest.dir/__/src/common.cpp.o -MF CMakeFiles/Gtest.dir/__/src/common.cpp.o.d -o CMakeFiles/Gtest.dir/__/src/common.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/common.cpp
 
 test/CMakeFiles/Gtest.dir/__/src/common.cpp.i: cmake_force
@@ -254,7 +100,7 @@ test/CMakeFiles/Gtest.dir/__/src/common.cpp.s: cmake_force
 test/CMakeFiles/Gtest.dir/__/src/data/LoadData.cpp.o: test/CMakeFiles/Gtest.dir/flags.make
 test/CMakeFiles/Gtest.dir/__/src/data/LoadData.cpp.o: /Users/rcq/home/cppprojs/Rcinfer/src/data/LoadData.cpp
 test/CMakeFiles/Gtest.dir/__/src/data/LoadData.cpp.o: test/CMakeFiles/Gtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object test/CMakeFiles/Gtest.dir/__/src/data/LoadData.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object test/CMakeFiles/Gtest.dir/__/src/data/LoadData.cpp.o"
 	cd /Users/rcq/home/cppprojs/Rcinfer/build/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/Gtest.dir/__/src/data/LoadData.cpp.o -MF CMakeFiles/Gtest.dir/__/src/data/LoadData.cpp.o.d -o CMakeFiles/Gtest.dir/__/src/data/LoadData.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/data/LoadData.cpp
 
 test/CMakeFiles/Gtest.dir/__/src/data/LoadData.cpp.i: cmake_force
@@ -268,7 +114,7 @@ test/CMakeFiles/Gtest.dir/__/src/data/LoadData.cpp.s: cmake_force
 test/CMakeFiles/Gtest.dir/__/src/data/Tensor.cpp.o: test/CMakeFiles/Gtest.dir/flags.make
 test/CMakeFiles/Gtest.dir/__/src/data/Tensor.cpp.o: /Users/rcq/home/cppprojs/Rcinfer/src/data/Tensor.cpp
 test/CMakeFiles/Gtest.dir/__/src/data/Tensor.cpp.o: test/CMakeFiles/Gtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object test/CMakeFiles/Gtest.dir/__/src/data/Tensor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object test/CMakeFiles/Gtest.dir/__/src/data/Tensor.cpp.o"
 	cd /Users/rcq/home/cppprojs/Rcinfer/build/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/Gtest.dir/__/src/data/Tensor.cpp.o -MF CMakeFiles/Gtest.dir/__/src/data/Tensor.cpp.o.d -o CMakeFiles/Gtest.dir/__/src/data/Tensor.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/data/Tensor.cpp
 
 test/CMakeFiles/Gtest.dir/__/src/data/Tensor.cpp.i: cmake_force
@@ -282,7 +128,7 @@ test/CMakeFiles/Gtest.dir/__/src/data/Tensor.cpp.s: cmake_force
 test/CMakeFiles/Gtest.dir/__/src/layer/ConvLayer.cpp.o: test/CMakeFiles/Gtest.dir/flags.make
 test/CMakeFiles/Gtest.dir/__/src/layer/ConvLayer.cpp.o: /Users/rcq/home/cppprojs/Rcinfer/src/layer/ConvLayer.cpp
 test/CMakeFiles/Gtest.dir/__/src/layer/ConvLayer.cpp.o: test/CMakeFiles/Gtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object test/CMakeFiles/Gtest.dir/__/src/layer/ConvLayer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object test/CMakeFiles/Gtest.dir/__/src/layer/ConvLayer.cpp.o"
 	cd /Users/rcq/home/cppprojs/Rcinfer/build/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/Gtest.dir/__/src/layer/ConvLayer.cpp.o -MF CMakeFiles/Gtest.dir/__/src/layer/ConvLayer.cpp.o.d -o CMakeFiles/Gtest.dir/__/src/layer/ConvLayer.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/ConvLayer.cpp
 
 test/CMakeFiles/Gtest.dir/__/src/layer/ConvLayer.cpp.i: cmake_force
@@ -296,7 +142,7 @@ test/CMakeFiles/Gtest.dir/__/src/layer/ConvLayer.cpp.s: cmake_force
 test/CMakeFiles/Gtest.dir/__/src/layer/ExpressionLayer.cpp.o: test/CMakeFiles/Gtest.dir/flags.make
 test/CMakeFiles/Gtest.dir/__/src/layer/ExpressionLayer.cpp.o: /Users/rcq/home/cppprojs/Rcinfer/src/layer/ExpressionLayer.cpp
 test/CMakeFiles/Gtest.dir/__/src/layer/ExpressionLayer.cpp.o: test/CMakeFiles/Gtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object test/CMakeFiles/Gtest.dir/__/src/layer/ExpressionLayer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object test/CMakeFiles/Gtest.dir/__/src/layer/ExpressionLayer.cpp.o"
 	cd /Users/rcq/home/cppprojs/Rcinfer/build/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/Gtest.dir/__/src/layer/ExpressionLayer.cpp.o -MF CMakeFiles/Gtest.dir/__/src/layer/ExpressionLayer.cpp.o.d -o CMakeFiles/Gtest.dir/__/src/layer/ExpressionLayer.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/ExpressionLayer.cpp
 
 test/CMakeFiles/Gtest.dir/__/src/layer/ExpressionLayer.cpp.i: cmake_force
@@ -310,7 +156,7 @@ test/CMakeFiles/Gtest.dir/__/src/layer/ExpressionLayer.cpp.s: cmake_force
 test/CMakeFiles/Gtest.dir/__/src/layer/Layer.cpp.o: test/CMakeFiles/Gtest.dir/flags.make
 test/CMakeFiles/Gtest.dir/__/src/layer/Layer.cpp.o: /Users/rcq/home/cppprojs/Rcinfer/src/layer/Layer.cpp
 test/CMakeFiles/Gtest.dir/__/src/layer/Layer.cpp.o: test/CMakeFiles/Gtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object test/CMakeFiles/Gtest.dir/__/src/layer/Layer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object test/CMakeFiles/Gtest.dir/__/src/layer/Layer.cpp.o"
 	cd /Users/rcq/home/cppprojs/Rcinfer/build/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/Gtest.dir/__/src/layer/Layer.cpp.o -MF CMakeFiles/Gtest.dir/__/src/layer/Layer.cpp.o.d -o CMakeFiles/Gtest.dir/__/src/layer/Layer.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/Layer.cpp
 
 test/CMakeFiles/Gtest.dir/__/src/layer/Layer.cpp.i: cmake_force
@@ -324,7 +170,7 @@ test/CMakeFiles/Gtest.dir/__/src/layer/Layer.cpp.s: cmake_force
 test/CMakeFiles/Gtest.dir/__/src/layer/MaxPoolingLayer.cpp.o: test/CMakeFiles/Gtest.dir/flags.make
 test/CMakeFiles/Gtest.dir/__/src/layer/MaxPoolingLayer.cpp.o: /Users/rcq/home/cppprojs/Rcinfer/src/layer/MaxPoolingLayer.cpp
 test/CMakeFiles/Gtest.dir/__/src/layer/MaxPoolingLayer.cpp.o: test/CMakeFiles/Gtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object test/CMakeFiles/Gtest.dir/__/src/layer/MaxPoolingLayer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object test/CMakeFiles/Gtest.dir/__/src/layer/MaxPoolingLayer.cpp.o"
 	cd /Users/rcq/home/cppprojs/Rcinfer/build/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/Gtest.dir/__/src/layer/MaxPoolingLayer.cpp.o -MF CMakeFiles/Gtest.dir/__/src/layer/MaxPoolingLayer.cpp.o.d -o CMakeFiles/Gtest.dir/__/src/layer/MaxPoolingLayer.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/MaxPoolingLayer.cpp
 
 test/CMakeFiles/Gtest.dir/__/src/layer/MaxPoolingLayer.cpp.i: cmake_force
@@ -338,7 +184,7 @@ test/CMakeFiles/Gtest.dir/__/src/layer/MaxPoolingLayer.cpp.s: cmake_force
 test/CMakeFiles/Gtest.dir/__/src/layer/ReluLayer.cpp.o: test/CMakeFiles/Gtest.dir/flags.make
 test/CMakeFiles/Gtest.dir/__/src/layer/ReluLayer.cpp.o: /Users/rcq/home/cppprojs/Rcinfer/src/layer/ReluLayer.cpp
 test/CMakeFiles/Gtest.dir/__/src/layer/ReluLayer.cpp.o: test/CMakeFiles/Gtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object test/CMakeFiles/Gtest.dir/__/src/layer/ReluLayer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object test/CMakeFiles/Gtest.dir/__/src/layer/ReluLayer.cpp.o"
 	cd /Users/rcq/home/cppprojs/Rcinfer/build/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/Gtest.dir/__/src/layer/ReluLayer.cpp.o -MF CMakeFiles/Gtest.dir/__/src/layer/ReluLayer.cpp.o.d -o CMakeFiles/Gtest.dir/__/src/layer/ReluLayer.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/ReluLayer.cpp
 
 test/CMakeFiles/Gtest.dir/__/src/layer/ReluLayer.cpp.i: cmake_force
@@ -352,7 +198,7 @@ test/CMakeFiles/Gtest.dir/__/src/layer/ReluLayer.cpp.s: cmake_force
 test/CMakeFiles/Gtest.dir/__/src/layer/SigmoidLayer.cpp.o: test/CMakeFiles/Gtest.dir/flags.make
 test/CMakeFiles/Gtest.dir/__/src/layer/SigmoidLayer.cpp.o: /Users/rcq/home/cppprojs/Rcinfer/src/layer/SigmoidLayer.cpp
 test/CMakeFiles/Gtest.dir/__/src/layer/SigmoidLayer.cpp.o: test/CMakeFiles/Gtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object test/CMakeFiles/Gtest.dir/__/src/layer/SigmoidLayer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object test/CMakeFiles/Gtest.dir/__/src/layer/SigmoidLayer.cpp.o"
 	cd /Users/rcq/home/cppprojs/Rcinfer/build/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/Gtest.dir/__/src/layer/SigmoidLayer.cpp.o -MF CMakeFiles/Gtest.dir/__/src/layer/SigmoidLayer.cpp.o.d -o CMakeFiles/Gtest.dir/__/src/layer/SigmoidLayer.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/SigmoidLayer.cpp
 
 test/CMakeFiles/Gtest.dir/__/src/layer/SigmoidLayer.cpp.i: cmake_force
@@ -366,7 +212,7 @@ test/CMakeFiles/Gtest.dir/__/src/layer/SigmoidLayer.cpp.s: cmake_force
 test/CMakeFiles/Gtest.dir/__/src/operator/ConvOperator.cpp.o: test/CMakeFiles/Gtest.dir/flags.make
 test/CMakeFiles/Gtest.dir/__/src/operator/ConvOperator.cpp.o: /Users/rcq/home/cppprojs/Rcinfer/src/operator/ConvOperator.cpp
 test/CMakeFiles/Gtest.dir/__/src/operator/ConvOperator.cpp.o: test/CMakeFiles/Gtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object test/CMakeFiles/Gtest.dir/__/src/operator/ConvOperator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object test/CMakeFiles/Gtest.dir/__/src/operator/ConvOperator.cpp.o"
 	cd /Users/rcq/home/cppprojs/Rcinfer/build/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/Gtest.dir/__/src/operator/ConvOperator.cpp.o -MF CMakeFiles/Gtest.dir/__/src/operator/ConvOperator.cpp.o.d -o CMakeFiles/Gtest.dir/__/src/operator/ConvOperator.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/operator/ConvOperator.cpp
 
 test/CMakeFiles/Gtest.dir/__/src/operator/ConvOperator.cpp.i: cmake_force
@@ -380,7 +226,7 @@ test/CMakeFiles/Gtest.dir/__/src/operator/ConvOperator.cpp.s: cmake_force
 test/CMakeFiles/Gtest.dir/__/src/operator/ExpressionOperator.cpp.o: test/CMakeFiles/Gtest.dir/flags.make
 test/CMakeFiles/Gtest.dir/__/src/operator/ExpressionOperator.cpp.o: /Users/rcq/home/cppprojs/Rcinfer/src/operator/ExpressionOperator.cpp
 test/CMakeFiles/Gtest.dir/__/src/operator/ExpressionOperator.cpp.o: test/CMakeFiles/Gtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object test/CMakeFiles/Gtest.dir/__/src/operator/ExpressionOperator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object test/CMakeFiles/Gtest.dir/__/src/operator/ExpressionOperator.cpp.o"
 	cd /Users/rcq/home/cppprojs/Rcinfer/build/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/Gtest.dir/__/src/operator/ExpressionOperator.cpp.o -MF CMakeFiles/Gtest.dir/__/src/operator/ExpressionOperator.cpp.o.d -o CMakeFiles/Gtest.dir/__/src/operator/ExpressionOperator.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/operator/ExpressionOperator.cpp
 
 test/CMakeFiles/Gtest.dir/__/src/operator/ExpressionOperator.cpp.i: cmake_force
@@ -394,7 +240,7 @@ test/CMakeFiles/Gtest.dir/__/src/operator/ExpressionOperator.cpp.s: cmake_force
 test/CMakeFiles/Gtest.dir/__/src/operator/MaxPoolingOperator.cpp.o: test/CMakeFiles/Gtest.dir/flags.make
 test/CMakeFiles/Gtest.dir/__/src/operator/MaxPoolingOperator.cpp.o: /Users/rcq/home/cppprojs/Rcinfer/src/operator/MaxPoolingOperator.cpp
 test/CMakeFiles/Gtest.dir/__/src/operator/MaxPoolingOperator.cpp.o: test/CMakeFiles/Gtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object test/CMakeFiles/Gtest.dir/__/src/operator/MaxPoolingOperator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object test/CMakeFiles/Gtest.dir/__/src/operator/MaxPoolingOperator.cpp.o"
 	cd /Users/rcq/home/cppprojs/Rcinfer/build/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/Gtest.dir/__/src/operator/MaxPoolingOperator.cpp.o -MF CMakeFiles/Gtest.dir/__/src/operator/MaxPoolingOperator.cpp.o.d -o CMakeFiles/Gtest.dir/__/src/operator/MaxPoolingOperator.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/operator/MaxPoolingOperator.cpp
 
 test/CMakeFiles/Gtest.dir/__/src/operator/MaxPoolingOperator.cpp.i: cmake_force
@@ -408,7 +254,7 @@ test/CMakeFiles/Gtest.dir/__/src/operator/MaxPoolingOperator.cpp.s: cmake_force
 test/CMakeFiles/Gtest.dir/__/src/operator/Operator.cpp.o: test/CMakeFiles/Gtest.dir/flags.make
 test/CMakeFiles/Gtest.dir/__/src/operator/Operator.cpp.o: /Users/rcq/home/cppprojs/Rcinfer/src/operator/Operator.cpp
 test/CMakeFiles/Gtest.dir/__/src/operator/Operator.cpp.o: test/CMakeFiles/Gtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object test/CMakeFiles/Gtest.dir/__/src/operator/Operator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object test/CMakeFiles/Gtest.dir/__/src/operator/Operator.cpp.o"
 	cd /Users/rcq/home/cppprojs/Rcinfer/build/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/Gtest.dir/__/src/operator/Operator.cpp.o -MF CMakeFiles/Gtest.dir/__/src/operator/Operator.cpp.o.d -o CMakeFiles/Gtest.dir/__/src/operator/Operator.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/operator/Operator.cpp
 
 test/CMakeFiles/Gtest.dir/__/src/operator/Operator.cpp.i: cmake_force
@@ -422,7 +268,7 @@ test/CMakeFiles/Gtest.dir/__/src/operator/Operator.cpp.s: cmake_force
 test/CMakeFiles/Gtest.dir/__/src/operator/ReluOperator.cpp.o: test/CMakeFiles/Gtest.dir/flags.make
 test/CMakeFiles/Gtest.dir/__/src/operator/ReluOperator.cpp.o: /Users/rcq/home/cppprojs/Rcinfer/src/operator/ReluOperator.cpp
 test/CMakeFiles/Gtest.dir/__/src/operator/ReluOperator.cpp.o: test/CMakeFiles/Gtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object test/CMakeFiles/Gtest.dir/__/src/operator/ReluOperator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object test/CMakeFiles/Gtest.dir/__/src/operator/ReluOperator.cpp.o"
 	cd /Users/rcq/home/cppprojs/Rcinfer/build/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/Gtest.dir/__/src/operator/ReluOperator.cpp.o -MF CMakeFiles/Gtest.dir/__/src/operator/ReluOperator.cpp.o.d -o CMakeFiles/Gtest.dir/__/src/operator/ReluOperator.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/operator/ReluOperator.cpp
 
 test/CMakeFiles/Gtest.dir/__/src/operator/ReluOperator.cpp.i: cmake_force
@@ -436,7 +282,7 @@ test/CMakeFiles/Gtest.dir/__/src/operator/ReluOperator.cpp.s: cmake_force
 test/CMakeFiles/Gtest.dir/__/src/operator/SigmoidOperator.cpp.o: test/CMakeFiles/Gtest.dir/flags.make
 test/CMakeFiles/Gtest.dir/__/src/operator/SigmoidOperator.cpp.o: /Users/rcq/home/cppprojs/Rcinfer/src/operator/SigmoidOperator.cpp
 test/CMakeFiles/Gtest.dir/__/src/operator/SigmoidOperator.cpp.o: test/CMakeFiles/Gtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object test/CMakeFiles/Gtest.dir/__/src/operator/SigmoidOperator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object test/CMakeFiles/Gtest.dir/__/src/operator/SigmoidOperator.cpp.o"
 	cd /Users/rcq/home/cppprojs/Rcinfer/build/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/Gtest.dir/__/src/operator/SigmoidOperator.cpp.o -MF CMakeFiles/Gtest.dir/__/src/operator/SigmoidOperator.cpp.o.d -o CMakeFiles/Gtest.dir/__/src/operator/SigmoidOperator.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/operator/SigmoidOperator.cpp
 
 test/CMakeFiles/Gtest.dir/__/src/operator/SigmoidOperator.cpp.i: cmake_force
@@ -450,7 +296,7 @@ test/CMakeFiles/Gtest.dir/__/src/operator/SigmoidOperator.cpp.s: cmake_force
 test/CMakeFiles/Gtest.dir/__/src/runtime/PraseExpression.cpp.o: test/CMakeFiles/Gtest.dir/flags.make
 test/CMakeFiles/Gtest.dir/__/src/runtime/PraseExpression.cpp.o: /Users/rcq/home/cppprojs/Rcinfer/src/runtime/PraseExpression.cpp
 test/CMakeFiles/Gtest.dir/__/src/runtime/PraseExpression.cpp.o: test/CMakeFiles/Gtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object test/CMakeFiles/Gtest.dir/__/src/runtime/PraseExpression.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object test/CMakeFiles/Gtest.dir/__/src/runtime/PraseExpression.cpp.o"
 	cd /Users/rcq/home/cppprojs/Rcinfer/build/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/Gtest.dir/__/src/runtime/PraseExpression.cpp.o -MF CMakeFiles/Gtest.dir/__/src/runtime/PraseExpression.cpp.o.d -o CMakeFiles/Gtest.dir/__/src/runtime/PraseExpression.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/runtime/PraseExpression.cpp
 
 test/CMakeFiles/Gtest.dir/__/src/runtime/PraseExpression.cpp.i: cmake_force
@@ -464,7 +310,7 @@ test/CMakeFiles/Gtest.dir/__/src/runtime/PraseExpression.cpp.s: cmake_force
 test/CMakeFiles/Gtest.dir/__/src/runtime/RuntimeGraph.cpp.o: test/CMakeFiles/Gtest.dir/flags.make
 test/CMakeFiles/Gtest.dir/__/src/runtime/RuntimeGraph.cpp.o: /Users/rcq/home/cppprojs/Rcinfer/src/runtime/RuntimeGraph.cpp
 test/CMakeFiles/Gtest.dir/__/src/runtime/RuntimeGraph.cpp.o: test/CMakeFiles/Gtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object test/CMakeFiles/Gtest.dir/__/src/runtime/RuntimeGraph.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object test/CMakeFiles/Gtest.dir/__/src/runtime/RuntimeGraph.cpp.o"
 	cd /Users/rcq/home/cppprojs/Rcinfer/build/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/Gtest.dir/__/src/runtime/RuntimeGraph.cpp.o -MF CMakeFiles/Gtest.dir/__/src/runtime/RuntimeGraph.cpp.o.d -o CMakeFiles/Gtest.dir/__/src/runtime/RuntimeGraph.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/runtime/RuntimeGraph.cpp
 
 test/CMakeFiles/Gtest.dir/__/src/runtime/RuntimeGraph.cpp.i: cmake_force
@@ -478,7 +324,7 @@ test/CMakeFiles/Gtest.dir/__/src/runtime/RuntimeGraph.cpp.s: cmake_force
 test/CMakeFiles/Gtest.dir/__/src/runtime/ir.cpp.o: test/CMakeFiles/Gtest.dir/flags.make
 test/CMakeFiles/Gtest.dir/__/src/runtime/ir.cpp.o: /Users/rcq/home/cppprojs/Rcinfer/src/runtime/ir.cpp
 test/CMakeFiles/Gtest.dir/__/src/runtime/ir.cpp.o: test/CMakeFiles/Gtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object test/CMakeFiles/Gtest.dir/__/src/runtime/ir.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object test/CMakeFiles/Gtest.dir/__/src/runtime/ir.cpp.o"
 	cd /Users/rcq/home/cppprojs/Rcinfer/build/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/Gtest.dir/__/src/runtime/ir.cpp.o -MF CMakeFiles/Gtest.dir/__/src/runtime/ir.cpp.o.d -o CMakeFiles/Gtest.dir/__/src/runtime/ir.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/runtime/ir.cpp
 
 test/CMakeFiles/Gtest.dir/__/src/runtime/ir.cpp.i: cmake_force
@@ -492,7 +338,7 @@ test/CMakeFiles/Gtest.dir/__/src/runtime/ir.cpp.s: cmake_force
 test/CMakeFiles/Gtest.dir/__/src/runtime/store_zip.cpp.o: test/CMakeFiles/Gtest.dir/flags.make
 test/CMakeFiles/Gtest.dir/__/src/runtime/store_zip.cpp.o: /Users/rcq/home/cppprojs/Rcinfer/src/runtime/store_zip.cpp
 test/CMakeFiles/Gtest.dir/__/src/runtime/store_zip.cpp.o: test/CMakeFiles/Gtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object test/CMakeFiles/Gtest.dir/__/src/runtime/store_zip.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object test/CMakeFiles/Gtest.dir/__/src/runtime/store_zip.cpp.o"
 	cd /Users/rcq/home/cppprojs/Rcinfer/build/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/Gtest.dir/__/src/runtime/store_zip.cpp.o -MF CMakeFiles/Gtest.dir/__/src/runtime/store_zip.cpp.o.d -o CMakeFiles/Gtest.dir/__/src/runtime/store_zip.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/runtime/store_zip.cpp
 
 test/CMakeFiles/Gtest.dir/__/src/runtime/store_zip.cpp.i: cmake_force
@@ -505,17 +351,6 @@ test/CMakeFiles/Gtest.dir/__/src/runtime/store_zip.cpp.s: cmake_force
 
 # Object files for target Gtest
 Gtest_OBJECTS = \
-"CMakeFiles/Gtest.dir/test_Rule.cpp.o" \
-"CMakeFiles/Gtest.dir/test_conv.cpp.o" \
-"CMakeFiles/Gtest.dir/test_expression.cpp.o" \
-"CMakeFiles/Gtest.dir/test_forward1.cpp.o" \
-"CMakeFiles/Gtest.dir/test_init_graph.cpp.o" \
-"CMakeFiles/Gtest.dir/test_loadData.cpp.o" \
-"CMakeFiles/Gtest.dir/test_main.cpp.o" \
-"CMakeFiles/Gtest.dir/test_maxpooling.cpp.o" \
-"CMakeFiles/Gtest.dir/test_runtime1.cpp.o" \
-"CMakeFiles/Gtest.dir/test_sigmoid.cpp.o" \
-"CMakeFiles/Gtest.dir/test_tensor.cpp.o" \
 "CMakeFiles/Gtest.dir/__/src/LayerRegister.cpp.o" \
 "CMakeFiles/Gtest.dir/__/src/common.cpp.o" \
 "CMakeFiles/Gtest.dir/__/src/data/LoadData.cpp.o" \
@@ -540,17 +375,6 @@ Gtest_OBJECTS = \
 # External object files for target Gtest
 Gtest_EXTERNAL_OBJECTS =
 
-test/Gtest: test/CMakeFiles/Gtest.dir/test_Rule.cpp.o
-test/Gtest: test/CMakeFiles/Gtest.dir/test_conv.cpp.o
-test/Gtest: test/CMakeFiles/Gtest.dir/test_expression.cpp.o
-test/Gtest: test/CMakeFiles/Gtest.dir/test_forward1.cpp.o
-test/Gtest: test/CMakeFiles/Gtest.dir/test_init_graph.cpp.o
-test/Gtest: test/CMakeFiles/Gtest.dir/test_loadData.cpp.o
-test/Gtest: test/CMakeFiles/Gtest.dir/test_main.cpp.o
-test/Gtest: test/CMakeFiles/Gtest.dir/test_maxpooling.cpp.o
-test/Gtest: test/CMakeFiles/Gtest.dir/test_runtime1.cpp.o
-test/Gtest: test/CMakeFiles/Gtest.dir/test_sigmoid.cpp.o
-test/Gtest: test/CMakeFiles/Gtest.dir/test_tensor.cpp.o
 test/Gtest: test/CMakeFiles/Gtest.dir/__/src/LayerRegister.cpp.o
 test/Gtest: test/CMakeFiles/Gtest.dir/__/src/common.cpp.o
 test/Gtest: test/CMakeFiles/Gtest.dir/__/src/data/LoadData.cpp.o
@@ -573,7 +397,7 @@ test/Gtest: test/CMakeFiles/Gtest.dir/__/src/runtime/ir.cpp.o
 test/Gtest: test/CMakeFiles/Gtest.dir/__/src/runtime/store_zip.cpp.o
 test/Gtest: test/CMakeFiles/Gtest.dir/build.make
 test/Gtest: test/CMakeFiles/Gtest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Linking CXX executable Gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable Gtest"
 	cd /Users/rcq/home/cppprojs/Rcinfer/build/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Gtest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

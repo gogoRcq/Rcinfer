@@ -145,9 +145,6 @@
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"
-		},
-		{
-			"path" : "test/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

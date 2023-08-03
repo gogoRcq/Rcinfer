@@ -8,7 +8,7 @@
 #include "RuntimeAttr.h"
 #include "RuntimeOperand.h"
 #include "RuntimeParam.h"
-#include "LayerRegister.h"
+#include "layer/abstract/rcLayer.h"
 
 namespace rq {
 
@@ -18,7 +18,7 @@ public:
     int meetNum = 0;
     std::string name; /// 计算节点的名称
     std::string type; /// 计算节点的类型
-    std::shared_ptr<Layer<T>> layer; // 该节点对应的计算层
+    std::shared_ptr<rcLayer<T>> layer; // 该节点对应的计算层
 
     std::vector<std::string> outputNames; // 输出节点名
     std::shared_ptr<RuntimeOperand<T>> outputOperand; // 该节点的输出操作数，算出来只有一个，所以不需要vector

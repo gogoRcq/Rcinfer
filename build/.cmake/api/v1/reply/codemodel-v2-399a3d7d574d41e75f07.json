@@ -6,10 +6,6 @@
 			[
 				{
 					"build" : ".",
-					"childIndexes" : 
-					[
-						1
-					],
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
@@ -17,21 +13,6 @@
 					},
 					"projectIndex" : 0,
 					"source" : ".",
-					"targetIndexes" : 
-					[
-						1
-					]
-				},
-				{
-					"build" : "test",
-					"jsonFile" : "directory-test-Debug-451c0598f41488bb20b9.json",
-					"minimumCMakeVersion" : 
-					{
-						"string" : "3.16"
-					},
-					"parentIndex" : 0,
-					"projectIndex" : 1,
-					"source" : "test",
 					"targetIndexes" : 
 					[
 						0
@@ -42,27 +23,11 @@
 			"projects" : 
 			[
 				{
-					"childIndexes" : 
-					[
-						1
-					],
 					"directoryIndexes" : 
 					[
 						0
 					],
 					"name" : "Rcinfer",
-					"targetIndexes" : 
-					[
-						1
-					]
-				},
-				{
-					"directoryIndexes" : 
-					[
-						1
-					],
-					"name" : "Gtest",
-					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
 						0
@@ -72,16 +37,9 @@
 			"targets" : 
 			[
 				{
-					"directoryIndex" : 1,
-					"id" : "Gtest::@36f028580bb02cc8272a",
-					"jsonFile" : "target-Gtest-Debug-b48eee675219008f69d4.json",
-					"name" : "Gtest",
-					"projectIndex" : 1
-				},
-				{
 					"directoryIndex" : 0,
 					"id" : "Rcinfer::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Rcinfer-Debug-e0f7941a8c21b219e5d5.json",
+					"jsonFile" : "target-Rcinfer-Debug-c9776c3450db1a1bae79.json",
 					"name" : "Rcinfer",
 					"projectIndex" : 0
 				}

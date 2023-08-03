@@ -129,19 +129,6 @@ Rcinfer/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/build
 .PHONY : Rcinfer/fast
 
-#=============================================================================
-# Target rules for targets named Gtest
-
-# Build rule for target.
-Gtest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Gtest
-.PHONY : Gtest
-
-# fast build rule for target.
-Gtest/fast:
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/build
-.PHONY : Gtest/fast
-
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -262,293 +249,101 @@ src/data/Tensor.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/data/Tensor.cpp.s
 .PHONY : src/data/Tensor.cpp.s
 
-src/layer/ConvLayer.o: src/layer/ConvLayer.cpp.o
-.PHONY : src/layer/ConvLayer.o
+src/layer/abstract/rcLayer.o: src/layer/abstract/rcLayer.cpp.o
+.PHONY : src/layer/abstract/rcLayer.o
 
 # target to build an object file
-src/layer/ConvLayer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/layer/ConvLayer.cpp.o
-.PHONY : src/layer/ConvLayer.cpp.o
+src/layer/abstract/rcLayer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/layer/abstract/rcLayer.cpp.o
+.PHONY : src/layer/abstract/rcLayer.cpp.o
 
-src/layer/ConvLayer.i: src/layer/ConvLayer.cpp.i
-.PHONY : src/layer/ConvLayer.i
+src/layer/abstract/rcLayer.i: src/layer/abstract/rcLayer.cpp.i
+.PHONY : src/layer/abstract/rcLayer.i
 
 # target to preprocess a source file
-src/layer/ConvLayer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/layer/ConvLayer.cpp.i
-.PHONY : src/layer/ConvLayer.cpp.i
+src/layer/abstract/rcLayer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/layer/abstract/rcLayer.cpp.i
+.PHONY : src/layer/abstract/rcLayer.cpp.i
 
-src/layer/ConvLayer.s: src/layer/ConvLayer.cpp.s
-.PHONY : src/layer/ConvLayer.s
+src/layer/abstract/rcLayer.s: src/layer/abstract/rcLayer.cpp.s
+.PHONY : src/layer/abstract/rcLayer.s
 
 # target to generate assembly for a file
-src/layer/ConvLayer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/layer/ConvLayer.cpp.s
-.PHONY : src/layer/ConvLayer.cpp.s
+src/layer/abstract/rcLayer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/layer/abstract/rcLayer.cpp.s
+.PHONY : src/layer/abstract/rcLayer.cpp.s
 
-src/layer/ExpressionLayer.o: src/layer/ExpressionLayer.cpp.o
-.PHONY : src/layer/ExpressionLayer.o
+src/layer/abstract/rcLayerRegister.o: src/layer/abstract/rcLayerRegister.cpp.o
+.PHONY : src/layer/abstract/rcLayerRegister.o
 
 # target to build an object file
-src/layer/ExpressionLayer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/layer/ExpressionLayer.cpp.o
-.PHONY : src/layer/ExpressionLayer.cpp.o
+src/layer/abstract/rcLayerRegister.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/layer/abstract/rcLayerRegister.cpp.o
+.PHONY : src/layer/abstract/rcLayerRegister.cpp.o
 
-src/layer/ExpressionLayer.i: src/layer/ExpressionLayer.cpp.i
-.PHONY : src/layer/ExpressionLayer.i
+src/layer/abstract/rcLayerRegister.i: src/layer/abstract/rcLayerRegister.cpp.i
+.PHONY : src/layer/abstract/rcLayerRegister.i
 
 # target to preprocess a source file
-src/layer/ExpressionLayer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/layer/ExpressionLayer.cpp.i
-.PHONY : src/layer/ExpressionLayer.cpp.i
+src/layer/abstract/rcLayerRegister.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/layer/abstract/rcLayerRegister.cpp.i
+.PHONY : src/layer/abstract/rcLayerRegister.cpp.i
 
-src/layer/ExpressionLayer.s: src/layer/ExpressionLayer.cpp.s
-.PHONY : src/layer/ExpressionLayer.s
+src/layer/abstract/rcLayerRegister.s: src/layer/abstract/rcLayerRegister.cpp.s
+.PHONY : src/layer/abstract/rcLayerRegister.s
 
 # target to generate assembly for a file
-src/layer/ExpressionLayer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/layer/ExpressionLayer.cpp.s
-.PHONY : src/layer/ExpressionLayer.cpp.s
+src/layer/abstract/rcLayerRegister.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/layer/abstract/rcLayerRegister.cpp.s
+.PHONY : src/layer/abstract/rcLayerRegister.cpp.s
 
-src/layer/Layer.o: src/layer/Layer.cpp.o
-.PHONY : src/layer/Layer.o
+src/layer/abstract/rcParamLayer.o: src/layer/abstract/rcParamLayer.cpp.o
+.PHONY : src/layer/abstract/rcParamLayer.o
 
 # target to build an object file
-src/layer/Layer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/layer/Layer.cpp.o
-.PHONY : src/layer/Layer.cpp.o
+src/layer/abstract/rcParamLayer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/layer/abstract/rcParamLayer.cpp.o
+.PHONY : src/layer/abstract/rcParamLayer.cpp.o
 
-src/layer/Layer.i: src/layer/Layer.cpp.i
-.PHONY : src/layer/Layer.i
+src/layer/abstract/rcParamLayer.i: src/layer/abstract/rcParamLayer.cpp.i
+.PHONY : src/layer/abstract/rcParamLayer.i
 
 # target to preprocess a source file
-src/layer/Layer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/layer/Layer.cpp.i
-.PHONY : src/layer/Layer.cpp.i
+src/layer/abstract/rcParamLayer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/layer/abstract/rcParamLayer.cpp.i
+.PHONY : src/layer/abstract/rcParamLayer.cpp.i
 
-src/layer/Layer.s: src/layer/Layer.cpp.s
-.PHONY : src/layer/Layer.s
+src/layer/abstract/rcParamLayer.s: src/layer/abstract/rcParamLayer.cpp.s
+.PHONY : src/layer/abstract/rcParamLayer.s
 
 # target to generate assembly for a file
-src/layer/Layer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/layer/Layer.cpp.s
-.PHONY : src/layer/Layer.cpp.s
+src/layer/abstract/rcParamLayer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/layer/abstract/rcParamLayer.cpp.s
+.PHONY : src/layer/abstract/rcParamLayer.cpp.s
 
-src/layer/MaxPoolingLayer.o: src/layer/MaxPoolingLayer.cpp.o
-.PHONY : src/layer/MaxPoolingLayer.o
+src/layer/details/relu.o: src/layer/details/relu.cpp.o
+.PHONY : src/layer/details/relu.o
 
 # target to build an object file
-src/layer/MaxPoolingLayer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/layer/MaxPoolingLayer.cpp.o
-.PHONY : src/layer/MaxPoolingLayer.cpp.o
+src/layer/details/relu.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/layer/details/relu.cpp.o
+.PHONY : src/layer/details/relu.cpp.o
 
-src/layer/MaxPoolingLayer.i: src/layer/MaxPoolingLayer.cpp.i
-.PHONY : src/layer/MaxPoolingLayer.i
-
-# target to preprocess a source file
-src/layer/MaxPoolingLayer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/layer/MaxPoolingLayer.cpp.i
-.PHONY : src/layer/MaxPoolingLayer.cpp.i
-
-src/layer/MaxPoolingLayer.s: src/layer/MaxPoolingLayer.cpp.s
-.PHONY : src/layer/MaxPoolingLayer.s
-
-# target to generate assembly for a file
-src/layer/MaxPoolingLayer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/layer/MaxPoolingLayer.cpp.s
-.PHONY : src/layer/MaxPoolingLayer.cpp.s
-
-src/layer/ReluLayer.o: src/layer/ReluLayer.cpp.o
-.PHONY : src/layer/ReluLayer.o
-
-# target to build an object file
-src/layer/ReluLayer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/layer/ReluLayer.cpp.o
-.PHONY : src/layer/ReluLayer.cpp.o
-
-src/layer/ReluLayer.i: src/layer/ReluLayer.cpp.i
-.PHONY : src/layer/ReluLayer.i
+src/layer/details/relu.i: src/layer/details/relu.cpp.i
+.PHONY : src/layer/details/relu.i
 
 # target to preprocess a source file
-src/layer/ReluLayer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/layer/ReluLayer.cpp.i
-.PHONY : src/layer/ReluLayer.cpp.i
+src/layer/details/relu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/layer/details/relu.cpp.i
+.PHONY : src/layer/details/relu.cpp.i
 
-src/layer/ReluLayer.s: src/layer/ReluLayer.cpp.s
-.PHONY : src/layer/ReluLayer.s
-
-# target to generate assembly for a file
-src/layer/ReluLayer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/layer/ReluLayer.cpp.s
-.PHONY : src/layer/ReluLayer.cpp.s
-
-src/layer/SigmoidLayer.o: src/layer/SigmoidLayer.cpp.o
-.PHONY : src/layer/SigmoidLayer.o
-
-# target to build an object file
-src/layer/SigmoidLayer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/layer/SigmoidLayer.cpp.o
-.PHONY : src/layer/SigmoidLayer.cpp.o
-
-src/layer/SigmoidLayer.i: src/layer/SigmoidLayer.cpp.i
-.PHONY : src/layer/SigmoidLayer.i
-
-# target to preprocess a source file
-src/layer/SigmoidLayer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/layer/SigmoidLayer.cpp.i
-.PHONY : src/layer/SigmoidLayer.cpp.i
-
-src/layer/SigmoidLayer.s: src/layer/SigmoidLayer.cpp.s
-.PHONY : src/layer/SigmoidLayer.s
+src/layer/details/relu.s: src/layer/details/relu.cpp.s
+.PHONY : src/layer/details/relu.s
 
 # target to generate assembly for a file
-src/layer/SigmoidLayer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/layer/SigmoidLayer.cpp.s
-.PHONY : src/layer/SigmoidLayer.cpp.s
-
-src/operator/ConvOperator.o: src/operator/ConvOperator.cpp.o
-.PHONY : src/operator/ConvOperator.o
-
-# target to build an object file
-src/operator/ConvOperator.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/operator/ConvOperator.cpp.o
-.PHONY : src/operator/ConvOperator.cpp.o
-
-src/operator/ConvOperator.i: src/operator/ConvOperator.cpp.i
-.PHONY : src/operator/ConvOperator.i
-
-# target to preprocess a source file
-src/operator/ConvOperator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/operator/ConvOperator.cpp.i
-.PHONY : src/operator/ConvOperator.cpp.i
-
-src/operator/ConvOperator.s: src/operator/ConvOperator.cpp.s
-.PHONY : src/operator/ConvOperator.s
-
-# target to generate assembly for a file
-src/operator/ConvOperator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/operator/ConvOperator.cpp.s
-.PHONY : src/operator/ConvOperator.cpp.s
-
-src/operator/ExpressionOperator.o: src/operator/ExpressionOperator.cpp.o
-.PHONY : src/operator/ExpressionOperator.o
-
-# target to build an object file
-src/operator/ExpressionOperator.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/operator/ExpressionOperator.cpp.o
-.PHONY : src/operator/ExpressionOperator.cpp.o
-
-src/operator/ExpressionOperator.i: src/operator/ExpressionOperator.cpp.i
-.PHONY : src/operator/ExpressionOperator.i
-
-# target to preprocess a source file
-src/operator/ExpressionOperator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/operator/ExpressionOperator.cpp.i
-.PHONY : src/operator/ExpressionOperator.cpp.i
-
-src/operator/ExpressionOperator.s: src/operator/ExpressionOperator.cpp.s
-.PHONY : src/operator/ExpressionOperator.s
-
-# target to generate assembly for a file
-src/operator/ExpressionOperator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/operator/ExpressionOperator.cpp.s
-.PHONY : src/operator/ExpressionOperator.cpp.s
-
-src/operator/MaxPoolingOperator.o: src/operator/MaxPoolingOperator.cpp.o
-.PHONY : src/operator/MaxPoolingOperator.o
-
-# target to build an object file
-src/operator/MaxPoolingOperator.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/operator/MaxPoolingOperator.cpp.o
-.PHONY : src/operator/MaxPoolingOperator.cpp.o
-
-src/operator/MaxPoolingOperator.i: src/operator/MaxPoolingOperator.cpp.i
-.PHONY : src/operator/MaxPoolingOperator.i
-
-# target to preprocess a source file
-src/operator/MaxPoolingOperator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/operator/MaxPoolingOperator.cpp.i
-.PHONY : src/operator/MaxPoolingOperator.cpp.i
-
-src/operator/MaxPoolingOperator.s: src/operator/MaxPoolingOperator.cpp.s
-.PHONY : src/operator/MaxPoolingOperator.s
-
-# target to generate assembly for a file
-src/operator/MaxPoolingOperator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/operator/MaxPoolingOperator.cpp.s
-.PHONY : src/operator/MaxPoolingOperator.cpp.s
-
-src/operator/Operator.o: src/operator/Operator.cpp.o
-.PHONY : src/operator/Operator.o
-
-# target to build an object file
-src/operator/Operator.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/operator/Operator.cpp.o
-.PHONY : src/operator/Operator.cpp.o
-
-src/operator/Operator.i: src/operator/Operator.cpp.i
-.PHONY : src/operator/Operator.i
-
-# target to preprocess a source file
-src/operator/Operator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/operator/Operator.cpp.i
-.PHONY : src/operator/Operator.cpp.i
-
-src/operator/Operator.s: src/operator/Operator.cpp.s
-.PHONY : src/operator/Operator.s
-
-# target to generate assembly for a file
-src/operator/Operator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/operator/Operator.cpp.s
-.PHONY : src/operator/Operator.cpp.s
-
-src/operator/ReluOperator.o: src/operator/ReluOperator.cpp.o
-.PHONY : src/operator/ReluOperator.o
-
-# target to build an object file
-src/operator/ReluOperator.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/operator/ReluOperator.cpp.o
-.PHONY : src/operator/ReluOperator.cpp.o
-
-src/operator/ReluOperator.i: src/operator/ReluOperator.cpp.i
-.PHONY : src/operator/ReluOperator.i
-
-# target to preprocess a source file
-src/operator/ReluOperator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/operator/ReluOperator.cpp.i
-.PHONY : src/operator/ReluOperator.cpp.i
-
-src/operator/ReluOperator.s: src/operator/ReluOperator.cpp.s
-.PHONY : src/operator/ReluOperator.s
-
-# target to generate assembly for a file
-src/operator/ReluOperator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/operator/ReluOperator.cpp.s
-.PHONY : src/operator/ReluOperator.cpp.s
-
-src/operator/SigmoidOperator.o: src/operator/SigmoidOperator.cpp.o
-.PHONY : src/operator/SigmoidOperator.o
-
-# target to build an object file
-src/operator/SigmoidOperator.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/operator/SigmoidOperator.cpp.o
-.PHONY : src/operator/SigmoidOperator.cpp.o
-
-src/operator/SigmoidOperator.i: src/operator/SigmoidOperator.cpp.i
-.PHONY : src/operator/SigmoidOperator.i
-
-# target to preprocess a source file
-src/operator/SigmoidOperator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/operator/SigmoidOperator.cpp.i
-.PHONY : src/operator/SigmoidOperator.cpp.i
-
-src/operator/SigmoidOperator.s: src/operator/SigmoidOperator.cpp.s
-.PHONY : src/operator/SigmoidOperator.s
-
-# target to generate assembly for a file
-src/operator/SigmoidOperator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/operator/SigmoidOperator.cpp.s
-.PHONY : src/operator/SigmoidOperator.cpp.s
+src/layer/details/relu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/layer/details/relu.cpp.s
+.PHONY : src/layer/details/relu.cpp.s
 
 src/runtime/PraseExpression.o: src/runtime/PraseExpression.cpp.o
 .PHONY : src/runtime/PraseExpression.o
@@ -654,7 +449,6 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Gtest"
 	@echo "... Rcinfer"
 	@echo "... main.o"
 	@echo "... main.i"
@@ -671,42 +465,18 @@ help:
 	@echo "... src/data/Tensor.o"
 	@echo "... src/data/Tensor.i"
 	@echo "... src/data/Tensor.s"
-	@echo "... src/layer/ConvLayer.o"
-	@echo "... src/layer/ConvLayer.i"
-	@echo "... src/layer/ConvLayer.s"
-	@echo "... src/layer/ExpressionLayer.o"
-	@echo "... src/layer/ExpressionLayer.i"
-	@echo "... src/layer/ExpressionLayer.s"
-	@echo "... src/layer/Layer.o"
-	@echo "... src/layer/Layer.i"
-	@echo "... src/layer/Layer.s"
-	@echo "... src/layer/MaxPoolingLayer.o"
-	@echo "... src/layer/MaxPoolingLayer.i"
-	@echo "... src/layer/MaxPoolingLayer.s"
-	@echo "... src/layer/ReluLayer.o"
-	@echo "... src/layer/ReluLayer.i"
-	@echo "... src/layer/ReluLayer.s"
-	@echo "... src/layer/SigmoidLayer.o"
-	@echo "... src/layer/SigmoidLayer.i"
-	@echo "... src/layer/SigmoidLayer.s"
-	@echo "... src/operator/ConvOperator.o"
-	@echo "... src/operator/ConvOperator.i"
-	@echo "... src/operator/ConvOperator.s"
-	@echo "... src/operator/ExpressionOperator.o"
-	@echo "... src/operator/ExpressionOperator.i"
-	@echo "... src/operator/ExpressionOperator.s"
-	@echo "... src/operator/MaxPoolingOperator.o"
-	@echo "... src/operator/MaxPoolingOperator.i"
-	@echo "... src/operator/MaxPoolingOperator.s"
-	@echo "... src/operator/Operator.o"
-	@echo "... src/operator/Operator.i"
-	@echo "... src/operator/Operator.s"
-	@echo "... src/operator/ReluOperator.o"
-	@echo "... src/operator/ReluOperator.i"
-	@echo "... src/operator/ReluOperator.s"
-	@echo "... src/operator/SigmoidOperator.o"
-	@echo "... src/operator/SigmoidOperator.i"
-	@echo "... src/operator/SigmoidOperator.s"
+	@echo "... src/layer/abstract/rcLayer.o"
+	@echo "... src/layer/abstract/rcLayer.i"
+	@echo "... src/layer/abstract/rcLayer.s"
+	@echo "... src/layer/abstract/rcLayerRegister.o"
+	@echo "... src/layer/abstract/rcLayerRegister.i"
+	@echo "... src/layer/abstract/rcLayerRegister.s"
+	@echo "... src/layer/abstract/rcParamLayer.o"
+	@echo "... src/layer/abstract/rcParamLayer.i"
+	@echo "... src/layer/abstract/rcParamLayer.s"
+	@echo "... src/layer/details/relu.o"
+	@echo "... src/layer/details/relu.i"
+	@echo "... src/layer/details/relu.s"
 	@echo "... src/runtime/PraseExpression.o"
 	@echo "... src/runtime/PraseExpression.i"
 	@echo "... src/runtime/PraseExpression.s"

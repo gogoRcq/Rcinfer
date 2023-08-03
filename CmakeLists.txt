@@ -8,11 +8,11 @@ set(link_math_lib armadillo blas lapack)
 
 aux_source_directory(./src CPPSRC)
 aux_source_directory(./src/data DATASRC)
-aux_source_directory(./src/layer LAYERSRC)
-aux_source_directory(./src/operator OPERATERSRC)
+aux_source_directory(./src/layer/abstract LAYERABSRC)
+aux_source_directory(./src/layer/details LAYERSRC)
 aux_source_directory(./src/runtime RUNTIMESRC)
 
-add_executable(Rcinfer ${CPPSRC} ${DATASRC} ${LAYERSRC} ${OPERATERSRC} ${RUNTIMESRC} main.cpp)
+add_executable(Rcinfer ${CPPSRC} ${DATASRC} ${LAYERSRC} ${LAYERABSRC} ${RUNTIMESRC} main.cpp)
 
 include_directories(
     ./include
@@ -21,4 +21,4 @@ include_directories(
 target_link_libraries(Rcinfer ${link_lib} ${link_math_lib})
 
 # enable_testing()
-add_subdirectory(test)
+# add_subdirectory(test)

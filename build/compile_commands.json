@@ -25,75 +25,27 @@
 },
 {
   "directory": "/Users/rcq/home/cppprojs/Rcinfer/build",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Rcinfer.dir/src/layer/ConvLayer.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/ConvLayer.cpp",
-  "file": "/Users/rcq/home/cppprojs/Rcinfer/src/layer/ConvLayer.cpp",
-  "output": "CMakeFiles/Rcinfer.dir/src/layer/ConvLayer.cpp.o"
+  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Rcinfer.dir/src/layer/details/relu.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/details/relu.cpp",
+  "file": "/Users/rcq/home/cppprojs/Rcinfer/src/layer/details/relu.cpp",
+  "output": "CMakeFiles/Rcinfer.dir/src/layer/details/relu.cpp.o"
 },
 {
   "directory": "/Users/rcq/home/cppprojs/Rcinfer/build",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Rcinfer.dir/src/layer/ExpressionLayer.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/ExpressionLayer.cpp",
-  "file": "/Users/rcq/home/cppprojs/Rcinfer/src/layer/ExpressionLayer.cpp",
-  "output": "CMakeFiles/Rcinfer.dir/src/layer/ExpressionLayer.cpp.o"
+  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Rcinfer.dir/src/layer/abstract/rcLayer.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/abstract/rcLayer.cpp",
+  "file": "/Users/rcq/home/cppprojs/Rcinfer/src/layer/abstract/rcLayer.cpp",
+  "output": "CMakeFiles/Rcinfer.dir/src/layer/abstract/rcLayer.cpp.o"
 },
 {
   "directory": "/Users/rcq/home/cppprojs/Rcinfer/build",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Rcinfer.dir/src/layer/Layer.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/Layer.cpp",
-  "file": "/Users/rcq/home/cppprojs/Rcinfer/src/layer/Layer.cpp",
-  "output": "CMakeFiles/Rcinfer.dir/src/layer/Layer.cpp.o"
+  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Rcinfer.dir/src/layer/abstract/rcLayerRegister.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/abstract/rcLayerRegister.cpp",
+  "file": "/Users/rcq/home/cppprojs/Rcinfer/src/layer/abstract/rcLayerRegister.cpp",
+  "output": "CMakeFiles/Rcinfer.dir/src/layer/abstract/rcLayerRegister.cpp.o"
 },
 {
   "directory": "/Users/rcq/home/cppprojs/Rcinfer/build",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Rcinfer.dir/src/layer/MaxPoolingLayer.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/MaxPoolingLayer.cpp",
-  "file": "/Users/rcq/home/cppprojs/Rcinfer/src/layer/MaxPoolingLayer.cpp",
-  "output": "CMakeFiles/Rcinfer.dir/src/layer/MaxPoolingLayer.cpp.o"
-},
-{
-  "directory": "/Users/rcq/home/cppprojs/Rcinfer/build",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Rcinfer.dir/src/layer/ReluLayer.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/ReluLayer.cpp",
-  "file": "/Users/rcq/home/cppprojs/Rcinfer/src/layer/ReluLayer.cpp",
-  "output": "CMakeFiles/Rcinfer.dir/src/layer/ReluLayer.cpp.o"
-},
-{
-  "directory": "/Users/rcq/home/cppprojs/Rcinfer/build",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Rcinfer.dir/src/layer/SigmoidLayer.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/SigmoidLayer.cpp",
-  "file": "/Users/rcq/home/cppprojs/Rcinfer/src/layer/SigmoidLayer.cpp",
-  "output": "CMakeFiles/Rcinfer.dir/src/layer/SigmoidLayer.cpp.o"
-},
-{
-  "directory": "/Users/rcq/home/cppprojs/Rcinfer/build",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Rcinfer.dir/src/operator/ConvOperator.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/operator/ConvOperator.cpp",
-  "file": "/Users/rcq/home/cppprojs/Rcinfer/src/operator/ConvOperator.cpp",
-  "output": "CMakeFiles/Rcinfer.dir/src/operator/ConvOperator.cpp.o"
-},
-{
-  "directory": "/Users/rcq/home/cppprojs/Rcinfer/build",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Rcinfer.dir/src/operator/ExpressionOperator.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/operator/ExpressionOperator.cpp",
-  "file": "/Users/rcq/home/cppprojs/Rcinfer/src/operator/ExpressionOperator.cpp",
-  "output": "CMakeFiles/Rcinfer.dir/src/operator/ExpressionOperator.cpp.o"
-},
-{
-  "directory": "/Users/rcq/home/cppprojs/Rcinfer/build",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Rcinfer.dir/src/operator/MaxPoolingOperator.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/operator/MaxPoolingOperator.cpp",
-  "file": "/Users/rcq/home/cppprojs/Rcinfer/src/operator/MaxPoolingOperator.cpp",
-  "output": "CMakeFiles/Rcinfer.dir/src/operator/MaxPoolingOperator.cpp.o"
-},
-{
-  "directory": "/Users/rcq/home/cppprojs/Rcinfer/build",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Rcinfer.dir/src/operator/Operator.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/operator/Operator.cpp",
-  "file": "/Users/rcq/home/cppprojs/Rcinfer/src/operator/Operator.cpp",
-  "output": "CMakeFiles/Rcinfer.dir/src/operator/Operator.cpp.o"
-},
-{
-  "directory": "/Users/rcq/home/cppprojs/Rcinfer/build",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Rcinfer.dir/src/operator/ReluOperator.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/operator/ReluOperator.cpp",
-  "file": "/Users/rcq/home/cppprojs/Rcinfer/src/operator/ReluOperator.cpp",
-  "output": "CMakeFiles/Rcinfer.dir/src/operator/ReluOperator.cpp.o"
-},
-{
-  "directory": "/Users/rcq/home/cppprojs/Rcinfer/build",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Rcinfer.dir/src/operator/SigmoidOperator.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/operator/SigmoidOperator.cpp",
-  "file": "/Users/rcq/home/cppprojs/Rcinfer/src/operator/SigmoidOperator.cpp",
-  "output": "CMakeFiles/Rcinfer.dir/src/operator/SigmoidOperator.cpp.o"
+  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Rcinfer.dir/src/layer/abstract/rcParamLayer.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/abstract/rcParamLayer.cpp",
+  "file": "/Users/rcq/home/cppprojs/Rcinfer/src/layer/abstract/rcParamLayer.cpp",
+  "output": "CMakeFiles/Rcinfer.dir/src/layer/abstract/rcParamLayer.cpp.o"
 },
 {
   "directory": "/Users/rcq/home/cppprojs/Rcinfer/build",
@@ -124,191 +76,5 @@
   "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Rcinfer.dir/main.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/main.cpp",
   "file": "/Users/rcq/home/cppprojs/Rcinfer/main.cpp",
   "output": "CMakeFiles/Rcinfer.dir/main.cpp.o"
-},
-{
-  "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/test_Rule.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/test/test_Rule.cpp",
-  "file": "/Users/rcq/home/cppprojs/Rcinfer/test/test_Rule.cpp",
-  "output": "test/CMakeFiles/Gtest.dir/test_Rule.cpp.o"
-},
-{
-  "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/test_conv.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/test/test_conv.cpp",
-  "file": "/Users/rcq/home/cppprojs/Rcinfer/test/test_conv.cpp",
-  "output": "test/CMakeFiles/Gtest.dir/test_conv.cpp.o"
-},
-{
-  "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/test_expression.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/test/test_expression.cpp",
-  "file": "/Users/rcq/home/cppprojs/Rcinfer/test/test_expression.cpp",
-  "output": "test/CMakeFiles/Gtest.dir/test_expression.cpp.o"
-},
-{
-  "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/test_forward1.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/test/test_forward1.cpp",
-  "file": "/Users/rcq/home/cppprojs/Rcinfer/test/test_forward1.cpp",
-  "output": "test/CMakeFiles/Gtest.dir/test_forward1.cpp.o"
-},
-{
-  "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/test_init_graph.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/test/test_init_graph.cpp",
-  "file": "/Users/rcq/home/cppprojs/Rcinfer/test/test_init_graph.cpp",
-  "output": "test/CMakeFiles/Gtest.dir/test_init_graph.cpp.o"
-},
-{
-  "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/test_loadData.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/test/test_loadData.cpp",
-  "file": "/Users/rcq/home/cppprojs/Rcinfer/test/test_loadData.cpp",
-  "output": "test/CMakeFiles/Gtest.dir/test_loadData.cpp.o"
-},
-{
-  "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/test_main.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/test/test_main.cpp",
-  "file": "/Users/rcq/home/cppprojs/Rcinfer/test/test_main.cpp",
-  "output": "test/CMakeFiles/Gtest.dir/test_main.cpp.o"
-},
-{
-  "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/test_maxpooling.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/test/test_maxpooling.cpp",
-  "file": "/Users/rcq/home/cppprojs/Rcinfer/test/test_maxpooling.cpp",
-  "output": "test/CMakeFiles/Gtest.dir/test_maxpooling.cpp.o"
-},
-{
-  "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/test_runtime1.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/test/test_runtime1.cpp",
-  "file": "/Users/rcq/home/cppprojs/Rcinfer/test/test_runtime1.cpp",
-  "output": "test/CMakeFiles/Gtest.dir/test_runtime1.cpp.o"
-},
-{
-  "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/test_sigmoid.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/test/test_sigmoid.cpp",
-  "file": "/Users/rcq/home/cppprojs/Rcinfer/test/test_sigmoid.cpp",
-  "output": "test/CMakeFiles/Gtest.dir/test_sigmoid.cpp.o"
-},
-{
-  "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/test_tensor.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/test/test_tensor.cpp",
-  "file": "/Users/rcq/home/cppprojs/Rcinfer/test/test_tensor.cpp",
-  "output": "test/CMakeFiles/Gtest.dir/test_tensor.cpp.o"
-},
-{
-  "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/LayerRegister.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/LayerRegister.cpp",
-  "file": "/Users/rcq/home/cppprojs/Rcinfer/src/LayerRegister.cpp",
-  "output": "test/CMakeFiles/Gtest.dir/__/src/LayerRegister.cpp.o"
-},
-{
-  "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/common.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/common.cpp",
-  "file": "/Users/rcq/home/cppprojs/Rcinfer/src/common.cpp",
-  "output": "test/CMakeFiles/Gtest.dir/__/src/common.cpp.o"
-},
-{
-  "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/data/LoadData.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/data/LoadData.cpp",
-  "file": "/Users/rcq/home/cppprojs/Rcinfer/src/data/LoadData.cpp",
-  "output": "test/CMakeFiles/Gtest.dir/__/src/data/LoadData.cpp.o"
-},
-{
-  "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/data/Tensor.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/data/Tensor.cpp",
-  "file": "/Users/rcq/home/cppprojs/Rcinfer/src/data/Tensor.cpp",
-  "output": "test/CMakeFiles/Gtest.dir/__/src/data/Tensor.cpp.o"
-},
-{
-  "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/layer/ConvLayer.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/ConvLayer.cpp",
-  "file": "/Users/rcq/home/cppprojs/Rcinfer/src/layer/ConvLayer.cpp",
-  "output": "test/CMakeFiles/Gtest.dir/__/src/layer/ConvLayer.cpp.o"
-},
-{
-  "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/layer/ExpressionLayer.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/ExpressionLayer.cpp",
-  "file": "/Users/rcq/home/cppprojs/Rcinfer/src/layer/ExpressionLayer.cpp",
-  "output": "test/CMakeFiles/Gtest.dir/__/src/layer/ExpressionLayer.cpp.o"
-},
-{
-  "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/layer/Layer.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/Layer.cpp",
-  "file": "/Users/rcq/home/cppprojs/Rcinfer/src/layer/Layer.cpp",
-  "output": "test/CMakeFiles/Gtest.dir/__/src/layer/Layer.cpp.o"
-},
-{
-  "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/layer/MaxPoolingLayer.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/MaxPoolingLayer.cpp",
-  "file": "/Users/rcq/home/cppprojs/Rcinfer/src/layer/MaxPoolingLayer.cpp",
-  "output": "test/CMakeFiles/Gtest.dir/__/src/layer/MaxPoolingLayer.cpp.o"
-},
-{
-  "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/layer/ReluLayer.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/ReluLayer.cpp",
-  "file": "/Users/rcq/home/cppprojs/Rcinfer/src/layer/ReluLayer.cpp",
-  "output": "test/CMakeFiles/Gtest.dir/__/src/layer/ReluLayer.cpp.o"
-},
-{
-  "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/layer/SigmoidLayer.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/SigmoidLayer.cpp",
-  "file": "/Users/rcq/home/cppprojs/Rcinfer/src/layer/SigmoidLayer.cpp",
-  "output": "test/CMakeFiles/Gtest.dir/__/src/layer/SigmoidLayer.cpp.o"
-},
-{
-  "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/operator/ConvOperator.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/operator/ConvOperator.cpp",
-  "file": "/Users/rcq/home/cppprojs/Rcinfer/src/operator/ConvOperator.cpp",
-  "output": "test/CMakeFiles/Gtest.dir/__/src/operator/ConvOperator.cpp.o"
-},
-{
-  "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/operator/ExpressionOperator.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/operator/ExpressionOperator.cpp",
-  "file": "/Users/rcq/home/cppprojs/Rcinfer/src/operator/ExpressionOperator.cpp",
-  "output": "test/CMakeFiles/Gtest.dir/__/src/operator/ExpressionOperator.cpp.o"
-},
-{
-  "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/operator/MaxPoolingOperator.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/operator/MaxPoolingOperator.cpp",
-  "file": "/Users/rcq/home/cppprojs/Rcinfer/src/operator/MaxPoolingOperator.cpp",
-  "output": "test/CMakeFiles/Gtest.dir/__/src/operator/MaxPoolingOperator.cpp.o"
-},
-{
-  "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/operator/Operator.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/operator/Operator.cpp",
-  "file": "/Users/rcq/home/cppprojs/Rcinfer/src/operator/Operator.cpp",
-  "output": "test/CMakeFiles/Gtest.dir/__/src/operator/Operator.cpp.o"
-},
-{
-  "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/operator/ReluOperator.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/operator/ReluOperator.cpp",
-  "file": "/Users/rcq/home/cppprojs/Rcinfer/src/operator/ReluOperator.cpp",
-  "output": "test/CMakeFiles/Gtest.dir/__/src/operator/ReluOperator.cpp.o"
-},
-{
-  "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/operator/SigmoidOperator.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/operator/SigmoidOperator.cpp",
-  "file": "/Users/rcq/home/cppprojs/Rcinfer/src/operator/SigmoidOperator.cpp",
-  "output": "test/CMakeFiles/Gtest.dir/__/src/operator/SigmoidOperator.cpp.o"
-},
-{
-  "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/runtime/PraseExpression.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/runtime/PraseExpression.cpp",
-  "file": "/Users/rcq/home/cppprojs/Rcinfer/src/runtime/PraseExpression.cpp",
-  "output": "test/CMakeFiles/Gtest.dir/__/src/runtime/PraseExpression.cpp.o"
-},
-{
-  "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/runtime/RuntimeGraph.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/runtime/RuntimeGraph.cpp",
-  "file": "/Users/rcq/home/cppprojs/Rcinfer/src/runtime/RuntimeGraph.cpp",
-  "output": "test/CMakeFiles/Gtest.dir/__/src/runtime/RuntimeGraph.cpp.o"
-},
-{
-  "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/runtime/ir.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/runtime/ir.cpp",
-  "file": "/Users/rcq/home/cppprojs/Rcinfer/src/runtime/ir.cpp",
-  "output": "test/CMakeFiles/Gtest.dir/__/src/runtime/ir.cpp.o"
-},
-{
-  "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/runtime/store_zip.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/runtime/store_zip.cpp",
-  "file": "/Users/rcq/home/cppprojs/Rcinfer/src/runtime/store_zip.cpp",
-  "output": "test/CMakeFiles/Gtest.dir/__/src/runtime/store_zip.cpp.o"
 }
 ]
