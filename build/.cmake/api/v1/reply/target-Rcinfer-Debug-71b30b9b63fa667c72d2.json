@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "test/Gtest"
+			"path" : "Rcinfer"
 		}
 	],
 	"backtrace" : 1,
@@ -16,7 +16,6 @@
 		],
 		"files" : 
 		[
-			"test/CMakeLists.txt",
 			"CMakeLists.txt"
 		],
 		"nodes" : 
@@ -27,28 +26,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 16,
+				"line" : 15,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 23,
+				"line" : 22,
 				"parent" : 0
-			},
-			{
-				"file" : 1
-			},
-			{
-				"command" : 2,
-				"file" : 1,
-				"line" : 17,
-				"parent" : 3
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 18,
+				"line" : 17,
 				"parent" : 0
 			}
 		]
@@ -65,20 +55,12 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 4,
+					"backtrace" : 3,
 					"path" : "/Users/rcq/home/cppprojs/Rcinfer/./include"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 3,
 					"path" : "/Users/rcq/home/cppprojs/Rcinfer/./src/layer"
-				},
-				{
-					"backtrace" : 5,
-					"path" : "/Users/rcq/home/cppprojs/Rcinfer/test/../include"
-				},
-				{
-					"backtrace" : 5,
-					"path" : "/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer"
 				}
 			],
 			"language" : "CXX",
@@ -110,7 +92,7 @@
 			]
 		}
 	],
-	"id" : "Gtest::@36f028580bb02cc8272a",
+	"id" : "Rcinfer::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -156,12 +138,12 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "Gtest",
-	"nameOnDisk" : "Gtest",
+	"name" : "Rcinfer",
+	"nameOnDisk" : "Rcinfer",
 	"paths" : 
 	{
-		"build" : "test",
-		"source" : "test"
+		"build" : ".",
+		"source" : "."
 	},
 	"sourceGroups" : 
 	[
@@ -192,18 +174,6 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "test/test_main.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "test/test_relu.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
 			"path" : "src/LayerRegister.cpp",
 			"sourceGroupIndex" : 0
 		},
@@ -223,6 +193,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "src/data/Tensor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/layer/details/expression.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -277,6 +253,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "src/runtime/store_zip.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "main.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

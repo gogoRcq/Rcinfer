@@ -52,6 +52,7 @@ InferStatus rcMaxPoolingLayer<T>::forwards(const std::vector<std::shared_ptr<Ten
                 return InferStatus::rInferFailedOutputSizeError;
             } else {
                 std::shared_ptr<Tensor<T>>& output = outputs[i];
+                if (output == nullptr || output->empty()) continue;
                 if (output->rows() != output_rows || output->cols() != output_cols) {
                     LOG(ERROR) << "The output size of max pooling layer is not adapting";
                     return InferStatus::rInferFailedOutputSizeError;

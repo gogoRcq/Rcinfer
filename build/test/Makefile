@@ -298,6 +298,30 @@ __/src/layer/abstract/rcParamLayer.cpp.s:
 	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/abstract/rcParamLayer.cpp.s
 .PHONY : __/src/layer/abstract/rcParamLayer.cpp.s
 
+__/src/layer/details/expression.o: __/src/layer/details/expression.cpp.o
+.PHONY : __/src/layer/details/expression.o
+
+# target to build an object file
+__/src/layer/details/expression.cpp.o:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/details/expression.cpp.o
+.PHONY : __/src/layer/details/expression.cpp.o
+
+__/src/layer/details/expression.i: __/src/layer/details/expression.cpp.i
+.PHONY : __/src/layer/details/expression.i
+
+# target to preprocess a source file
+__/src/layer/details/expression.cpp.i:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/details/expression.cpp.i
+.PHONY : __/src/layer/details/expression.cpp.i
+
+__/src/layer/details/expression.s: __/src/layer/details/expression.cpp.s
+.PHONY : __/src/layer/details/expression.s
+
+# target to generate assembly for a file
+__/src/layer/details/expression.cpp.s:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/details/expression.cpp.s
+.PHONY : __/src/layer/details/expression.cpp.s
+
 __/src/layer/details/maxpooling.o: __/src/layer/details/maxpooling.cpp.o
 .PHONY : __/src/layer/details/maxpooling.o
 
@@ -466,6 +490,30 @@ test_main.cpp.s:
 	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/test_main.cpp.s
 .PHONY : test_main.cpp.s
 
+test_maxpooling.o: test_maxpooling.cpp.o
+.PHONY : test_maxpooling.o
+
+# target to build an object file
+test_maxpooling.cpp.o:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/test_maxpooling.cpp.o
+.PHONY : test_maxpooling.cpp.o
+
+test_maxpooling.i: test_maxpooling.cpp.i
+.PHONY : test_maxpooling.i
+
+# target to preprocess a source file
+test_maxpooling.cpp.i:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/test_maxpooling.cpp.i
+.PHONY : test_maxpooling.cpp.i
+
+test_maxpooling.s: test_maxpooling.cpp.s
+.PHONY : test_maxpooling.s
+
+# target to generate assembly for a file
+test_maxpooling.cpp.s:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/test_maxpooling.cpp.s
+.PHONY : test_maxpooling.cpp.s
+
 test_relu.o: test_relu.cpp.o
 .PHONY : test_relu.o
 
@@ -520,6 +568,9 @@ help:
 	@echo "... __/src/layer/abstract/rcParamLayer.o"
 	@echo "... __/src/layer/abstract/rcParamLayer.i"
 	@echo "... __/src/layer/abstract/rcParamLayer.s"
+	@echo "... __/src/layer/details/expression.o"
+	@echo "... __/src/layer/details/expression.i"
+	@echo "... __/src/layer/details/expression.s"
 	@echo "... __/src/layer/details/maxpooling.o"
 	@echo "... __/src/layer/details/maxpooling.i"
 	@echo "... __/src/layer/details/maxpooling.s"
@@ -541,6 +592,9 @@ help:
 	@echo "... test_main.o"
 	@echo "... test_main.i"
 	@echo "... test_main.s"
+	@echo "... test_maxpooling.o"
+	@echo "... test_maxpooling.i"
+	@echo "... test_maxpooling.s"
 	@echo "... test_relu.o"
 	@echo "... test_relu.i"
 	@echo "... test_relu.s"
