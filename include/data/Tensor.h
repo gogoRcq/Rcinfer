@@ -18,7 +18,6 @@ private:
 public:
     explicit Tensor() = default;
     Tensor(uint32_t row, uint32_t col, uint32_t channel);
-    Tensor(const std::vector<uint32_t>& shapes);
     Tensor(const Tensor<T> &tensor);
     Tensor<T>& operator=(const Tensor<T> &tensor);
     ~Tensor() = default;

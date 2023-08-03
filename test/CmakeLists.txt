@@ -17,6 +17,7 @@ add_executable(Gtest ${TESTCPPSRC} ${TESTCPPSRC_T} ${DATASRC_T} ${LAYERSRC_T} ${
 
 include_directories(
     ../include
+    ../src/layer
 )
 
 target_link_libraries(Gtest ${link_lib} ${link_math_lib})

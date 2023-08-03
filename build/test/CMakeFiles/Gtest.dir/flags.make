@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/clang++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/test/../include
+CXX_INCLUDES = -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer
 
 CXX_FLAGSarm64 = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
 

@@ -21,12 +21,6 @@ Tensor<T>::Tensor(uint32_t row, uint32_t col, uint32_t channel) : tsData(row, co
 }
 
 template<class T>
-Tensor<T>::Tensor(const std::vector<uint32_t>& shapes) {
-    CHECK(shapes.size() == 3);
-    Tensor(shapes[0], shapes[1], shapes[2]);
-}
-
-template<class T>
 Tensor<T>::Tensor(const Tensor<T>& tensor){
     this->tsData = tensor.tsData;
     this->rawShapes = tensor.rawShapes;

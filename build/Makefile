@@ -129,6 +129,19 @@ Rcinfer/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/build
 .PHONY : Rcinfer/fast
 
+#=============================================================================
+# Target rules for targets named Gtest
+
+# Build rule for target.
+Gtest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Gtest
+.PHONY : Gtest
+
+# fast build rule for target.
+Gtest/fast:
+	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/build
+.PHONY : Gtest/fast
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -321,6 +334,30 @@ src/layer/abstract/rcParamLayer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/layer/abstract/rcParamLayer.cpp.s
 .PHONY : src/layer/abstract/rcParamLayer.cpp.s
 
+src/layer/details/maxpooling.o: src/layer/details/maxpooling.cpp.o
+.PHONY : src/layer/details/maxpooling.o
+
+# target to build an object file
+src/layer/details/maxpooling.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/layer/details/maxpooling.cpp.o
+.PHONY : src/layer/details/maxpooling.cpp.o
+
+src/layer/details/maxpooling.i: src/layer/details/maxpooling.cpp.i
+.PHONY : src/layer/details/maxpooling.i
+
+# target to preprocess a source file
+src/layer/details/maxpooling.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/layer/details/maxpooling.cpp.i
+.PHONY : src/layer/details/maxpooling.cpp.i
+
+src/layer/details/maxpooling.s: src/layer/details/maxpooling.cpp.s
+.PHONY : src/layer/details/maxpooling.s
+
+# target to generate assembly for a file
+src/layer/details/maxpooling.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/layer/details/maxpooling.cpp.s
+.PHONY : src/layer/details/maxpooling.cpp.s
+
 src/layer/details/relu.o: src/layer/details/relu.cpp.o
 .PHONY : src/layer/details/relu.o
 
@@ -449,6 +486,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... Gtest"
 	@echo "... Rcinfer"
 	@echo "... main.o"
 	@echo "... main.i"
@@ -474,6 +512,9 @@ help:
 	@echo "... src/layer/abstract/rcParamLayer.o"
 	@echo "... src/layer/abstract/rcParamLayer.i"
 	@echo "... src/layer/abstract/rcParamLayer.s"
+	@echo "... src/layer/details/maxpooling.o"
+	@echo "... src/layer/details/maxpooling.i"
+	@echo "... src/layer/details/maxpooling.s"
 	@echo "... src/layer/details/relu.o"
 	@echo "... src/layer/details/relu.i"
 	@echo "... src/layer/details/relu.s"

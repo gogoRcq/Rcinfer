@@ -226,293 +226,125 @@ __/src/data/Tensor.cpp.s:
 	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/data/Tensor.cpp.s
 .PHONY : __/src/data/Tensor.cpp.s
 
-__/src/layer/ConvLayer.o: __/src/layer/ConvLayer.cpp.o
-.PHONY : __/src/layer/ConvLayer.o
+__/src/layer/abstract/rcLayer.o: __/src/layer/abstract/rcLayer.cpp.o
+.PHONY : __/src/layer/abstract/rcLayer.o
 
 # target to build an object file
-__/src/layer/ConvLayer.cpp.o:
-	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/ConvLayer.cpp.o
-.PHONY : __/src/layer/ConvLayer.cpp.o
+__/src/layer/abstract/rcLayer.cpp.o:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/abstract/rcLayer.cpp.o
+.PHONY : __/src/layer/abstract/rcLayer.cpp.o
 
-__/src/layer/ConvLayer.i: __/src/layer/ConvLayer.cpp.i
-.PHONY : __/src/layer/ConvLayer.i
+__/src/layer/abstract/rcLayer.i: __/src/layer/abstract/rcLayer.cpp.i
+.PHONY : __/src/layer/abstract/rcLayer.i
 
 # target to preprocess a source file
-__/src/layer/ConvLayer.cpp.i:
-	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/ConvLayer.cpp.i
-.PHONY : __/src/layer/ConvLayer.cpp.i
+__/src/layer/abstract/rcLayer.cpp.i:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/abstract/rcLayer.cpp.i
+.PHONY : __/src/layer/abstract/rcLayer.cpp.i
 
-__/src/layer/ConvLayer.s: __/src/layer/ConvLayer.cpp.s
-.PHONY : __/src/layer/ConvLayer.s
+__/src/layer/abstract/rcLayer.s: __/src/layer/abstract/rcLayer.cpp.s
+.PHONY : __/src/layer/abstract/rcLayer.s
 
 # target to generate assembly for a file
-__/src/layer/ConvLayer.cpp.s:
-	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/ConvLayer.cpp.s
-.PHONY : __/src/layer/ConvLayer.cpp.s
+__/src/layer/abstract/rcLayer.cpp.s:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/abstract/rcLayer.cpp.s
+.PHONY : __/src/layer/abstract/rcLayer.cpp.s
 
-__/src/layer/ExpressionLayer.o: __/src/layer/ExpressionLayer.cpp.o
-.PHONY : __/src/layer/ExpressionLayer.o
+__/src/layer/abstract/rcLayerRegister.o: __/src/layer/abstract/rcLayerRegister.cpp.o
+.PHONY : __/src/layer/abstract/rcLayerRegister.o
 
 # target to build an object file
-__/src/layer/ExpressionLayer.cpp.o:
-	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/ExpressionLayer.cpp.o
-.PHONY : __/src/layer/ExpressionLayer.cpp.o
+__/src/layer/abstract/rcLayerRegister.cpp.o:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/abstract/rcLayerRegister.cpp.o
+.PHONY : __/src/layer/abstract/rcLayerRegister.cpp.o
 
-__/src/layer/ExpressionLayer.i: __/src/layer/ExpressionLayer.cpp.i
-.PHONY : __/src/layer/ExpressionLayer.i
+__/src/layer/abstract/rcLayerRegister.i: __/src/layer/abstract/rcLayerRegister.cpp.i
+.PHONY : __/src/layer/abstract/rcLayerRegister.i
 
 # target to preprocess a source file
-__/src/layer/ExpressionLayer.cpp.i:
-	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/ExpressionLayer.cpp.i
-.PHONY : __/src/layer/ExpressionLayer.cpp.i
+__/src/layer/abstract/rcLayerRegister.cpp.i:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/abstract/rcLayerRegister.cpp.i
+.PHONY : __/src/layer/abstract/rcLayerRegister.cpp.i
 
-__/src/layer/ExpressionLayer.s: __/src/layer/ExpressionLayer.cpp.s
-.PHONY : __/src/layer/ExpressionLayer.s
+__/src/layer/abstract/rcLayerRegister.s: __/src/layer/abstract/rcLayerRegister.cpp.s
+.PHONY : __/src/layer/abstract/rcLayerRegister.s
 
 # target to generate assembly for a file
-__/src/layer/ExpressionLayer.cpp.s:
-	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/ExpressionLayer.cpp.s
-.PHONY : __/src/layer/ExpressionLayer.cpp.s
+__/src/layer/abstract/rcLayerRegister.cpp.s:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/abstract/rcLayerRegister.cpp.s
+.PHONY : __/src/layer/abstract/rcLayerRegister.cpp.s
 
-__/src/layer/Layer.o: __/src/layer/Layer.cpp.o
-.PHONY : __/src/layer/Layer.o
+__/src/layer/abstract/rcParamLayer.o: __/src/layer/abstract/rcParamLayer.cpp.o
+.PHONY : __/src/layer/abstract/rcParamLayer.o
 
 # target to build an object file
-__/src/layer/Layer.cpp.o:
-	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/Layer.cpp.o
-.PHONY : __/src/layer/Layer.cpp.o
+__/src/layer/abstract/rcParamLayer.cpp.o:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/abstract/rcParamLayer.cpp.o
+.PHONY : __/src/layer/abstract/rcParamLayer.cpp.o
 
-__/src/layer/Layer.i: __/src/layer/Layer.cpp.i
-.PHONY : __/src/layer/Layer.i
+__/src/layer/abstract/rcParamLayer.i: __/src/layer/abstract/rcParamLayer.cpp.i
+.PHONY : __/src/layer/abstract/rcParamLayer.i
 
 # target to preprocess a source file
-__/src/layer/Layer.cpp.i:
-	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/Layer.cpp.i
-.PHONY : __/src/layer/Layer.cpp.i
+__/src/layer/abstract/rcParamLayer.cpp.i:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/abstract/rcParamLayer.cpp.i
+.PHONY : __/src/layer/abstract/rcParamLayer.cpp.i
 
-__/src/layer/Layer.s: __/src/layer/Layer.cpp.s
-.PHONY : __/src/layer/Layer.s
+__/src/layer/abstract/rcParamLayer.s: __/src/layer/abstract/rcParamLayer.cpp.s
+.PHONY : __/src/layer/abstract/rcParamLayer.s
 
 # target to generate assembly for a file
-__/src/layer/Layer.cpp.s:
-	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/Layer.cpp.s
-.PHONY : __/src/layer/Layer.cpp.s
+__/src/layer/abstract/rcParamLayer.cpp.s:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/abstract/rcParamLayer.cpp.s
+.PHONY : __/src/layer/abstract/rcParamLayer.cpp.s
 
-__/src/layer/MaxPoolingLayer.o: __/src/layer/MaxPoolingLayer.cpp.o
-.PHONY : __/src/layer/MaxPoolingLayer.o
+__/src/layer/details/maxpooling.o: __/src/layer/details/maxpooling.cpp.o
+.PHONY : __/src/layer/details/maxpooling.o
 
 # target to build an object file
-__/src/layer/MaxPoolingLayer.cpp.o:
-	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/MaxPoolingLayer.cpp.o
-.PHONY : __/src/layer/MaxPoolingLayer.cpp.o
+__/src/layer/details/maxpooling.cpp.o:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/details/maxpooling.cpp.o
+.PHONY : __/src/layer/details/maxpooling.cpp.o
 
-__/src/layer/MaxPoolingLayer.i: __/src/layer/MaxPoolingLayer.cpp.i
-.PHONY : __/src/layer/MaxPoolingLayer.i
+__/src/layer/details/maxpooling.i: __/src/layer/details/maxpooling.cpp.i
+.PHONY : __/src/layer/details/maxpooling.i
 
 # target to preprocess a source file
-__/src/layer/MaxPoolingLayer.cpp.i:
-	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/MaxPoolingLayer.cpp.i
-.PHONY : __/src/layer/MaxPoolingLayer.cpp.i
+__/src/layer/details/maxpooling.cpp.i:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/details/maxpooling.cpp.i
+.PHONY : __/src/layer/details/maxpooling.cpp.i
 
-__/src/layer/MaxPoolingLayer.s: __/src/layer/MaxPoolingLayer.cpp.s
-.PHONY : __/src/layer/MaxPoolingLayer.s
+__/src/layer/details/maxpooling.s: __/src/layer/details/maxpooling.cpp.s
+.PHONY : __/src/layer/details/maxpooling.s
 
 # target to generate assembly for a file
-__/src/layer/MaxPoolingLayer.cpp.s:
-	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/MaxPoolingLayer.cpp.s
-.PHONY : __/src/layer/MaxPoolingLayer.cpp.s
+__/src/layer/details/maxpooling.cpp.s:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/details/maxpooling.cpp.s
+.PHONY : __/src/layer/details/maxpooling.cpp.s
 
-__/src/layer/ReluLayer.o: __/src/layer/ReluLayer.cpp.o
-.PHONY : __/src/layer/ReluLayer.o
+__/src/layer/details/relu.o: __/src/layer/details/relu.cpp.o
+.PHONY : __/src/layer/details/relu.o
 
 # target to build an object file
-__/src/layer/ReluLayer.cpp.o:
-	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/ReluLayer.cpp.o
-.PHONY : __/src/layer/ReluLayer.cpp.o
+__/src/layer/details/relu.cpp.o:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/details/relu.cpp.o
+.PHONY : __/src/layer/details/relu.cpp.o
 
-__/src/layer/ReluLayer.i: __/src/layer/ReluLayer.cpp.i
-.PHONY : __/src/layer/ReluLayer.i
-
-# target to preprocess a source file
-__/src/layer/ReluLayer.cpp.i:
-	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/ReluLayer.cpp.i
-.PHONY : __/src/layer/ReluLayer.cpp.i
-
-__/src/layer/ReluLayer.s: __/src/layer/ReluLayer.cpp.s
-.PHONY : __/src/layer/ReluLayer.s
-
-# target to generate assembly for a file
-__/src/layer/ReluLayer.cpp.s:
-	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/ReluLayer.cpp.s
-.PHONY : __/src/layer/ReluLayer.cpp.s
-
-__/src/layer/SigmoidLayer.o: __/src/layer/SigmoidLayer.cpp.o
-.PHONY : __/src/layer/SigmoidLayer.o
-
-# target to build an object file
-__/src/layer/SigmoidLayer.cpp.o:
-	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/SigmoidLayer.cpp.o
-.PHONY : __/src/layer/SigmoidLayer.cpp.o
-
-__/src/layer/SigmoidLayer.i: __/src/layer/SigmoidLayer.cpp.i
-.PHONY : __/src/layer/SigmoidLayer.i
+__/src/layer/details/relu.i: __/src/layer/details/relu.cpp.i
+.PHONY : __/src/layer/details/relu.i
 
 # target to preprocess a source file
-__/src/layer/SigmoidLayer.cpp.i:
-	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/SigmoidLayer.cpp.i
-.PHONY : __/src/layer/SigmoidLayer.cpp.i
+__/src/layer/details/relu.cpp.i:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/details/relu.cpp.i
+.PHONY : __/src/layer/details/relu.cpp.i
 
-__/src/layer/SigmoidLayer.s: __/src/layer/SigmoidLayer.cpp.s
-.PHONY : __/src/layer/SigmoidLayer.s
-
-# target to generate assembly for a file
-__/src/layer/SigmoidLayer.cpp.s:
-	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/SigmoidLayer.cpp.s
-.PHONY : __/src/layer/SigmoidLayer.cpp.s
-
-__/src/operator/ConvOperator.o: __/src/operator/ConvOperator.cpp.o
-.PHONY : __/src/operator/ConvOperator.o
-
-# target to build an object file
-__/src/operator/ConvOperator.cpp.o:
-	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/operator/ConvOperator.cpp.o
-.PHONY : __/src/operator/ConvOperator.cpp.o
-
-__/src/operator/ConvOperator.i: __/src/operator/ConvOperator.cpp.i
-.PHONY : __/src/operator/ConvOperator.i
-
-# target to preprocess a source file
-__/src/operator/ConvOperator.cpp.i:
-	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/operator/ConvOperator.cpp.i
-.PHONY : __/src/operator/ConvOperator.cpp.i
-
-__/src/operator/ConvOperator.s: __/src/operator/ConvOperator.cpp.s
-.PHONY : __/src/operator/ConvOperator.s
+__/src/layer/details/relu.s: __/src/layer/details/relu.cpp.s
+.PHONY : __/src/layer/details/relu.s
 
 # target to generate assembly for a file
-__/src/operator/ConvOperator.cpp.s:
-	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/operator/ConvOperator.cpp.s
-.PHONY : __/src/operator/ConvOperator.cpp.s
-
-__/src/operator/ExpressionOperator.o: __/src/operator/ExpressionOperator.cpp.o
-.PHONY : __/src/operator/ExpressionOperator.o
-
-# target to build an object file
-__/src/operator/ExpressionOperator.cpp.o:
-	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/operator/ExpressionOperator.cpp.o
-.PHONY : __/src/operator/ExpressionOperator.cpp.o
-
-__/src/operator/ExpressionOperator.i: __/src/operator/ExpressionOperator.cpp.i
-.PHONY : __/src/operator/ExpressionOperator.i
-
-# target to preprocess a source file
-__/src/operator/ExpressionOperator.cpp.i:
-	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/operator/ExpressionOperator.cpp.i
-.PHONY : __/src/operator/ExpressionOperator.cpp.i
-
-__/src/operator/ExpressionOperator.s: __/src/operator/ExpressionOperator.cpp.s
-.PHONY : __/src/operator/ExpressionOperator.s
-
-# target to generate assembly for a file
-__/src/operator/ExpressionOperator.cpp.s:
-	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/operator/ExpressionOperator.cpp.s
-.PHONY : __/src/operator/ExpressionOperator.cpp.s
-
-__/src/operator/MaxPoolingOperator.o: __/src/operator/MaxPoolingOperator.cpp.o
-.PHONY : __/src/operator/MaxPoolingOperator.o
-
-# target to build an object file
-__/src/operator/MaxPoolingOperator.cpp.o:
-	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/operator/MaxPoolingOperator.cpp.o
-.PHONY : __/src/operator/MaxPoolingOperator.cpp.o
-
-__/src/operator/MaxPoolingOperator.i: __/src/operator/MaxPoolingOperator.cpp.i
-.PHONY : __/src/operator/MaxPoolingOperator.i
-
-# target to preprocess a source file
-__/src/operator/MaxPoolingOperator.cpp.i:
-	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/operator/MaxPoolingOperator.cpp.i
-.PHONY : __/src/operator/MaxPoolingOperator.cpp.i
-
-__/src/operator/MaxPoolingOperator.s: __/src/operator/MaxPoolingOperator.cpp.s
-.PHONY : __/src/operator/MaxPoolingOperator.s
-
-# target to generate assembly for a file
-__/src/operator/MaxPoolingOperator.cpp.s:
-	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/operator/MaxPoolingOperator.cpp.s
-.PHONY : __/src/operator/MaxPoolingOperator.cpp.s
-
-__/src/operator/Operator.o: __/src/operator/Operator.cpp.o
-.PHONY : __/src/operator/Operator.o
-
-# target to build an object file
-__/src/operator/Operator.cpp.o:
-	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/operator/Operator.cpp.o
-.PHONY : __/src/operator/Operator.cpp.o
-
-__/src/operator/Operator.i: __/src/operator/Operator.cpp.i
-.PHONY : __/src/operator/Operator.i
-
-# target to preprocess a source file
-__/src/operator/Operator.cpp.i:
-	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/operator/Operator.cpp.i
-.PHONY : __/src/operator/Operator.cpp.i
-
-__/src/operator/Operator.s: __/src/operator/Operator.cpp.s
-.PHONY : __/src/operator/Operator.s
-
-# target to generate assembly for a file
-__/src/operator/Operator.cpp.s:
-	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/operator/Operator.cpp.s
-.PHONY : __/src/operator/Operator.cpp.s
-
-__/src/operator/ReluOperator.o: __/src/operator/ReluOperator.cpp.o
-.PHONY : __/src/operator/ReluOperator.o
-
-# target to build an object file
-__/src/operator/ReluOperator.cpp.o:
-	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/operator/ReluOperator.cpp.o
-.PHONY : __/src/operator/ReluOperator.cpp.o
-
-__/src/operator/ReluOperator.i: __/src/operator/ReluOperator.cpp.i
-.PHONY : __/src/operator/ReluOperator.i
-
-# target to preprocess a source file
-__/src/operator/ReluOperator.cpp.i:
-	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/operator/ReluOperator.cpp.i
-.PHONY : __/src/operator/ReluOperator.cpp.i
-
-__/src/operator/ReluOperator.s: __/src/operator/ReluOperator.cpp.s
-.PHONY : __/src/operator/ReluOperator.s
-
-# target to generate assembly for a file
-__/src/operator/ReluOperator.cpp.s:
-	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/operator/ReluOperator.cpp.s
-.PHONY : __/src/operator/ReluOperator.cpp.s
-
-__/src/operator/SigmoidOperator.o: __/src/operator/SigmoidOperator.cpp.o
-.PHONY : __/src/operator/SigmoidOperator.o
-
-# target to build an object file
-__/src/operator/SigmoidOperator.cpp.o:
-	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/operator/SigmoidOperator.cpp.o
-.PHONY : __/src/operator/SigmoidOperator.cpp.o
-
-__/src/operator/SigmoidOperator.i: __/src/operator/SigmoidOperator.cpp.i
-.PHONY : __/src/operator/SigmoidOperator.i
-
-# target to preprocess a source file
-__/src/operator/SigmoidOperator.cpp.i:
-	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/operator/SigmoidOperator.cpp.i
-.PHONY : __/src/operator/SigmoidOperator.cpp.i
-
-__/src/operator/SigmoidOperator.s: __/src/operator/SigmoidOperator.cpp.s
-.PHONY : __/src/operator/SigmoidOperator.s
-
-# target to generate assembly for a file
-__/src/operator/SigmoidOperator.cpp.s:
-	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/operator/SigmoidOperator.cpp.s
-.PHONY : __/src/operator/SigmoidOperator.cpp.s
+__/src/layer/details/relu.cpp.s:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/details/relu.cpp.s
+.PHONY : __/src/layer/details/relu.cpp.s
 
 __/src/runtime/PraseExpression.o: __/src/runtime/PraseExpression.cpp.o
 .PHONY : __/src/runtime/PraseExpression.o
@@ -610,6 +442,54 @@ __/src/runtime/store_zip.cpp.s:
 	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/runtime/store_zip.cpp.s
 .PHONY : __/src/runtime/store_zip.cpp.s
 
+test_main.o: test_main.cpp.o
+.PHONY : test_main.o
+
+# target to build an object file
+test_main.cpp.o:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/test_main.cpp.o
+.PHONY : test_main.cpp.o
+
+test_main.i: test_main.cpp.i
+.PHONY : test_main.i
+
+# target to preprocess a source file
+test_main.cpp.i:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/test_main.cpp.i
+.PHONY : test_main.cpp.i
+
+test_main.s: test_main.cpp.s
+.PHONY : test_main.s
+
+# target to generate assembly for a file
+test_main.cpp.s:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/test_main.cpp.s
+.PHONY : test_main.cpp.s
+
+test_relu.o: test_relu.cpp.o
+.PHONY : test_relu.o
+
+# target to build an object file
+test_relu.cpp.o:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/test_relu.cpp.o
+.PHONY : test_relu.cpp.o
+
+test_relu.i: test_relu.cpp.i
+.PHONY : test_relu.i
+
+# target to preprocess a source file
+test_relu.cpp.i:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/test_relu.cpp.i
+.PHONY : test_relu.cpp.i
+
+test_relu.s: test_relu.cpp.s
+.PHONY : test_relu.s
+
+# target to generate assembly for a file
+test_relu.cpp.s:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/test_relu.cpp.s
+.PHONY : test_relu.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -631,42 +511,21 @@ help:
 	@echo "... __/src/data/Tensor.o"
 	@echo "... __/src/data/Tensor.i"
 	@echo "... __/src/data/Tensor.s"
-	@echo "... __/src/layer/ConvLayer.o"
-	@echo "... __/src/layer/ConvLayer.i"
-	@echo "... __/src/layer/ConvLayer.s"
-	@echo "... __/src/layer/ExpressionLayer.o"
-	@echo "... __/src/layer/ExpressionLayer.i"
-	@echo "... __/src/layer/ExpressionLayer.s"
-	@echo "... __/src/layer/Layer.o"
-	@echo "... __/src/layer/Layer.i"
-	@echo "... __/src/layer/Layer.s"
-	@echo "... __/src/layer/MaxPoolingLayer.o"
-	@echo "... __/src/layer/MaxPoolingLayer.i"
-	@echo "... __/src/layer/MaxPoolingLayer.s"
-	@echo "... __/src/layer/ReluLayer.o"
-	@echo "... __/src/layer/ReluLayer.i"
-	@echo "... __/src/layer/ReluLayer.s"
-	@echo "... __/src/layer/SigmoidLayer.o"
-	@echo "... __/src/layer/SigmoidLayer.i"
-	@echo "... __/src/layer/SigmoidLayer.s"
-	@echo "... __/src/operator/ConvOperator.o"
-	@echo "... __/src/operator/ConvOperator.i"
-	@echo "... __/src/operator/ConvOperator.s"
-	@echo "... __/src/operator/ExpressionOperator.o"
-	@echo "... __/src/operator/ExpressionOperator.i"
-	@echo "... __/src/operator/ExpressionOperator.s"
-	@echo "... __/src/operator/MaxPoolingOperator.o"
-	@echo "... __/src/operator/MaxPoolingOperator.i"
-	@echo "... __/src/operator/MaxPoolingOperator.s"
-	@echo "... __/src/operator/Operator.o"
-	@echo "... __/src/operator/Operator.i"
-	@echo "... __/src/operator/Operator.s"
-	@echo "... __/src/operator/ReluOperator.o"
-	@echo "... __/src/operator/ReluOperator.i"
-	@echo "... __/src/operator/ReluOperator.s"
-	@echo "... __/src/operator/SigmoidOperator.o"
-	@echo "... __/src/operator/SigmoidOperator.i"
-	@echo "... __/src/operator/SigmoidOperator.s"
+	@echo "... __/src/layer/abstract/rcLayer.o"
+	@echo "... __/src/layer/abstract/rcLayer.i"
+	@echo "... __/src/layer/abstract/rcLayer.s"
+	@echo "... __/src/layer/abstract/rcLayerRegister.o"
+	@echo "... __/src/layer/abstract/rcLayerRegister.i"
+	@echo "... __/src/layer/abstract/rcLayerRegister.s"
+	@echo "... __/src/layer/abstract/rcParamLayer.o"
+	@echo "... __/src/layer/abstract/rcParamLayer.i"
+	@echo "... __/src/layer/abstract/rcParamLayer.s"
+	@echo "... __/src/layer/details/maxpooling.o"
+	@echo "... __/src/layer/details/maxpooling.i"
+	@echo "... __/src/layer/details/maxpooling.s"
+	@echo "... __/src/layer/details/relu.o"
+	@echo "... __/src/layer/details/relu.i"
+	@echo "... __/src/layer/details/relu.s"
 	@echo "... __/src/runtime/PraseExpression.o"
 	@echo "... __/src/runtime/PraseExpression.i"
 	@echo "... __/src/runtime/PraseExpression.s"
@@ -679,6 +538,12 @@ help:
 	@echo "... __/src/runtime/store_zip.o"
 	@echo "... __/src/runtime/store_zip.i"
 	@echo "... __/src/runtime/store_zip.s"
+	@echo "... test_main.o"
+	@echo "... test_main.i"
+	@echo "... test_main.s"
+	@echo "... test_relu.o"
+	@echo "... test_relu.i"
+	@echo "... test_relu.s"
 .PHONY : help
 
 

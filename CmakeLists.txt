@@ -16,9 +16,10 @@ add_executable(Rcinfer ${CPPSRC} ${DATASRC} ${LAYERSRC} ${LAYERABSRC} ${RUNTIMES
 
 include_directories(
     ./include
+    ./src/layer
 )
 
 target_link_libraries(Rcinfer ${link_lib} ${link_math_lib})
 
 # enable_testing()
-# add_subdirectory(test)
+add_subdirectory(test)

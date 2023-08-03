@@ -12,7 +12,7 @@ template<class T>
 InferStatus rcReluLayer<T>::forwards(const std::vector<std::shared_ptr<Tensor<T>>> &inputs,
                                      std::vector<std::shared_ptr<Tensor<T>>> &outputs) {
     if (inputs.empty()) {
-        LOG(ERROR) << "Input of relue is empty";
+        LOG(ERROR) << "Input of relu is empty";
         return InferStatus::rInferFailedInputEmpty;
     }
 
@@ -42,10 +42,12 @@ InferStatus rcReluLayer<T>::forwards(const std::vector<std::shared_ptr<Tensor<T>
         const std::shared_ptr<Tensor<T>> &input = inputs[i];
         std::shared_ptr<Tensor<T>> output = outputs[i];
         if (output == nullptr || output->empty()) {
-            output = std::make_shared<Tensor<T>>(input->shapes());
+            CHECK(input->shapes().size() == 3);
+            output = std::make_shared<Tensor<T>>(input->shapes()[0], input->shapes()[1], input->shapes()[2]);
             outputs[i] = output;
         }
         CHECK(output->shapes() == input->shapes());
+        output->setdata(input->data());
         output->data().transform([&](T val){
             if (val < (T)0) return (T)0;
             else return val;
@@ -63,6 +65,6 @@ ParseParamAttrStatus rcReluLayer<T>::creatorInstance(const std::shared_ptr<Runti
 }
 
 INSTALLCLASS(rcReluLayer);
-// RCREGISTER_CREATOR(relu, "nn.ReLU", rcReluLayer);
+RCREGISTER_CREATOR(relu, "nn.ReLU", rcReluLayer);
 
 }

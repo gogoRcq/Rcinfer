@@ -32,7 +32,7 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 21,
+				"line" : 22,
 				"parent" : 0
 			},
 			{
@@ -57,6 +57,10 @@
 				{
 					"backtrace" : 3,
 					"path" : "/Users/rcq/home/cppprojs/Rcinfer/./include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/rcq/home/cppprojs/Rcinfer/./src/layer"
 				}
 			],
 			"language" : "CXX",
@@ -82,7 +86,8 @@
 				9,
 				10,
 				11,
-				12
+				12,
+				13
 			]
 		}
 	],
@@ -157,7 +162,8 @@
 				9,
 				10,
 				11,
-				12
+				12,
+				13
 			]
 		}
 	],
@@ -185,6 +191,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "src/data/Tensor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/layer/details/maxpooling.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
