@@ -466,6 +466,30 @@ __/src/runtime/store_zip.cpp.s:
 	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/runtime/store_zip.cpp.s
 .PHONY : __/src/runtime/store_zip.cpp.s
 
+test_expression.o: test_expression.cpp.o
+.PHONY : test_expression.o
+
+# target to build an object file
+test_expression.cpp.o:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/test_expression.cpp.o
+.PHONY : test_expression.cpp.o
+
+test_expression.i: test_expression.cpp.i
+.PHONY : test_expression.i
+
+# target to preprocess a source file
+test_expression.cpp.i:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/test_expression.cpp.i
+.PHONY : test_expression.cpp.i
+
+test_expression.s: test_expression.cpp.s
+.PHONY : test_expression.s
+
+# target to generate assembly for a file
+test_expression.cpp.s:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/test_expression.cpp.s
+.PHONY : test_expression.cpp.s
+
 test_main.o: test_main.cpp.o
 .PHONY : test_main.o
 
@@ -589,6 +613,9 @@ help:
 	@echo "... __/src/runtime/store_zip.o"
 	@echo "... __/src/runtime/store_zip.i"
 	@echo "... __/src/runtime/store_zip.s"
+	@echo "... test_expression.o"
+	@echo "... test_expression.i"
+	@echo "... test_expression.s"
 	@echo "... test_main.o"
 	@echo "... test_main.i"
 	@echo "... test_main.s"

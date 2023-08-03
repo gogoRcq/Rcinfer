@@ -1436,11 +1436,7 @@ test/CMakeFiles/Gtest.dir/test_expression.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/xlocale/_inttypes.h \
   /usr/local/include/glog/log_severity.h \
-  /usr/local/include/glog/vlog_is_on.h \
-  /Users/rcq/home/cppprojs/Rcinfer/./include/operator/ExpressionOperator.h \
-  /Users/rcq/home/cppprojs/Rcinfer/./include/operator/Operator.h \
-  /Users/rcq/home/cppprojs/Rcinfer/./include/runtime/PraseExpression.h \
-  /usr/local/include/gtest/gtest.h \
+  /usr/local/include/glog/vlog_is_on.h /usr/local/include/gtest/gtest.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/set \
   /usr/local/include/gtest/gtest-assertion-result.h \
   /usr/local/include/gtest/gtest-message.h \
@@ -1477,6 +1473,13 @@ test/CMakeFiles/Gtest.dir/test_expression.cpp.o: \
   /usr/local/include/gtest/gtest-typed-test.h \
   /usr/local/include/gtest/gtest_pred_impl.h \
   /usr/local/include/gtest/gtest_prod.h \
-  /Users/rcq/home/cppprojs/Rcinfer/./include/layer/ExpressionLayer.h \
-  /Users/rcq/home/cppprojs/Rcinfer/./include/layer/Layer.h \
-  /Users/rcq/home/cppprojs/Rcinfer/./include/LayerRegister.h
+  /Users/rcq/home/cppprojs/Rcinfer/./src/layer/details/expression.h \
+  /Users/rcq/home/cppprojs/Rcinfer/./include/layer/abstract/rcLayer.h \
+  /Users/rcq/home/cppprojs/Rcinfer/./include/runtime/StateCode.h \
+  /Users/rcq/home/cppprojs/Rcinfer/./include/runtime/PraseExpression.h \
+  /Users/rcq/home/cppprojs/Rcinfer/./include/runtime/RuntimeOperator.h \
+  /Users/rcq/home/cppprojs/Rcinfer/./include/runtime/RuntimeAttr.h \
+  /Users/rcq/home/cppprojs/Rcinfer/./include/runtime/RuntimeDataType.h \
+  /Users/rcq/home/cppprojs/Rcinfer/./include/runtime/RuntimeOperand.h \
+  /Users/rcq/home/cppprojs/Rcinfer/./include/runtime/RuntimeParam.h \
+  /Users/rcq/home/cppprojs/Rcinfer/./include/layer/abstract/rcLayerRegister.h
