@@ -490,6 +490,30 @@ __/src/runtime/store_zip.cpp.s:
 	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/runtime/store_zip.cpp.s
 .PHONY : __/src/runtime/store_zip.cpp.s
 
+test_convolution.o: test_convolution.cpp.o
+.PHONY : test_convolution.o
+
+# target to build an object file
+test_convolution.cpp.o:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/test_convolution.cpp.o
+.PHONY : test_convolution.cpp.o
+
+test_convolution.i: test_convolution.cpp.i
+.PHONY : test_convolution.i
+
+# target to preprocess a source file
+test_convolution.cpp.i:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/test_convolution.cpp.i
+.PHONY : test_convolution.cpp.i
+
+test_convolution.s: test_convolution.cpp.s
+.PHONY : test_convolution.s
+
+# target to generate assembly for a file
+test_convolution.cpp.s:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/test_convolution.cpp.s
+.PHONY : test_convolution.cpp.s
+
 test_expression.o: test_expression.cpp.o
 .PHONY : test_expression.o
 
@@ -640,6 +664,9 @@ help:
 	@echo "... __/src/runtime/store_zip.o"
 	@echo "... __/src/runtime/store_zip.i"
 	@echo "... __/src/runtime/store_zip.s"
+	@echo "... test_convolution.o"
+	@echo "... test_convolution.i"
+	@echo "... test_convolution.s"
 	@echo "... test_expression.o"
 	@echo "... test_expression.i"
 	@echo "... test_expression.s"

@@ -31,7 +31,7 @@ public:
 
     void initWights(uint32_t paramCount, uint32_t paramRow, uint32_t paramCol, uint32_t paramChannel);
 
-private:
+protected:
     std::vector<std::shared_ptr<Tensor<T>>> weights;
     std::vector<std::shared_ptr<Tensor<T>>> bias;
 };

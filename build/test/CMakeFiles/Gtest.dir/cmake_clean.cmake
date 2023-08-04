@@ -29,6 +29,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Gtest.dir/__/src/runtime/ir.cpp.o.d"
   "CMakeFiles/Gtest.dir/__/src/runtime/store_zip.cpp.o"
   "CMakeFiles/Gtest.dir/__/src/runtime/store_zip.cpp.o.d"
+  "CMakeFiles/Gtest.dir/test_convolution.cpp.o"
+  "CMakeFiles/Gtest.dir/test_convolution.cpp.o.d"
   "CMakeFiles/Gtest.dir/test_expression.cpp.o"
   "CMakeFiles/Gtest.dir/test_expression.cpp.o.d"
   "CMakeFiles/Gtest.dir/test_main.cpp.o"

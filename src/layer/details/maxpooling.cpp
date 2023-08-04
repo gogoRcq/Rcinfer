@@ -14,7 +14,7 @@ namespace rq {
 template<class T>
 InferStatus rcMaxPoolingLayer<T>::forwards(const std::vector<std::shared_ptr<Tensor<T>>> &inputs,
                                       std::vector<std::shared_ptr<Tensor<T>>> &outputs) {
-     if (inputs.empty()) {
+    if (inputs.empty()) {
         LOG(ERROR) << "Input of maxpooling is empty";
         return InferStatus::rInferFailedInputEmpty;
     }

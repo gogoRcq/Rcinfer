@@ -34,7 +34,7 @@ public:
     virtual InferStatus forwards(const std::vector<std::shared_ptr<Tensor<T>>> &inputs,
                                  std::vector<std::shared_ptr<Tensor<T>>> &outputs);
 
-private:
+protected:
     std::string layerName;
 };
 

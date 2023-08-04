@@ -32,10 +32,13 @@ std::vector<T> RuntimeAttr<T>::get() {
             for (uint32_t i = 0; i < weightNum; ++i) {
                 weights.emplace_back(*(((float *)weightData.data()) + i));
             }
+            break;
         }
-    default:
-        LOG(FATAL) << "this type is not supported now";
+        default: {
+            LOG(FATAL) << "this type is not supported now";
+        } 
     }
+    return weights;
 }
 
 }

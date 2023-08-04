@@ -97,6 +97,12 @@
 },
 {
   "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
+  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/test_convolution.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/test/test_convolution.cpp",
+  "file": "/Users/rcq/home/cppprojs/Rcinfer/test/test_convolution.cpp",
+  "output": "test/CMakeFiles/Gtest.dir/test_convolution.cpp.o"
+},
+{
+  "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
   "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/test_expression.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/test/test_expression.cpp",
   "file": "/Users/rcq/home/cppprojs/Rcinfer/test/test_expression.cpp",
   "output": "test/CMakeFiles/Gtest.dir/test_expression.cpp.o"
