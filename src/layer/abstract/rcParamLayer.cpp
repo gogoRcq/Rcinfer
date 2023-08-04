@@ -23,7 +23,7 @@ void rcParamLayer<T>::setBias(const std::vector<std::shared_ptr<Tensor<T>>>& bia
 }
 
 template<class T>
-void rcParamLayer<T>::setWights(const std::vector<std::shared_ptr<Tensor<T>>>& weights) {
+void rcParamLayer<T>::setWeights(const std::vector<std::shared_ptr<Tensor<T>>>& weights) {
     if (!this->weights.empty()) {
         CHECK(this->weights.size() == weights.size());
         for (int i = 0; i < weights.size(); ++i) {
@@ -56,7 +56,7 @@ void rcParamLayer<T>::setBias(const std::vector<T>& bias) {
 }
 
 template<class T>
-void rcParamLayer<T>::setWights(const std::vector<T>& weights) {
+void rcParamLayer<T>::setWeights(const std::vector<T>& weights) {
     const uint32_t elementSize = weights.size();
     uint32_t weightSize = 0;
     const uint32_t batchSize = this->weights.size();

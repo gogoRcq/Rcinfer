@@ -13,6 +13,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Gtest.dir/__/src/layer/abstract/rcLayerRegister.cpp.o.d"
   "CMakeFiles/Gtest.dir/__/src/layer/abstract/rcParamLayer.cpp.o"
   "CMakeFiles/Gtest.dir/__/src/layer/abstract/rcParamLayer.cpp.o.d"
+  "CMakeFiles/Gtest.dir/__/src/layer/details/convolution.cpp.o"
+  "CMakeFiles/Gtest.dir/__/src/layer/details/convolution.cpp.o.d"
   "CMakeFiles/Gtest.dir/__/src/layer/details/expression.cpp.o"
   "CMakeFiles/Gtest.dir/__/src/layer/details/expression.cpp.o.d"
   "CMakeFiles/Gtest.dir/__/src/layer/details/maxpooling.cpp.o"

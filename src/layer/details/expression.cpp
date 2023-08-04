@@ -42,6 +42,7 @@ InferStatus rcExpressionLayer<T>::forwards(const std::vector<std::shared_ptr<Ten
         }
         outputs.at(i)->fill((T)0);
     }
+    
     std::stack<std::vector<std::shared_ptr<Tensor<T>>>> dataStack;
     const std::vector<std::shared_ptr<TokenNode>> tokenNodes = expressionParser->generate();
     for (const auto& tokenNode : tokenNodes) {

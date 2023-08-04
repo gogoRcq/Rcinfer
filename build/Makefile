@@ -334,6 +334,30 @@ src/layer/abstract/rcParamLayer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/layer/abstract/rcParamLayer.cpp.s
 .PHONY : src/layer/abstract/rcParamLayer.cpp.s
 
+src/layer/details/convolution.o: src/layer/details/convolution.cpp.o
+.PHONY : src/layer/details/convolution.o
+
+# target to build an object file
+src/layer/details/convolution.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/layer/details/convolution.cpp.o
+.PHONY : src/layer/details/convolution.cpp.o
+
+src/layer/details/convolution.i: src/layer/details/convolution.cpp.i
+.PHONY : src/layer/details/convolution.i
+
+# target to preprocess a source file
+src/layer/details/convolution.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/layer/details/convolution.cpp.i
+.PHONY : src/layer/details/convolution.cpp.i
+
+src/layer/details/convolution.s: src/layer/details/convolution.cpp.s
+.PHONY : src/layer/details/convolution.s
+
+# target to generate assembly for a file
+src/layer/details/convolution.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/layer/details/convolution.cpp.s
+.PHONY : src/layer/details/convolution.cpp.s
+
 src/layer/details/expression.o: src/layer/details/expression.cpp.o
 .PHONY : src/layer/details/expression.o
 
@@ -536,6 +560,9 @@ help:
 	@echo "... src/layer/abstract/rcParamLayer.o"
 	@echo "... src/layer/abstract/rcParamLayer.i"
 	@echo "... src/layer/abstract/rcParamLayer.s"
+	@echo "... src/layer/details/convolution.o"
+	@echo "... src/layer/details/convolution.i"
+	@echo "... src/layer/details/convolution.s"
 	@echo "... src/layer/details/expression.o"
 	@echo "... src/layer/details/expression.i"
 	@echo "... src/layer/details/expression.s"

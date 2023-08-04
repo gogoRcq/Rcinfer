@@ -21,7 +21,7 @@ std::vector<T> RuntimeAttr<T>::get() {
     CHECK(!weightData.empty());
     CHECK(dataType != RuntimeDataType::rTypeUnknown);
     std::vector<T> weights;
-    switch (this->type){
+    switch (this->dataType){
         case RuntimeDataType::rTypeFloat32: {
             const bool isFloat = std::is_same<T, float>::value;
             CHECK_EQ(isFloat, true);
@@ -29,7 +29,7 @@ std::vector<T> RuntimeAttr<T>::get() {
             CHECK_EQ(weightData.size() % floatSize, 0);
             const uint32_t weightNum = weightData.size() / floatSize;
             weights.reserve(weightNum);
-            for (uint32_t i = 0; i < weights; ++i) {
+            for (uint32_t i = 0; i < weightNum; ++i) {
                 weights.emplace_back(*(((float *)weightData.data()) + i));
             }
         }

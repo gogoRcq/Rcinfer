@@ -19,9 +19,9 @@ public:
 
     void setBias(const std::vector<T>& bias) override;
 
-    void setWights(const std::vector<std::shared_ptr<Tensor<T>>>& weights) override;
+    void setWeights(const std::vector<std::shared_ptr<Tensor<T>>>& weights) override;
 
-    void setWights(const std::vector<T>& weights) override;
+    void setWeights(const std::vector<T>& weights) override;
 
     const std::vector<std::shared_ptr<Tensor<T>>>& getWights() const override;
 

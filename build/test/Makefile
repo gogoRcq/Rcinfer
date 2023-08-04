@@ -298,6 +298,30 @@ __/src/layer/abstract/rcParamLayer.cpp.s:
 	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/abstract/rcParamLayer.cpp.s
 .PHONY : __/src/layer/abstract/rcParamLayer.cpp.s
 
+__/src/layer/details/convolution.o: __/src/layer/details/convolution.cpp.o
+.PHONY : __/src/layer/details/convolution.o
+
+# target to build an object file
+__/src/layer/details/convolution.cpp.o:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/details/convolution.cpp.o
+.PHONY : __/src/layer/details/convolution.cpp.o
+
+__/src/layer/details/convolution.i: __/src/layer/details/convolution.cpp.i
+.PHONY : __/src/layer/details/convolution.i
+
+# target to preprocess a source file
+__/src/layer/details/convolution.cpp.i:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/details/convolution.cpp.i
+.PHONY : __/src/layer/details/convolution.cpp.i
+
+__/src/layer/details/convolution.s: __/src/layer/details/convolution.cpp.s
+.PHONY : __/src/layer/details/convolution.s
+
+# target to generate assembly for a file
+__/src/layer/details/convolution.cpp.s:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/details/convolution.cpp.s
+.PHONY : __/src/layer/details/convolution.cpp.s
+
 __/src/layer/details/expression.o: __/src/layer/details/expression.cpp.o
 .PHONY : __/src/layer/details/expression.o
 
@@ -592,6 +616,9 @@ help:
 	@echo "... __/src/layer/abstract/rcParamLayer.o"
 	@echo "... __/src/layer/abstract/rcParamLayer.i"
 	@echo "... __/src/layer/abstract/rcParamLayer.s"
+	@echo "... __/src/layer/details/convolution.o"
+	@echo "... __/src/layer/details/convolution.i"
+	@echo "... __/src/layer/details/convolution.s"
 	@echo "... __/src/layer/details/expression.o"
 	@echo "... __/src/layer/details/expression.i"
 	@echo "... __/src/layer/details/expression.s"

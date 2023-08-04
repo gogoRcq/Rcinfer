@@ -15,12 +15,12 @@ void rcLayer<T>::setBias(const std::vector<T>& bias) {
 }
 
 template<class T>
-void rcLayer<T>::setWights(const std::vector<std::shared_ptr<Tensor<T>>>& weights) {
+void rcLayer<T>::setWeights(const std::vector<std::shared_ptr<Tensor<T>>>& weights) {
     LOG(FATAL) << this->layerName << "this layer is not implement yet";
 }
 
 template<class T>
-void rcLayer<T>::setWights(const std::vector<T>& weights) {
+void rcLayer<T>::setWeights(const std::vector<T>& weights) {
     LOG(FATAL) << this->layerName << "this layer is not implement yet";
 }
 

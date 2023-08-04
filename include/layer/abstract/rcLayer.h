@@ -23,9 +23,9 @@ public:
 
     virtual void setBias(const std::vector<T>& bias);
 
-    virtual void setWights(const std::vector<std::shared_ptr<Tensor<T>>>& weights);
+    virtual void setWeights(const std::vector<std::shared_ptr<Tensor<T>>>& weights);
 
-    virtual void setWights(const std::vector<T>& weights);
+    virtual void setWeights(const std::vector<T>& weights);
 
     virtual const std::vector<std::shared_ptr<Tensor<T>>>& getWights() const;
 
