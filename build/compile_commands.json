@@ -37,6 +37,12 @@
 },
 {
   "directory": "/Users/rcq/home/cppprojs/Rcinfer/build",
+  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Rcinfer.dir/src/layer/details/linear.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/details/linear.cpp",
+  "file": "/Users/rcq/home/cppprojs/Rcinfer/src/layer/details/linear.cpp",
+  "output": "CMakeFiles/Rcinfer.dir/src/layer/details/linear.cpp.o"
+},
+{
+  "directory": "/Users/rcq/home/cppprojs/Rcinfer/build",
   "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Rcinfer.dir/src/layer/details/maxpooling.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/details/maxpooling.cpp",
   "file": "/Users/rcq/home/cppprojs/Rcinfer/src/layer/details/maxpooling.cpp",
   "output": "CMakeFiles/Rcinfer.dir/src/layer/details/maxpooling.cpp.o"
@@ -160,6 +166,12 @@
   "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/layer/details/expression.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/details/expression.cpp",
   "file": "/Users/rcq/home/cppprojs/Rcinfer/src/layer/details/expression.cpp",
   "output": "test/CMakeFiles/Gtest.dir/__/src/layer/details/expression.cpp.o"
+},
+{
+  "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
+  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/layer/details/linear.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/details/linear.cpp",
+  "file": "/Users/rcq/home/cppprojs/Rcinfer/src/layer/details/linear.cpp",
+  "output": "test/CMakeFiles/Gtest.dir/__/src/layer/details/linear.cpp.o"
 },
 {
   "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",

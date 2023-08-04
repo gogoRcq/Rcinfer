@@ -98,12 +98,12 @@ test/clean: test/CMakeFiles/Gtest.dir/clean
 CMakeFiles/Rcinfer.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38 "Built target Rcinfer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40 "Built target Rcinfer"
 .PHONY : CMakeFiles/Rcinfer.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Rcinfer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Rcinfer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles 0
 .PHONY : CMakeFiles/Rcinfer.dir/rule
@@ -124,12 +124,12 @@ CMakeFiles/Rcinfer.dir/clean:
 test/CMakeFiles/Gtest.dir/all:
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/depend
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21 "Built target Gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22 "Built target Gtest"
 .PHONY : test/CMakeFiles/Gtest.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/Gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles 21
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles 22
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/Gtest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles 0
 .PHONY : test/CMakeFiles/Gtest.dir/rule

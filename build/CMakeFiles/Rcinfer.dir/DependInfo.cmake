@@ -18,6 +18,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/rcq/home/cppprojs/Rcinfer/src/layer/abstract/rcParamLayer.cpp" "CMakeFiles/Rcinfer.dir/src/layer/abstract/rcParamLayer.cpp.o" "gcc" "CMakeFiles/Rcinfer.dir/src/layer/abstract/rcParamLayer.cpp.o.d"
   "/Users/rcq/home/cppprojs/Rcinfer/src/layer/details/convolution.cpp" "CMakeFiles/Rcinfer.dir/src/layer/details/convolution.cpp.o" "gcc" "CMakeFiles/Rcinfer.dir/src/layer/details/convolution.cpp.o.d"
   "/Users/rcq/home/cppprojs/Rcinfer/src/layer/details/expression.cpp" "CMakeFiles/Rcinfer.dir/src/layer/details/expression.cpp.o" "gcc" "CMakeFiles/Rcinfer.dir/src/layer/details/expression.cpp.o.d"
+  "/Users/rcq/home/cppprojs/Rcinfer/src/layer/details/linear.cpp" "CMakeFiles/Rcinfer.dir/src/layer/details/linear.cpp.o" "gcc" "CMakeFiles/Rcinfer.dir/src/layer/details/linear.cpp.o.d"
   "/Users/rcq/home/cppprojs/Rcinfer/src/layer/details/maxpooling.cpp" "CMakeFiles/Rcinfer.dir/src/layer/details/maxpooling.cpp.o" "gcc" "CMakeFiles/Rcinfer.dir/src/layer/details/maxpooling.cpp.o.d"
   "/Users/rcq/home/cppprojs/Rcinfer/src/layer/details/relu.cpp" "CMakeFiles/Rcinfer.dir/src/layer/details/relu.cpp.o" "gcc" "CMakeFiles/Rcinfer.dir/src/layer/details/relu.cpp.o.d"
   "/Users/rcq/home/cppprojs/Rcinfer/src/runtime/PraseExpression.cpp" "CMakeFiles/Rcinfer.dir/src/runtime/PraseExpression.cpp.o" "gcc" "CMakeFiles/Rcinfer.dir/src/runtime/PraseExpression.cpp.o.d"

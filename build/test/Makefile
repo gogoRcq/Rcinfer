@@ -346,6 +346,30 @@ __/src/layer/details/expression.cpp.s:
 	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/details/expression.cpp.s
 .PHONY : __/src/layer/details/expression.cpp.s
 
+__/src/layer/details/linear.o: __/src/layer/details/linear.cpp.o
+.PHONY : __/src/layer/details/linear.o
+
+# target to build an object file
+__/src/layer/details/linear.cpp.o:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/details/linear.cpp.o
+.PHONY : __/src/layer/details/linear.cpp.o
+
+__/src/layer/details/linear.i: __/src/layer/details/linear.cpp.i
+.PHONY : __/src/layer/details/linear.i
+
+# target to preprocess a source file
+__/src/layer/details/linear.cpp.i:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/details/linear.cpp.i
+.PHONY : __/src/layer/details/linear.cpp.i
+
+__/src/layer/details/linear.s: __/src/layer/details/linear.cpp.s
+.PHONY : __/src/layer/details/linear.s
+
+# target to generate assembly for a file
+__/src/layer/details/linear.cpp.s:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/details/linear.cpp.s
+.PHONY : __/src/layer/details/linear.cpp.s
+
 __/src/layer/details/maxpooling.o: __/src/layer/details/maxpooling.cpp.o
 .PHONY : __/src/layer/details/maxpooling.o
 
@@ -646,6 +670,9 @@ help:
 	@echo "... __/src/layer/details/expression.o"
 	@echo "... __/src/layer/details/expression.i"
 	@echo "... __/src/layer/details/expression.s"
+	@echo "... __/src/layer/details/linear.o"
+	@echo "... __/src/layer/details/linear.i"
+	@echo "... __/src/layer/details/linear.s"
 	@echo "... __/src/layer/details/maxpooling.o"
 	@echo "... __/src/layer/details/maxpooling.i"
 	@echo "... __/src/layer/details/maxpooling.s"

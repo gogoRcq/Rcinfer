@@ -382,6 +382,30 @@ src/layer/details/expression.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/layer/details/expression.cpp.s
 .PHONY : src/layer/details/expression.cpp.s
 
+src/layer/details/linear.o: src/layer/details/linear.cpp.o
+.PHONY : src/layer/details/linear.o
+
+# target to build an object file
+src/layer/details/linear.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/layer/details/linear.cpp.o
+.PHONY : src/layer/details/linear.cpp.o
+
+src/layer/details/linear.i: src/layer/details/linear.cpp.i
+.PHONY : src/layer/details/linear.i
+
+# target to preprocess a source file
+src/layer/details/linear.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/layer/details/linear.cpp.i
+.PHONY : src/layer/details/linear.cpp.i
+
+src/layer/details/linear.s: src/layer/details/linear.cpp.s
+.PHONY : src/layer/details/linear.s
+
+# target to generate assembly for a file
+src/layer/details/linear.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/layer/details/linear.cpp.s
+.PHONY : src/layer/details/linear.cpp.s
+
 src/layer/details/maxpooling.o: src/layer/details/maxpooling.cpp.o
 .PHONY : src/layer/details/maxpooling.o
 
@@ -566,6 +590,9 @@ help:
 	@echo "... src/layer/details/expression.o"
 	@echo "... src/layer/details/expression.i"
 	@echo "... src/layer/details/expression.s"
+	@echo "... src/layer/details/linear.o"
+	@echo "... src/layer/details/linear.i"
+	@echo "... src/layer/details/linear.s"
 	@echo "... src/layer/details/maxpooling.o"
 	@echo "... src/layer/details/maxpooling.i"
 	@echo "... src/layer/details/maxpooling.s"

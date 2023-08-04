@@ -17,6 +17,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/rcq/home/cppprojs/Rcinfer/src/layer/abstract/rcParamLayer.cpp" "test/CMakeFiles/Gtest.dir/__/src/layer/abstract/rcParamLayer.cpp.o" "gcc" "test/CMakeFiles/Gtest.dir/__/src/layer/abstract/rcParamLayer.cpp.o.d"
   "/Users/rcq/home/cppprojs/Rcinfer/src/layer/details/convolution.cpp" "test/CMakeFiles/Gtest.dir/__/src/layer/details/convolution.cpp.o" "gcc" "test/CMakeFiles/Gtest.dir/__/src/layer/details/convolution.cpp.o.d"
   "/Users/rcq/home/cppprojs/Rcinfer/src/layer/details/expression.cpp" "test/CMakeFiles/Gtest.dir/__/src/layer/details/expression.cpp.o" "gcc" "test/CMakeFiles/Gtest.dir/__/src/layer/details/expression.cpp.o.d"
+  "/Users/rcq/home/cppprojs/Rcinfer/src/layer/details/linear.cpp" "test/CMakeFiles/Gtest.dir/__/src/layer/details/linear.cpp.o" "gcc" "test/CMakeFiles/Gtest.dir/__/src/layer/details/linear.cpp.o.d"
   "/Users/rcq/home/cppprojs/Rcinfer/src/layer/details/maxpooling.cpp" "test/CMakeFiles/Gtest.dir/__/src/layer/details/maxpooling.cpp.o" "gcc" "test/CMakeFiles/Gtest.dir/__/src/layer/details/maxpooling.cpp.o.d"
   "/Users/rcq/home/cppprojs/Rcinfer/src/layer/details/relu.cpp" "test/CMakeFiles/Gtest.dir/__/src/layer/details/relu.cpp.o" "gcc" "test/CMakeFiles/Gtest.dir/__/src/layer/details/relu.cpp.o.d"
   "/Users/rcq/home/cppprojs/Rcinfer/src/runtime/PraseExpression.cpp" "test/CMakeFiles/Gtest.dir/__/src/runtime/PraseExpression.cpp.o" "gcc" "test/CMakeFiles/Gtest.dir/__/src/runtime/PraseExpression.cpp.o.d"

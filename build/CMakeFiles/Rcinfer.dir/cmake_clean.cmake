@@ -19,6 +19,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Rcinfer.dir/src/layer/details/convolution.cpp.o.d"
   "CMakeFiles/Rcinfer.dir/src/layer/details/expression.cpp.o"
   "CMakeFiles/Rcinfer.dir/src/layer/details/expression.cpp.o.d"
+  "CMakeFiles/Rcinfer.dir/src/layer/details/linear.cpp.o"
+  "CMakeFiles/Rcinfer.dir/src/layer/details/linear.cpp.o.d"
   "CMakeFiles/Rcinfer.dir/src/layer/details/maxpooling.cpp.o"
   "CMakeFiles/Rcinfer.dir/src/layer/details/maxpooling.cpp.o.d"
   "CMakeFiles/Rcinfer.dir/src/layer/details/relu.cpp.o"
