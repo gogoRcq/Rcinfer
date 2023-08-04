@@ -298,6 +298,30 @@ __/src/layer/abstract/rcParamLayer.cpp.s:
 	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/abstract/rcParamLayer.cpp.s
 .PHONY : __/src/layer/abstract/rcParamLayer.cpp.s
 
+__/src/layer/details/adaptiveaveragepooling.o: __/src/layer/details/adaptiveaveragepooling.cpp.o
+.PHONY : __/src/layer/details/adaptiveaveragepooling.o
+
+# target to build an object file
+__/src/layer/details/adaptiveaveragepooling.cpp.o:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/details/adaptiveaveragepooling.cpp.o
+.PHONY : __/src/layer/details/adaptiveaveragepooling.cpp.o
+
+__/src/layer/details/adaptiveaveragepooling.i: __/src/layer/details/adaptiveaveragepooling.cpp.i
+.PHONY : __/src/layer/details/adaptiveaveragepooling.i
+
+# target to preprocess a source file
+__/src/layer/details/adaptiveaveragepooling.cpp.i:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/details/adaptiveaveragepooling.cpp.i
+.PHONY : __/src/layer/details/adaptiveaveragepooling.cpp.i
+
+__/src/layer/details/adaptiveaveragepooling.s: __/src/layer/details/adaptiveaveragepooling.cpp.s
+.PHONY : __/src/layer/details/adaptiveaveragepooling.s
+
+# target to generate assembly for a file
+__/src/layer/details/adaptiveaveragepooling.cpp.s:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/details/adaptiveaveragepooling.cpp.s
+.PHONY : __/src/layer/details/adaptiveaveragepooling.cpp.s
+
 __/src/layer/details/convolution.o: __/src/layer/details/convolution.cpp.o
 .PHONY : __/src/layer/details/convolution.o
 
@@ -345,6 +369,30 @@ __/src/layer/details/expression.s: __/src/layer/details/expression.cpp.s
 __/src/layer/details/expression.cpp.s:
 	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/details/expression.cpp.s
 .PHONY : __/src/layer/details/expression.cpp.s
+
+__/src/layer/details/flatten.o: __/src/layer/details/flatten.cpp.o
+.PHONY : __/src/layer/details/flatten.o
+
+# target to build an object file
+__/src/layer/details/flatten.cpp.o:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/details/flatten.cpp.o
+.PHONY : __/src/layer/details/flatten.cpp.o
+
+__/src/layer/details/flatten.i: __/src/layer/details/flatten.cpp.i
+.PHONY : __/src/layer/details/flatten.i
+
+# target to preprocess a source file
+__/src/layer/details/flatten.cpp.i:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/details/flatten.cpp.i
+.PHONY : __/src/layer/details/flatten.cpp.i
+
+__/src/layer/details/flatten.s: __/src/layer/details/flatten.cpp.s
+.PHONY : __/src/layer/details/flatten.s
+
+# target to generate assembly for a file
+__/src/layer/details/flatten.cpp.s:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/details/flatten.cpp.s
+.PHONY : __/src/layer/details/flatten.cpp.s
 
 __/src/layer/details/linear.o: __/src/layer/details/linear.cpp.o
 .PHONY : __/src/layer/details/linear.o
@@ -514,6 +562,30 @@ __/src/runtime/store_zip.cpp.s:
 	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/runtime/store_zip.cpp.s
 .PHONY : __/src/runtime/store_zip.cpp.s
 
+test_adaptivepooling.o: test_adaptivepooling.cpp.o
+.PHONY : test_adaptivepooling.o
+
+# target to build an object file
+test_adaptivepooling.cpp.o:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/test_adaptivepooling.cpp.o
+.PHONY : test_adaptivepooling.cpp.o
+
+test_adaptivepooling.i: test_adaptivepooling.cpp.i
+.PHONY : test_adaptivepooling.i
+
+# target to preprocess a source file
+test_adaptivepooling.cpp.i:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/test_adaptivepooling.cpp.i
+.PHONY : test_adaptivepooling.cpp.i
+
+test_adaptivepooling.s: test_adaptivepooling.cpp.s
+.PHONY : test_adaptivepooling.s
+
+# target to generate assembly for a file
+test_adaptivepooling.cpp.s:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/test_adaptivepooling.cpp.s
+.PHONY : test_adaptivepooling.cpp.s
+
 test_convolution.o: test_convolution.cpp.o
 .PHONY : test_convolution.o
 
@@ -561,6 +633,54 @@ test_expression.s: test_expression.cpp.s
 test_expression.cpp.s:
 	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/test_expression.cpp.s
 .PHONY : test_expression.cpp.s
+
+test_flatten.o: test_flatten.cpp.o
+.PHONY : test_flatten.o
+
+# target to build an object file
+test_flatten.cpp.o:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/test_flatten.cpp.o
+.PHONY : test_flatten.cpp.o
+
+test_flatten.i: test_flatten.cpp.i
+.PHONY : test_flatten.i
+
+# target to preprocess a source file
+test_flatten.cpp.i:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/test_flatten.cpp.i
+.PHONY : test_flatten.cpp.i
+
+test_flatten.s: test_flatten.cpp.s
+.PHONY : test_flatten.s
+
+# target to generate assembly for a file
+test_flatten.cpp.s:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/test_flatten.cpp.s
+.PHONY : test_flatten.cpp.s
+
+test_linear.o: test_linear.cpp.o
+.PHONY : test_linear.o
+
+# target to build an object file
+test_linear.cpp.o:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/test_linear.cpp.o
+.PHONY : test_linear.cpp.o
+
+test_linear.i: test_linear.cpp.i
+.PHONY : test_linear.i
+
+# target to preprocess a source file
+test_linear.cpp.i:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/test_linear.cpp.i
+.PHONY : test_linear.cpp.i
+
+test_linear.s: test_linear.cpp.s
+.PHONY : test_linear.s
+
+# target to generate assembly for a file
+test_linear.cpp.s:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/test_linear.cpp.s
+.PHONY : test_linear.cpp.s
 
 test_main.o: test_main.cpp.o
 .PHONY : test_main.o
@@ -664,12 +784,18 @@ help:
 	@echo "... __/src/layer/abstract/rcParamLayer.o"
 	@echo "... __/src/layer/abstract/rcParamLayer.i"
 	@echo "... __/src/layer/abstract/rcParamLayer.s"
+	@echo "... __/src/layer/details/adaptiveaveragepooling.o"
+	@echo "... __/src/layer/details/adaptiveaveragepooling.i"
+	@echo "... __/src/layer/details/adaptiveaveragepooling.s"
 	@echo "... __/src/layer/details/convolution.o"
 	@echo "... __/src/layer/details/convolution.i"
 	@echo "... __/src/layer/details/convolution.s"
 	@echo "... __/src/layer/details/expression.o"
 	@echo "... __/src/layer/details/expression.i"
 	@echo "... __/src/layer/details/expression.s"
+	@echo "... __/src/layer/details/flatten.o"
+	@echo "... __/src/layer/details/flatten.i"
+	@echo "... __/src/layer/details/flatten.s"
 	@echo "... __/src/layer/details/linear.o"
 	@echo "... __/src/layer/details/linear.i"
 	@echo "... __/src/layer/details/linear.s"
@@ -691,12 +817,21 @@ help:
 	@echo "... __/src/runtime/store_zip.o"
 	@echo "... __/src/runtime/store_zip.i"
 	@echo "... __/src/runtime/store_zip.s"
+	@echo "... test_adaptivepooling.o"
+	@echo "... test_adaptivepooling.i"
+	@echo "... test_adaptivepooling.s"
 	@echo "... test_convolution.o"
 	@echo "... test_convolution.i"
 	@echo "... test_convolution.s"
 	@echo "... test_expression.o"
 	@echo "... test_expression.i"
 	@echo "... test_expression.s"
+	@echo "... test_flatten.o"
+	@echo "... test_flatten.i"
+	@echo "... test_flatten.s"
+	@echo "... test_linear.o"
+	@echo "... test_linear.i"
+	@echo "... test_linear.s"
 	@echo "... test_main.o"
 	@echo "... test_main.i"
 	@echo "... test_main.s"

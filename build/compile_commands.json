@@ -25,6 +25,12 @@
 },
 {
   "directory": "/Users/rcq/home/cppprojs/Rcinfer/build",
+  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Rcinfer.dir/src/layer/details/adaptiveaveragepooling.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/details/adaptiveaveragepooling.cpp",
+  "file": "/Users/rcq/home/cppprojs/Rcinfer/src/layer/details/adaptiveaveragepooling.cpp",
+  "output": "CMakeFiles/Rcinfer.dir/src/layer/details/adaptiveaveragepooling.cpp.o"
+},
+{
+  "directory": "/Users/rcq/home/cppprojs/Rcinfer/build",
   "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Rcinfer.dir/src/layer/details/convolution.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/details/convolution.cpp",
   "file": "/Users/rcq/home/cppprojs/Rcinfer/src/layer/details/convolution.cpp",
   "output": "CMakeFiles/Rcinfer.dir/src/layer/details/convolution.cpp.o"
@@ -34,6 +40,12 @@
   "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Rcinfer.dir/src/layer/details/expression.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/details/expression.cpp",
   "file": "/Users/rcq/home/cppprojs/Rcinfer/src/layer/details/expression.cpp",
   "output": "CMakeFiles/Rcinfer.dir/src/layer/details/expression.cpp.o"
+},
+{
+  "directory": "/Users/rcq/home/cppprojs/Rcinfer/build",
+  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Rcinfer.dir/src/layer/details/flatten.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/details/flatten.cpp",
+  "file": "/Users/rcq/home/cppprojs/Rcinfer/src/layer/details/flatten.cpp",
+  "output": "CMakeFiles/Rcinfer.dir/src/layer/details/flatten.cpp.o"
 },
 {
   "directory": "/Users/rcq/home/cppprojs/Rcinfer/build",
@@ -103,6 +115,12 @@
 },
 {
   "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
+  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/test_adaptivepooling.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/test/test_adaptivepooling.cpp",
+  "file": "/Users/rcq/home/cppprojs/Rcinfer/test/test_adaptivepooling.cpp",
+  "output": "test/CMakeFiles/Gtest.dir/test_adaptivepooling.cpp.o"
+},
+{
+  "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
   "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/test_convolution.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/test/test_convolution.cpp",
   "file": "/Users/rcq/home/cppprojs/Rcinfer/test/test_convolution.cpp",
   "output": "test/CMakeFiles/Gtest.dir/test_convolution.cpp.o"
@@ -112,6 +130,18 @@
   "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/test_expression.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/test/test_expression.cpp",
   "file": "/Users/rcq/home/cppprojs/Rcinfer/test/test_expression.cpp",
   "output": "test/CMakeFiles/Gtest.dir/test_expression.cpp.o"
+},
+{
+  "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
+  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/test_flatten.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/test/test_flatten.cpp",
+  "file": "/Users/rcq/home/cppprojs/Rcinfer/test/test_flatten.cpp",
+  "output": "test/CMakeFiles/Gtest.dir/test_flatten.cpp.o"
+},
+{
+  "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
+  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/test_linear.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/test/test_linear.cpp",
+  "file": "/Users/rcq/home/cppprojs/Rcinfer/test/test_linear.cpp",
+  "output": "test/CMakeFiles/Gtest.dir/test_linear.cpp.o"
 },
 {
   "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
@@ -157,6 +187,12 @@
 },
 {
   "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
+  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/layer/details/adaptiveaveragepooling.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/details/adaptiveaveragepooling.cpp",
+  "file": "/Users/rcq/home/cppprojs/Rcinfer/src/layer/details/adaptiveaveragepooling.cpp",
+  "output": "test/CMakeFiles/Gtest.dir/__/src/layer/details/adaptiveaveragepooling.cpp.o"
+},
+{
+  "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
   "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/layer/details/convolution.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/details/convolution.cpp",
   "file": "/Users/rcq/home/cppprojs/Rcinfer/src/layer/details/convolution.cpp",
   "output": "test/CMakeFiles/Gtest.dir/__/src/layer/details/convolution.cpp.o"
@@ -166,6 +202,12 @@
   "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/layer/details/expression.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/details/expression.cpp",
   "file": "/Users/rcq/home/cppprojs/Rcinfer/src/layer/details/expression.cpp",
   "output": "test/CMakeFiles/Gtest.dir/__/src/layer/details/expression.cpp.o"
+},
+{
+  "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
+  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/layer/details/flatten.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/details/flatten.cpp",
+  "file": "/Users/rcq/home/cppprojs/Rcinfer/src/layer/details/flatten.cpp",
+  "output": "test/CMakeFiles/Gtest.dir/__/src/layer/details/flatten.cpp.o"
 },
 {
   "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",

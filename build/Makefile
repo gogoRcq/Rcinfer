@@ -334,6 +334,30 @@ src/layer/abstract/rcParamLayer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/layer/abstract/rcParamLayer.cpp.s
 .PHONY : src/layer/abstract/rcParamLayer.cpp.s
 
+src/layer/details/adaptiveaveragepooling.o: src/layer/details/adaptiveaveragepooling.cpp.o
+.PHONY : src/layer/details/adaptiveaveragepooling.o
+
+# target to build an object file
+src/layer/details/adaptiveaveragepooling.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/layer/details/adaptiveaveragepooling.cpp.o
+.PHONY : src/layer/details/adaptiveaveragepooling.cpp.o
+
+src/layer/details/adaptiveaveragepooling.i: src/layer/details/adaptiveaveragepooling.cpp.i
+.PHONY : src/layer/details/adaptiveaveragepooling.i
+
+# target to preprocess a source file
+src/layer/details/adaptiveaveragepooling.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/layer/details/adaptiveaveragepooling.cpp.i
+.PHONY : src/layer/details/adaptiveaveragepooling.cpp.i
+
+src/layer/details/adaptiveaveragepooling.s: src/layer/details/adaptiveaveragepooling.cpp.s
+.PHONY : src/layer/details/adaptiveaveragepooling.s
+
+# target to generate assembly for a file
+src/layer/details/adaptiveaveragepooling.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/layer/details/adaptiveaveragepooling.cpp.s
+.PHONY : src/layer/details/adaptiveaveragepooling.cpp.s
+
 src/layer/details/convolution.o: src/layer/details/convolution.cpp.o
 .PHONY : src/layer/details/convolution.o
 
@@ -381,6 +405,30 @@ src/layer/details/expression.s: src/layer/details/expression.cpp.s
 src/layer/details/expression.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/layer/details/expression.cpp.s
 .PHONY : src/layer/details/expression.cpp.s
+
+src/layer/details/flatten.o: src/layer/details/flatten.cpp.o
+.PHONY : src/layer/details/flatten.o
+
+# target to build an object file
+src/layer/details/flatten.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/layer/details/flatten.cpp.o
+.PHONY : src/layer/details/flatten.cpp.o
+
+src/layer/details/flatten.i: src/layer/details/flatten.cpp.i
+.PHONY : src/layer/details/flatten.i
+
+# target to preprocess a source file
+src/layer/details/flatten.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/layer/details/flatten.cpp.i
+.PHONY : src/layer/details/flatten.cpp.i
+
+src/layer/details/flatten.s: src/layer/details/flatten.cpp.s
+.PHONY : src/layer/details/flatten.s
+
+# target to generate assembly for a file
+src/layer/details/flatten.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/layer/details/flatten.cpp.s
+.PHONY : src/layer/details/flatten.cpp.s
 
 src/layer/details/linear.o: src/layer/details/linear.cpp.o
 .PHONY : src/layer/details/linear.o
@@ -584,12 +632,18 @@ help:
 	@echo "... src/layer/abstract/rcParamLayer.o"
 	@echo "... src/layer/abstract/rcParamLayer.i"
 	@echo "... src/layer/abstract/rcParamLayer.s"
+	@echo "... src/layer/details/adaptiveaveragepooling.o"
+	@echo "... src/layer/details/adaptiveaveragepooling.i"
+	@echo "... src/layer/details/adaptiveaveragepooling.s"
 	@echo "... src/layer/details/convolution.o"
 	@echo "... src/layer/details/convolution.i"
 	@echo "... src/layer/details/convolution.s"
 	@echo "... src/layer/details/expression.o"
 	@echo "... src/layer/details/expression.i"
 	@echo "... src/layer/details/expression.s"
+	@echo "... src/layer/details/flatten.o"
+	@echo "... src/layer/details/flatten.i"
+	@echo "... src/layer/details/flatten.s"
 	@echo "... src/layer/details/linear.o"
 	@echo "... src/layer/details/linear.i"
 	@echo "... src/layer/details/linear.s"

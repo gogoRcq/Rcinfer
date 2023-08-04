@@ -283,7 +283,7 @@ ParseParamAttrStatus rcConvolutionLayer<T>::creatorInstance(const std::shared_pt
             LOG(ERROR) << " bias shape is error in conv";
             return ParseParamAttrStatus::rAttrMissingBias;
         }
-        const std::vector<T>& biasVal = bias->get();
+        const std::vector<T> biasVal = bias->get();
         layer->setBias(biasVal);
     }
 
@@ -297,7 +297,7 @@ ParseParamAttrStatus rcConvolutionLayer<T>::creatorInstance(const std::shared_pt
         LOG(ERROR) << " weight shape is error in conv";
         return ParseParamAttrStatus::rAttrMissingWeight;
     }
-    const std::vector<T>& weightVal = weight->get();
+    const std::vector<T> weightVal = weight->get();
     layer->setWeights(weightVal);
     return ParseParamAttrStatus::rParameterAttrParseSuccess;
 }

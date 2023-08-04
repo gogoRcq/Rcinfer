@@ -87,6 +87,7 @@ InferStatus rcMaxPoolingLayer<T>::forwards(const std::vector<std::shared_ptr<Ten
                     const arma::Mat<T>& subM = in_channel.submat(up_row + row * strideH, left_col + col * strideW, 
                                                                  down_row + row * strideH, right_col + col * strideW);
                     out_channel.at(row, col) = subM.max();
+                
                 }
             }
         }
