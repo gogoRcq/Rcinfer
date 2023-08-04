@@ -1,6 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Gtest.dir/__/src/LayerRegister.cpp.o"
-  "CMakeFiles/Gtest.dir/__/src/LayerRegister.cpp.o.d"
   "CMakeFiles/Gtest.dir/__/src/common.cpp.o"
   "CMakeFiles/Gtest.dir/__/src/common.cpp.o.d"
   "CMakeFiles/Gtest.dir/__/src/data/LoadData.cpp.o"

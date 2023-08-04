@@ -69,24 +69,10 @@ include CMakeFiles/Rcinfer.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Rcinfer.dir/flags.make
 
-CMakeFiles/Rcinfer.dir/src/LayerRegister.cpp.o: CMakeFiles/Rcinfer.dir/flags.make
-CMakeFiles/Rcinfer.dir/src/LayerRegister.cpp.o: /Users/rcq/home/cppprojs/Rcinfer/src/LayerRegister.cpp
-CMakeFiles/Rcinfer.dir/src/LayerRegister.cpp.o: CMakeFiles/Rcinfer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Rcinfer.dir/src/LayerRegister.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Rcinfer.dir/src/LayerRegister.cpp.o -MF CMakeFiles/Rcinfer.dir/src/LayerRegister.cpp.o.d -o CMakeFiles/Rcinfer.dir/src/LayerRegister.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/LayerRegister.cpp
-
-CMakeFiles/Rcinfer.dir/src/LayerRegister.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Rcinfer.dir/src/LayerRegister.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rcq/home/cppprojs/Rcinfer/src/LayerRegister.cpp > CMakeFiles/Rcinfer.dir/src/LayerRegister.cpp.i
-
-CMakeFiles/Rcinfer.dir/src/LayerRegister.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Rcinfer.dir/src/LayerRegister.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rcq/home/cppprojs/Rcinfer/src/LayerRegister.cpp -o CMakeFiles/Rcinfer.dir/src/LayerRegister.cpp.s
-
 CMakeFiles/Rcinfer.dir/src/common.cpp.o: CMakeFiles/Rcinfer.dir/flags.make
 CMakeFiles/Rcinfer.dir/src/common.cpp.o: /Users/rcq/home/cppprojs/Rcinfer/src/common.cpp
 CMakeFiles/Rcinfer.dir/src/common.cpp.o: CMakeFiles/Rcinfer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Rcinfer.dir/src/common.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Rcinfer.dir/src/common.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Rcinfer.dir/src/common.cpp.o -MF CMakeFiles/Rcinfer.dir/src/common.cpp.o.d -o CMakeFiles/Rcinfer.dir/src/common.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/common.cpp
 
 CMakeFiles/Rcinfer.dir/src/common.cpp.i: cmake_force
@@ -100,7 +86,7 @@ CMakeFiles/Rcinfer.dir/src/common.cpp.s: cmake_force
 CMakeFiles/Rcinfer.dir/src/data/LoadData.cpp.o: CMakeFiles/Rcinfer.dir/flags.make
 CMakeFiles/Rcinfer.dir/src/data/LoadData.cpp.o: /Users/rcq/home/cppprojs/Rcinfer/src/data/LoadData.cpp
 CMakeFiles/Rcinfer.dir/src/data/LoadData.cpp.o: CMakeFiles/Rcinfer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Rcinfer.dir/src/data/LoadData.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Rcinfer.dir/src/data/LoadData.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Rcinfer.dir/src/data/LoadData.cpp.o -MF CMakeFiles/Rcinfer.dir/src/data/LoadData.cpp.o.d -o CMakeFiles/Rcinfer.dir/src/data/LoadData.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/data/LoadData.cpp
 
 CMakeFiles/Rcinfer.dir/src/data/LoadData.cpp.i: cmake_force
@@ -114,7 +100,7 @@ CMakeFiles/Rcinfer.dir/src/data/LoadData.cpp.s: cmake_force
 CMakeFiles/Rcinfer.dir/src/data/Tensor.cpp.o: CMakeFiles/Rcinfer.dir/flags.make
 CMakeFiles/Rcinfer.dir/src/data/Tensor.cpp.o: /Users/rcq/home/cppprojs/Rcinfer/src/data/Tensor.cpp
 CMakeFiles/Rcinfer.dir/src/data/Tensor.cpp.o: CMakeFiles/Rcinfer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Rcinfer.dir/src/data/Tensor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Rcinfer.dir/src/data/Tensor.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Rcinfer.dir/src/data/Tensor.cpp.o -MF CMakeFiles/Rcinfer.dir/src/data/Tensor.cpp.o.d -o CMakeFiles/Rcinfer.dir/src/data/Tensor.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/data/Tensor.cpp
 
 CMakeFiles/Rcinfer.dir/src/data/Tensor.cpp.i: cmake_force
@@ -128,7 +114,7 @@ CMakeFiles/Rcinfer.dir/src/data/Tensor.cpp.s: cmake_force
 CMakeFiles/Rcinfer.dir/src/layer/details/adaptiveaveragepooling.cpp.o: CMakeFiles/Rcinfer.dir/flags.make
 CMakeFiles/Rcinfer.dir/src/layer/details/adaptiveaveragepooling.cpp.o: /Users/rcq/home/cppprojs/Rcinfer/src/layer/details/adaptiveaveragepooling.cpp
 CMakeFiles/Rcinfer.dir/src/layer/details/adaptiveaveragepooling.cpp.o: CMakeFiles/Rcinfer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Rcinfer.dir/src/layer/details/adaptiveaveragepooling.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Rcinfer.dir/src/layer/details/adaptiveaveragepooling.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Rcinfer.dir/src/layer/details/adaptiveaveragepooling.cpp.o -MF CMakeFiles/Rcinfer.dir/src/layer/details/adaptiveaveragepooling.cpp.o.d -o CMakeFiles/Rcinfer.dir/src/layer/details/adaptiveaveragepooling.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/details/adaptiveaveragepooling.cpp
 
 CMakeFiles/Rcinfer.dir/src/layer/details/adaptiveaveragepooling.cpp.i: cmake_force
@@ -142,7 +128,7 @@ CMakeFiles/Rcinfer.dir/src/layer/details/adaptiveaveragepooling.cpp.s: cmake_for
 CMakeFiles/Rcinfer.dir/src/layer/details/convolution.cpp.o: CMakeFiles/Rcinfer.dir/flags.make
 CMakeFiles/Rcinfer.dir/src/layer/details/convolution.cpp.o: /Users/rcq/home/cppprojs/Rcinfer/src/layer/details/convolution.cpp
 CMakeFiles/Rcinfer.dir/src/layer/details/convolution.cpp.o: CMakeFiles/Rcinfer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Rcinfer.dir/src/layer/details/convolution.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Rcinfer.dir/src/layer/details/convolution.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Rcinfer.dir/src/layer/details/convolution.cpp.o -MF CMakeFiles/Rcinfer.dir/src/layer/details/convolution.cpp.o.d -o CMakeFiles/Rcinfer.dir/src/layer/details/convolution.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/details/convolution.cpp
 
 CMakeFiles/Rcinfer.dir/src/layer/details/convolution.cpp.i: cmake_force
@@ -156,7 +142,7 @@ CMakeFiles/Rcinfer.dir/src/layer/details/convolution.cpp.s: cmake_force
 CMakeFiles/Rcinfer.dir/src/layer/details/expression.cpp.o: CMakeFiles/Rcinfer.dir/flags.make
 CMakeFiles/Rcinfer.dir/src/layer/details/expression.cpp.o: /Users/rcq/home/cppprojs/Rcinfer/src/layer/details/expression.cpp
 CMakeFiles/Rcinfer.dir/src/layer/details/expression.cpp.o: CMakeFiles/Rcinfer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Rcinfer.dir/src/layer/details/expression.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Rcinfer.dir/src/layer/details/expression.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Rcinfer.dir/src/layer/details/expression.cpp.o -MF CMakeFiles/Rcinfer.dir/src/layer/details/expression.cpp.o.d -o CMakeFiles/Rcinfer.dir/src/layer/details/expression.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/details/expression.cpp
 
 CMakeFiles/Rcinfer.dir/src/layer/details/expression.cpp.i: cmake_force
@@ -170,7 +156,7 @@ CMakeFiles/Rcinfer.dir/src/layer/details/expression.cpp.s: cmake_force
 CMakeFiles/Rcinfer.dir/src/layer/details/flatten.cpp.o: CMakeFiles/Rcinfer.dir/flags.make
 CMakeFiles/Rcinfer.dir/src/layer/details/flatten.cpp.o: /Users/rcq/home/cppprojs/Rcinfer/src/layer/details/flatten.cpp
 CMakeFiles/Rcinfer.dir/src/layer/details/flatten.cpp.o: CMakeFiles/Rcinfer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Rcinfer.dir/src/layer/details/flatten.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Rcinfer.dir/src/layer/details/flatten.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Rcinfer.dir/src/layer/details/flatten.cpp.o -MF CMakeFiles/Rcinfer.dir/src/layer/details/flatten.cpp.o.d -o CMakeFiles/Rcinfer.dir/src/layer/details/flatten.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/details/flatten.cpp
 
 CMakeFiles/Rcinfer.dir/src/layer/details/flatten.cpp.i: cmake_force
@@ -184,7 +170,7 @@ CMakeFiles/Rcinfer.dir/src/layer/details/flatten.cpp.s: cmake_force
 CMakeFiles/Rcinfer.dir/src/layer/details/linear.cpp.o: CMakeFiles/Rcinfer.dir/flags.make
 CMakeFiles/Rcinfer.dir/src/layer/details/linear.cpp.o: /Users/rcq/home/cppprojs/Rcinfer/src/layer/details/linear.cpp
 CMakeFiles/Rcinfer.dir/src/layer/details/linear.cpp.o: CMakeFiles/Rcinfer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Rcinfer.dir/src/layer/details/linear.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Rcinfer.dir/src/layer/details/linear.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Rcinfer.dir/src/layer/details/linear.cpp.o -MF CMakeFiles/Rcinfer.dir/src/layer/details/linear.cpp.o.d -o CMakeFiles/Rcinfer.dir/src/layer/details/linear.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/details/linear.cpp
 
 CMakeFiles/Rcinfer.dir/src/layer/details/linear.cpp.i: cmake_force
@@ -198,7 +184,7 @@ CMakeFiles/Rcinfer.dir/src/layer/details/linear.cpp.s: cmake_force
 CMakeFiles/Rcinfer.dir/src/layer/details/maxpooling.cpp.o: CMakeFiles/Rcinfer.dir/flags.make
 CMakeFiles/Rcinfer.dir/src/layer/details/maxpooling.cpp.o: /Users/rcq/home/cppprojs/Rcinfer/src/layer/details/maxpooling.cpp
 CMakeFiles/Rcinfer.dir/src/layer/details/maxpooling.cpp.o: CMakeFiles/Rcinfer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Rcinfer.dir/src/layer/details/maxpooling.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Rcinfer.dir/src/layer/details/maxpooling.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Rcinfer.dir/src/layer/details/maxpooling.cpp.o -MF CMakeFiles/Rcinfer.dir/src/layer/details/maxpooling.cpp.o.d -o CMakeFiles/Rcinfer.dir/src/layer/details/maxpooling.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/details/maxpooling.cpp
 
 CMakeFiles/Rcinfer.dir/src/layer/details/maxpooling.cpp.i: cmake_force
@@ -212,7 +198,7 @@ CMakeFiles/Rcinfer.dir/src/layer/details/maxpooling.cpp.s: cmake_force
 CMakeFiles/Rcinfer.dir/src/layer/details/relu.cpp.o: CMakeFiles/Rcinfer.dir/flags.make
 CMakeFiles/Rcinfer.dir/src/layer/details/relu.cpp.o: /Users/rcq/home/cppprojs/Rcinfer/src/layer/details/relu.cpp
 CMakeFiles/Rcinfer.dir/src/layer/details/relu.cpp.o: CMakeFiles/Rcinfer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Rcinfer.dir/src/layer/details/relu.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Rcinfer.dir/src/layer/details/relu.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Rcinfer.dir/src/layer/details/relu.cpp.o -MF CMakeFiles/Rcinfer.dir/src/layer/details/relu.cpp.o.d -o CMakeFiles/Rcinfer.dir/src/layer/details/relu.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/details/relu.cpp
 
 CMakeFiles/Rcinfer.dir/src/layer/details/relu.cpp.i: cmake_force
@@ -226,7 +212,7 @@ CMakeFiles/Rcinfer.dir/src/layer/details/relu.cpp.s: cmake_force
 CMakeFiles/Rcinfer.dir/src/layer/abstract/rcLayer.cpp.o: CMakeFiles/Rcinfer.dir/flags.make
 CMakeFiles/Rcinfer.dir/src/layer/abstract/rcLayer.cpp.o: /Users/rcq/home/cppprojs/Rcinfer/src/layer/abstract/rcLayer.cpp
 CMakeFiles/Rcinfer.dir/src/layer/abstract/rcLayer.cpp.o: CMakeFiles/Rcinfer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Rcinfer.dir/src/layer/abstract/rcLayer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Rcinfer.dir/src/layer/abstract/rcLayer.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Rcinfer.dir/src/layer/abstract/rcLayer.cpp.o -MF CMakeFiles/Rcinfer.dir/src/layer/abstract/rcLayer.cpp.o.d -o CMakeFiles/Rcinfer.dir/src/layer/abstract/rcLayer.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/abstract/rcLayer.cpp
 
 CMakeFiles/Rcinfer.dir/src/layer/abstract/rcLayer.cpp.i: cmake_force
@@ -240,7 +226,7 @@ CMakeFiles/Rcinfer.dir/src/layer/abstract/rcLayer.cpp.s: cmake_force
 CMakeFiles/Rcinfer.dir/src/layer/abstract/rcLayerRegister.cpp.o: CMakeFiles/Rcinfer.dir/flags.make
 CMakeFiles/Rcinfer.dir/src/layer/abstract/rcLayerRegister.cpp.o: /Users/rcq/home/cppprojs/Rcinfer/src/layer/abstract/rcLayerRegister.cpp
 CMakeFiles/Rcinfer.dir/src/layer/abstract/rcLayerRegister.cpp.o: CMakeFiles/Rcinfer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Rcinfer.dir/src/layer/abstract/rcLayerRegister.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Rcinfer.dir/src/layer/abstract/rcLayerRegister.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Rcinfer.dir/src/layer/abstract/rcLayerRegister.cpp.o -MF CMakeFiles/Rcinfer.dir/src/layer/abstract/rcLayerRegister.cpp.o.d -o CMakeFiles/Rcinfer.dir/src/layer/abstract/rcLayerRegister.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/abstract/rcLayerRegister.cpp
 
 CMakeFiles/Rcinfer.dir/src/layer/abstract/rcLayerRegister.cpp.i: cmake_force
@@ -254,7 +240,7 @@ CMakeFiles/Rcinfer.dir/src/layer/abstract/rcLayerRegister.cpp.s: cmake_force
 CMakeFiles/Rcinfer.dir/src/layer/abstract/rcParamLayer.cpp.o: CMakeFiles/Rcinfer.dir/flags.make
 CMakeFiles/Rcinfer.dir/src/layer/abstract/rcParamLayer.cpp.o: /Users/rcq/home/cppprojs/Rcinfer/src/layer/abstract/rcParamLayer.cpp
 CMakeFiles/Rcinfer.dir/src/layer/abstract/rcParamLayer.cpp.o: CMakeFiles/Rcinfer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Rcinfer.dir/src/layer/abstract/rcParamLayer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Rcinfer.dir/src/layer/abstract/rcParamLayer.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Rcinfer.dir/src/layer/abstract/rcParamLayer.cpp.o -MF CMakeFiles/Rcinfer.dir/src/layer/abstract/rcParamLayer.cpp.o.d -o CMakeFiles/Rcinfer.dir/src/layer/abstract/rcParamLayer.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/abstract/rcParamLayer.cpp
 
 CMakeFiles/Rcinfer.dir/src/layer/abstract/rcParamLayer.cpp.i: cmake_force
@@ -268,7 +254,7 @@ CMakeFiles/Rcinfer.dir/src/layer/abstract/rcParamLayer.cpp.s: cmake_force
 CMakeFiles/Rcinfer.dir/src/runtime/PraseExpression.cpp.o: CMakeFiles/Rcinfer.dir/flags.make
 CMakeFiles/Rcinfer.dir/src/runtime/PraseExpression.cpp.o: /Users/rcq/home/cppprojs/Rcinfer/src/runtime/PraseExpression.cpp
 CMakeFiles/Rcinfer.dir/src/runtime/PraseExpression.cpp.o: CMakeFiles/Rcinfer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Rcinfer.dir/src/runtime/PraseExpression.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Rcinfer.dir/src/runtime/PraseExpression.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Rcinfer.dir/src/runtime/PraseExpression.cpp.o -MF CMakeFiles/Rcinfer.dir/src/runtime/PraseExpression.cpp.o.d -o CMakeFiles/Rcinfer.dir/src/runtime/PraseExpression.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/runtime/PraseExpression.cpp
 
 CMakeFiles/Rcinfer.dir/src/runtime/PraseExpression.cpp.i: cmake_force
@@ -282,7 +268,7 @@ CMakeFiles/Rcinfer.dir/src/runtime/PraseExpression.cpp.s: cmake_force
 CMakeFiles/Rcinfer.dir/src/runtime/RuntimeGraph.cpp.o: CMakeFiles/Rcinfer.dir/flags.make
 CMakeFiles/Rcinfer.dir/src/runtime/RuntimeGraph.cpp.o: /Users/rcq/home/cppprojs/Rcinfer/src/runtime/RuntimeGraph.cpp
 CMakeFiles/Rcinfer.dir/src/runtime/RuntimeGraph.cpp.o: CMakeFiles/Rcinfer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Rcinfer.dir/src/runtime/RuntimeGraph.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Rcinfer.dir/src/runtime/RuntimeGraph.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Rcinfer.dir/src/runtime/RuntimeGraph.cpp.o -MF CMakeFiles/Rcinfer.dir/src/runtime/RuntimeGraph.cpp.o.d -o CMakeFiles/Rcinfer.dir/src/runtime/RuntimeGraph.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/runtime/RuntimeGraph.cpp
 
 CMakeFiles/Rcinfer.dir/src/runtime/RuntimeGraph.cpp.i: cmake_force
@@ -296,7 +282,7 @@ CMakeFiles/Rcinfer.dir/src/runtime/RuntimeGraph.cpp.s: cmake_force
 CMakeFiles/Rcinfer.dir/src/runtime/ir.cpp.o: CMakeFiles/Rcinfer.dir/flags.make
 CMakeFiles/Rcinfer.dir/src/runtime/ir.cpp.o: /Users/rcq/home/cppprojs/Rcinfer/src/runtime/ir.cpp
 CMakeFiles/Rcinfer.dir/src/runtime/ir.cpp.o: CMakeFiles/Rcinfer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Rcinfer.dir/src/runtime/ir.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Rcinfer.dir/src/runtime/ir.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Rcinfer.dir/src/runtime/ir.cpp.o -MF CMakeFiles/Rcinfer.dir/src/runtime/ir.cpp.o.d -o CMakeFiles/Rcinfer.dir/src/runtime/ir.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/runtime/ir.cpp
 
 CMakeFiles/Rcinfer.dir/src/runtime/ir.cpp.i: cmake_force
@@ -310,7 +296,7 @@ CMakeFiles/Rcinfer.dir/src/runtime/ir.cpp.s: cmake_force
 CMakeFiles/Rcinfer.dir/src/runtime/store_zip.cpp.o: CMakeFiles/Rcinfer.dir/flags.make
 CMakeFiles/Rcinfer.dir/src/runtime/store_zip.cpp.o: /Users/rcq/home/cppprojs/Rcinfer/src/runtime/store_zip.cpp
 CMakeFiles/Rcinfer.dir/src/runtime/store_zip.cpp.o: CMakeFiles/Rcinfer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Rcinfer.dir/src/runtime/store_zip.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Rcinfer.dir/src/runtime/store_zip.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Rcinfer.dir/src/runtime/store_zip.cpp.o -MF CMakeFiles/Rcinfer.dir/src/runtime/store_zip.cpp.o.d -o CMakeFiles/Rcinfer.dir/src/runtime/store_zip.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/runtime/store_zip.cpp
 
 CMakeFiles/Rcinfer.dir/src/runtime/store_zip.cpp.i: cmake_force
@@ -324,7 +310,7 @@ CMakeFiles/Rcinfer.dir/src/runtime/store_zip.cpp.s: cmake_force
 CMakeFiles/Rcinfer.dir/main.cpp.o: CMakeFiles/Rcinfer.dir/flags.make
 CMakeFiles/Rcinfer.dir/main.cpp.o: /Users/rcq/home/cppprojs/Rcinfer/main.cpp
 CMakeFiles/Rcinfer.dir/main.cpp.o: CMakeFiles/Rcinfer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Rcinfer.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Rcinfer.dir/main.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Rcinfer.dir/main.cpp.o -MF CMakeFiles/Rcinfer.dir/main.cpp.o.d -o CMakeFiles/Rcinfer.dir/main.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/main.cpp
 
 CMakeFiles/Rcinfer.dir/main.cpp.i: cmake_force
@@ -337,7 +323,6 @@ CMakeFiles/Rcinfer.dir/main.cpp.s: cmake_force
 
 # Object files for target Rcinfer
 Rcinfer_OBJECTS = \
-"CMakeFiles/Rcinfer.dir/src/LayerRegister.cpp.o" \
 "CMakeFiles/Rcinfer.dir/src/common.cpp.o" \
 "CMakeFiles/Rcinfer.dir/src/data/LoadData.cpp.o" \
 "CMakeFiles/Rcinfer.dir/src/data/Tensor.cpp.o" \
@@ -360,7 +345,6 @@ Rcinfer_OBJECTS = \
 # External object files for target Rcinfer
 Rcinfer_EXTERNAL_OBJECTS =
 
-Rcinfer: CMakeFiles/Rcinfer.dir/src/LayerRegister.cpp.o
 Rcinfer: CMakeFiles/Rcinfer.dir/src/common.cpp.o
 Rcinfer: CMakeFiles/Rcinfer.dir/src/data/LoadData.cpp.o
 Rcinfer: CMakeFiles/Rcinfer.dir/src/data/Tensor.cpp.o
@@ -381,7 +365,7 @@ Rcinfer: CMakeFiles/Rcinfer.dir/src/runtime/store_zip.cpp.o
 Rcinfer: CMakeFiles/Rcinfer.dir/main.cpp.o
 Rcinfer: CMakeFiles/Rcinfer.dir/build.make
 Rcinfer: CMakeFiles/Rcinfer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable Rcinfer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/rcq/home/cppprojs/Rcinfer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable Rcinfer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Rcinfer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

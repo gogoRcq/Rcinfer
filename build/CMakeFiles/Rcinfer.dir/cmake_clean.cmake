@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Rcinfer.dir/main.cpp.o"
   "CMakeFiles/Rcinfer.dir/main.cpp.o.d"
-  "CMakeFiles/Rcinfer.dir/src/LayerRegister.cpp.o"
-  "CMakeFiles/Rcinfer.dir/src/LayerRegister.cpp.o.d"
   "CMakeFiles/Rcinfer.dir/src/common.cpp.o"
   "CMakeFiles/Rcinfer.dir/src/common.cpp.o.d"
   "CMakeFiles/Rcinfer.dir/src/data/LoadData.cpp.o"

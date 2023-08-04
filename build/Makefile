@@ -166,30 +166,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-src/LayerRegister.o: src/LayerRegister.cpp.o
-.PHONY : src/LayerRegister.o
-
-# target to build an object file
-src/LayerRegister.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/LayerRegister.cpp.o
-.PHONY : src/LayerRegister.cpp.o
-
-src/LayerRegister.i: src/LayerRegister.cpp.i
-.PHONY : src/LayerRegister.i
-
-# target to preprocess a source file
-src/LayerRegister.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/LayerRegister.cpp.i
-.PHONY : src/LayerRegister.cpp.i
-
-src/LayerRegister.s: src/LayerRegister.cpp.s
-.PHONY : src/LayerRegister.s
-
-# target to generate assembly for a file
-src/LayerRegister.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/LayerRegister.cpp.s
-.PHONY : src/LayerRegister.cpp.s
-
 src/common.o: src/common.cpp.o
 .PHONY : src/common.o
 
@@ -611,9 +587,6 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... src/LayerRegister.o"
-	@echo "... src/LayerRegister.i"
-	@echo "... src/LayerRegister.s"
 	@echo "... src/common.o"
 	@echo "... src/common.i"
 	@echo "... src/common.s"

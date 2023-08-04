@@ -130,30 +130,6 @@ Gtest/fast:
 	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/build
 .PHONY : Gtest/fast
 
-__/src/LayerRegister.o: __/src/LayerRegister.cpp.o
-.PHONY : __/src/LayerRegister.o
-
-# target to build an object file
-__/src/LayerRegister.cpp.o:
-	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/LayerRegister.cpp.o
-.PHONY : __/src/LayerRegister.cpp.o
-
-__/src/LayerRegister.i: __/src/LayerRegister.cpp.i
-.PHONY : __/src/LayerRegister.i
-
-# target to preprocess a source file
-__/src/LayerRegister.cpp.i:
-	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/LayerRegister.cpp.i
-.PHONY : __/src/LayerRegister.cpp.i
-
-__/src/LayerRegister.s: __/src/LayerRegister.cpp.s
-.PHONY : __/src/LayerRegister.s
-
-# target to generate assembly for a file
-__/src/LayerRegister.cpp.s:
-	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/LayerRegister.cpp.s
-.PHONY : __/src/LayerRegister.cpp.s
-
 __/src/common.o: __/src/common.cpp.o
 .PHONY : __/src/common.o
 
@@ -763,9 +739,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Gtest"
-	@echo "... __/src/LayerRegister.o"
-	@echo "... __/src/LayerRegister.i"
-	@echo "... __/src/LayerRegister.s"
 	@echo "... __/src/common.o"
 	@echo "... __/src/common.i"
 	@echo "... __/src/common.s"
