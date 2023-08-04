@@ -96,7 +96,6 @@ InferStatus rcConvolutionLayer<T>::forwards(const std::vector<std::shared_ptr<Te
                 for (int igc = 0; igc < input_group_channels; ++igc) {
                     std::memcpy(temp.memptr() + row_len * igc, kernel->at(igc).memptr(), row_len * sizeof(T));
                 }
-                LOG(INFO) << "kernel展开后: " << "\n" << temp;
                 kernel_mat_arr[k] = temp;
             }
             arma::Mat<T> input_mat(row_len * input_group_channels, col_len);
@@ -113,7 +112,6 @@ InferStatus rcConvolutionLayer<T>::forwards(const std::vector<std::shared_ptr<Te
                     }
                 }
             }
-            LOG(INFO)  << "input展开后: " << "\n"  << input_mat;
 
             std::shared_ptr<Tensor<T>> output = outputs[i];
             if (output == nullptr || output->empty()) {
