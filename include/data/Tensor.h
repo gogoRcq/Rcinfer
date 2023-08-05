@@ -81,7 +81,6 @@ public:
     void ReRawView(const std::vector<uint32_t> &shapes); // 行有线 reshape
 
     const T *raw_ptr() const;
-
 };
 
 

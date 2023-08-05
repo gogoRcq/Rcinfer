@@ -732,7 +732,7 @@ CMakeFiles/Rcinfer.dir/src/runtime/PraseExpression.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
-  /usr/local/include/glog/logging.h \
+  /opt/homebrew/include/glog/logging.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/sstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/unistd.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/unistd.h \
@@ -742,13 +742,18 @@ CMakeFiles/Rcinfer.dir/src/runtime/PraseExpression.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_select.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_uuid_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/gethostuuid.h \
-  /usr/local/include/glog/platform.h /usr/local/include/glog/export.h \
+  /opt/homebrew/include/glog/platform.h \
+  /opt/homebrew/include/glog/export.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/inttypes.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/xlocale/_inttypes.h \
-  /usr/local/include/glog/log_severity.h \
-  /usr/local/include/glog/vlog_is_on.h /usr/local/include/gtest/gtest.h \
+  /opt/homebrew/include/gflags/gflags.h \
+  /opt/homebrew/include/gflags/gflags_declare.h \
+  /opt/homebrew/include/gflags/gflags_gflags.h \
+  /opt/homebrew/include/glog/log_severity.h \
+  /opt/homebrew/include/glog/vlog_is_on.h \
+  /usr/local/include/gtest/gtest.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iomanip \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/set \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__tree \
