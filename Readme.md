@@ -10,7 +10,7 @@
 
 - **Armadillo**数学库，官方网站：https://arma.sourceforge.net/docs.html
 - **OpenBlas**线性代数库
-- ***Lapack***线性代数库
+- **Lapack**线性代数库
 - **gtest**单元测试库
 - **glog** 日志库
 - **opencv**计算机视觉库
