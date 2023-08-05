@@ -27,6 +27,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Rcinfer.dir/src/layer/details/maxpooling.cpp.o.d"
   "CMakeFiles/Rcinfer.dir/src/layer/details/relu.cpp.o"
   "CMakeFiles/Rcinfer.dir/src/layer/details/relu.cpp.o.d"
+  "CMakeFiles/Rcinfer.dir/src/layer/details/softmax.cpp.o"
+  "CMakeFiles/Rcinfer.dir/src/layer/details/softmax.cpp.o.d"
   "CMakeFiles/Rcinfer.dir/src/runtime/PraseExpression.cpp.o"
   "CMakeFiles/Rcinfer.dir/src/runtime/PraseExpression.cpp.o.d"
   "CMakeFiles/Rcinfer.dir/src/runtime/RuntimeGraph.cpp.o"

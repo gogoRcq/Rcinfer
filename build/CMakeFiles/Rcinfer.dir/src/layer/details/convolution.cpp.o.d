@@ -2,7 +2,7 @@ CMakeFiles/Rcinfer.dir/src/layer/details/convolution.cpp.o: \
   /Users/rcq/home/cppprojs/Rcinfer/src/layer/details/convolution.cpp \
   /Users/rcq/home/cppprojs/Rcinfer/./src/layer/details/convolution.h \
   /Users/rcq/home/cppprojs/Rcinfer/./include/layer/abstract/rcParamLayer.h \
-  /usr/local/include/glog/logging.h \
+  /opt/homebrew/include/glog/logging.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/chrono \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__config \
@@ -742,13 +742,17 @@ CMakeFiles/Rcinfer.dir/src/layer/details/convolution.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_select.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_uuid_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/gethostuuid.h \
-  /usr/local/include/glog/platform.h /usr/local/include/glog/export.h \
+  /opt/homebrew/include/glog/platform.h \
+  /opt/homebrew/include/glog/export.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/inttypes.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/xlocale/_inttypes.h \
-  /usr/local/include/glog/log_severity.h \
-  /usr/local/include/glog/vlog_is_on.h \
+  /opt/homebrew/include/gflags/gflags.h \
+  /opt/homebrew/include/gflags/gflags_declare.h \
+  /opt/homebrew/include/gflags/gflags_gflags.h \
+  /opt/homebrew/include/glog/log_severity.h \
+  /opt/homebrew/include/glog/vlog_is_on.h \
   /Users/rcq/home/cppprojs/Rcinfer/./include/layer/abstract/rcLayer.h \
   /Users/rcq/home/cppprojs/Rcinfer/./include/data/Tensor.h \
   /opt/homebrew/include/armadillo \
@@ -920,6 +924,7 @@ CMakeFiles/Rcinfer.dir/src/layer/details/convolution.cpp.o: \
   /opt/homebrew/include/armadillo_bits/mtGlue_bones.hpp \
   /opt/homebrew/include/armadillo_bits/SpGlue_bones.hpp \
   /opt/homebrew/include/armadillo_bits/mtSpGlue_bones.hpp \
+  /opt/homebrew/include/armadillo_bits/SpToDGlue_bones.hpp \
   /opt/homebrew/include/armadillo_bits/GlueCube_bones.hpp \
   /opt/homebrew/include/armadillo_bits/eGlueCube_bones.hpp \
   /opt/homebrew/include/armadillo_bits/mtGlueCube_bones.hpp \
@@ -1002,6 +1007,7 @@ CMakeFiles/Rcinfer.dir/src/layer/details/convolution.cpp.o: \
   /opt/homebrew/include/armadillo_bits/op_row_as_mat_bones.hpp \
   /opt/homebrew/include/armadillo_bits/op_col_as_mat_bones.hpp \
   /opt/homebrew/include/armadillo_bits/glue_times_bones.hpp \
+  /opt/homebrew/include/armadillo_bits/glue_times_misc_bones.hpp \
   /opt/homebrew/include/armadillo_bits/glue_mixed_bones.hpp \
   /opt/homebrew/include/armadillo_bits/glue_cov_bones.hpp \
   /opt/homebrew/include/armadillo_bits/glue_cor_bones.hpp \
@@ -1215,6 +1221,7 @@ CMakeFiles/Rcinfer.dir/src/layer/details/convolution.cpp.o: \
   /opt/homebrew/include/armadillo_bits/fn_quantile.hpp \
   /opt/homebrew/include/armadillo_bits/fn_powmat.hpp \
   /opt/homebrew/include/armadillo_bits/fn_powext.hpp \
+  /opt/homebrew/include/armadillo_bits/fn_diags_spdiags.hpp \
   /opt/homebrew/include/armadillo_bits/fn_speye.hpp \
   /opt/homebrew/include/armadillo_bits/fn_spones.hpp \
   /opt/homebrew/include/armadillo_bits/fn_sprandn.hpp \
@@ -1246,6 +1253,7 @@ CMakeFiles/Rcinfer.dir/src/layer/details/convolution.cpp.o: \
   /opt/homebrew/include/armadillo_bits/GlueCube_meat.hpp \
   /opt/homebrew/include/armadillo_bits/SpGlue_meat.hpp \
   /opt/homebrew/include/armadillo_bits/mtSpGlue_meat.hpp \
+  /opt/homebrew/include/armadillo_bits/SpToDGlue_meat.hpp \
   /opt/homebrew/include/armadillo_bits/eOp_meat.hpp \
   /opt/homebrew/include/armadillo_bits/eOpCube_meat.hpp \
   /opt/homebrew/include/armadillo_bits/eGlue_meat.hpp \
@@ -1372,6 +1380,7 @@ CMakeFiles/Rcinfer.dir/src/layer/details/convolution.cpp.o: \
   /opt/homebrew/include/armadillo_bits/op_row_as_mat_meat.hpp \
   /opt/homebrew/include/armadillo_bits/op_col_as_mat_meat.hpp \
   /opt/homebrew/include/armadillo_bits/glue_times_meat.hpp \
+  /opt/homebrew/include/armadillo_bits/glue_times_misc_meat.hpp \
   /opt/homebrew/include/armadillo_bits/glue_mixed_meat.hpp \
   /opt/homebrew/include/armadillo_bits/glue_cov_meat.hpp \
   /opt/homebrew/include/armadillo_bits/glue_cor_meat.hpp \

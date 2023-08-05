@@ -1122,6 +1122,18 @@
 			"value" : "FALSE"
 		},
 		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_OpenCV",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding OpenCV"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[/opt/homebrew/Cellar/opencv/4.8.0_1][v4.8.0()]"
+		},
+		{
 			"name" : "Gtest_BINARY_DIR",
 			"properties" : 
 			[
@@ -1156,6 +1168,18 @@
 			],
 			"type" : "STATIC",
 			"value" : "/Users/rcq/home/cppprojs/Rcinfer/test"
+		},
+		{
+			"name" : "OpenCV_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for OpenCV."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/opt/homebrew/lib/cmake/opencv4"
 		},
 		{
 			"name" : "Rcinfer_BINARY_DIR",

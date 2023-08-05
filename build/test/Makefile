@@ -442,6 +442,30 @@ __/src/layer/details/relu.cpp.s:
 	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/details/relu.cpp.s
 .PHONY : __/src/layer/details/relu.cpp.s
 
+__/src/layer/details/softmax.o: __/src/layer/details/softmax.cpp.o
+.PHONY : __/src/layer/details/softmax.o
+
+# target to build an object file
+__/src/layer/details/softmax.cpp.o:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/details/softmax.cpp.o
+.PHONY : __/src/layer/details/softmax.cpp.o
+
+__/src/layer/details/softmax.i: __/src/layer/details/softmax.cpp.i
+.PHONY : __/src/layer/details/softmax.i
+
+# target to preprocess a source file
+__/src/layer/details/softmax.cpp.i:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/details/softmax.cpp.i
+.PHONY : __/src/layer/details/softmax.cpp.i
+
+__/src/layer/details/softmax.s: __/src/layer/details/softmax.cpp.s
+.PHONY : __/src/layer/details/softmax.s
+
+# target to generate assembly for a file
+__/src/layer/details/softmax.cpp.s:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/__/src/layer/details/softmax.cpp.s
+.PHONY : __/src/layer/details/softmax.cpp.s
+
 __/src/runtime/PraseExpression.o: __/src/runtime/PraseExpression.cpp.o
 .PHONY : __/src/runtime/PraseExpression.o
 
@@ -634,6 +658,30 @@ test_flatten.cpp.s:
 	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/test_flatten.cpp.s
 .PHONY : test_flatten.cpp.s
 
+test_infer.o: test_infer.cpp.o
+.PHONY : test_infer.o
+
+# target to build an object file
+test_infer.cpp.o:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/test_infer.cpp.o
+.PHONY : test_infer.cpp.o
+
+test_infer.i: test_infer.cpp.i
+.PHONY : test_infer.i
+
+# target to preprocess a source file
+test_infer.cpp.i:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/test_infer.cpp.i
+.PHONY : test_infer.cpp.i
+
+test_infer.s: test_infer.cpp.s
+.PHONY : test_infer.s
+
+# target to generate assembly for a file
+test_infer.cpp.s:
+	cd /Users/rcq/home/cppprojs/Rcinfer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Gtest.dir/build.make test/CMakeFiles/Gtest.dir/test_infer.cpp.s
+.PHONY : test_infer.cpp.s
+
 test_linear.o: test_linear.cpp.o
 .PHONY : test_linear.o
 
@@ -778,6 +826,9 @@ help:
 	@echo "... __/src/layer/details/relu.o"
 	@echo "... __/src/layer/details/relu.i"
 	@echo "... __/src/layer/details/relu.s"
+	@echo "... __/src/layer/details/softmax.o"
+	@echo "... __/src/layer/details/softmax.i"
+	@echo "... __/src/layer/details/softmax.s"
 	@echo "... __/src/runtime/PraseExpression.o"
 	@echo "... __/src/runtime/PraseExpression.i"
 	@echo "... __/src/runtime/PraseExpression.s"
@@ -802,6 +853,9 @@ help:
 	@echo "... test_flatten.o"
 	@echo "... test_flatten.i"
 	@echo "... test_flatten.s"
+	@echo "... test_infer.o"
+	@echo "... test_infer.i"
+	@echo "... test_infer.s"
 	@echo "... test_linear.o"
 	@echo "... test_linear.i"
 	@echo "... test_linear.s"

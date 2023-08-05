@@ -911,6 +911,7 @@ test/CMakeFiles/Gtest.dir/__/src/layer/details/relu.cpp.o: \
   /opt/homebrew/include/armadillo_bits/mtGlue_bones.hpp \
   /opt/homebrew/include/armadillo_bits/SpGlue_bones.hpp \
   /opt/homebrew/include/armadillo_bits/mtSpGlue_bones.hpp \
+  /opt/homebrew/include/armadillo_bits/SpToDGlue_bones.hpp \
   /opt/homebrew/include/armadillo_bits/GlueCube_bones.hpp \
   /opt/homebrew/include/armadillo_bits/eGlueCube_bones.hpp \
   /opt/homebrew/include/armadillo_bits/mtGlueCube_bones.hpp \
@@ -993,6 +994,7 @@ test/CMakeFiles/Gtest.dir/__/src/layer/details/relu.cpp.o: \
   /opt/homebrew/include/armadillo_bits/op_row_as_mat_bones.hpp \
   /opt/homebrew/include/armadillo_bits/op_col_as_mat_bones.hpp \
   /opt/homebrew/include/armadillo_bits/glue_times_bones.hpp \
+  /opt/homebrew/include/armadillo_bits/glue_times_misc_bones.hpp \
   /opt/homebrew/include/armadillo_bits/glue_mixed_bones.hpp \
   /opt/homebrew/include/armadillo_bits/glue_cov_bones.hpp \
   /opt/homebrew/include/armadillo_bits/glue_cor_bones.hpp \
@@ -1206,6 +1208,7 @@ test/CMakeFiles/Gtest.dir/__/src/layer/details/relu.cpp.o: \
   /opt/homebrew/include/armadillo_bits/fn_quantile.hpp \
   /opt/homebrew/include/armadillo_bits/fn_powmat.hpp \
   /opt/homebrew/include/armadillo_bits/fn_powext.hpp \
+  /opt/homebrew/include/armadillo_bits/fn_diags_spdiags.hpp \
   /opt/homebrew/include/armadillo_bits/fn_speye.hpp \
   /opt/homebrew/include/armadillo_bits/fn_spones.hpp \
   /opt/homebrew/include/armadillo_bits/fn_sprandn.hpp \
@@ -1237,6 +1240,7 @@ test/CMakeFiles/Gtest.dir/__/src/layer/details/relu.cpp.o: \
   /opt/homebrew/include/armadillo_bits/GlueCube_meat.hpp \
   /opt/homebrew/include/armadillo_bits/SpGlue_meat.hpp \
   /opt/homebrew/include/armadillo_bits/mtSpGlue_meat.hpp \
+  /opt/homebrew/include/armadillo_bits/SpToDGlue_meat.hpp \
   /opt/homebrew/include/armadillo_bits/eOp_meat.hpp \
   /opt/homebrew/include/armadillo_bits/eOpCube_meat.hpp \
   /opt/homebrew/include/armadillo_bits/eGlue_meat.hpp \
@@ -1363,6 +1367,7 @@ test/CMakeFiles/Gtest.dir/__/src/layer/details/relu.cpp.o: \
   /opt/homebrew/include/armadillo_bits/op_row_as_mat_meat.hpp \
   /opt/homebrew/include/armadillo_bits/op_col_as_mat_meat.hpp \
   /opt/homebrew/include/armadillo_bits/glue_times_meat.hpp \
+  /opt/homebrew/include/armadillo_bits/glue_times_misc_meat.hpp \
   /opt/homebrew/include/armadillo_bits/glue_mixed_meat.hpp \
   /opt/homebrew/include/armadillo_bits/glue_cov_meat.hpp \
   /opt/homebrew/include/armadillo_bits/glue_cor_meat.hpp \
@@ -1431,14 +1436,18 @@ test/CMakeFiles/Gtest.dir/__/src/layer/details/relu.cpp.o: \
   /opt/homebrew/include/armadillo_bits/newarp_UpperHessenbergEigen_meat.hpp \
   /opt/homebrew/include/armadillo_bits/newarp_UpperHessenbergQR_meat.hpp \
   /opt/homebrew/include/armadillo_bits/compiler_setup_post.hpp \
-  /usr/local/include/glog/logging.h /usr/local/include/glog/platform.h \
-  /usr/local/include/glog/export.h \
+  /opt/homebrew/include/glog/logging.h \
+  /opt/homebrew/include/glog/platform.h \
+  /opt/homebrew/include/glog/export.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/inttypes.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/xlocale/_inttypes.h \
-  /usr/local/include/glog/log_severity.h \
-  /usr/local/include/glog/vlog_is_on.h \
+  /opt/homebrew/include/gflags/gflags.h \
+  /opt/homebrew/include/gflags/gflags_declare.h \
+  /opt/homebrew/include/gflags/gflags_gflags.h \
+  /opt/homebrew/include/glog/log_severity.h \
+  /opt/homebrew/include/glog/vlog_is_on.h \
   /Users/rcq/home/cppprojs/Rcinfer/./include/runtime/StateCode.h \
   /Users/rcq/home/cppprojs/Rcinfer/./include/runtime/RuntimeOperator.h \
   /Users/rcq/home/cppprojs/Rcinfer/./include/runtime/RuntimeAttr.h \

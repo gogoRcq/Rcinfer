@@ -780,11 +780,15 @@ test/CMakeFiles/Gtest.dir/test_main.cpp.o: \
   /usr/local/include/gtest/gtest-typed-test.h \
   /usr/local/include/gtest/gtest_pred_impl.h \
   /usr/local/include/gtest/gtest_prod.h \
-  /usr/local/include/glog/logging.h /usr/local/include/glog/platform.h \
-  /usr/local/include/glog/export.h \
+  /opt/homebrew/include/glog/logging.h \
+  /opt/homebrew/include/glog/platform.h \
+  /opt/homebrew/include/glog/export.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/inttypes.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/xlocale/_inttypes.h \
-  /usr/local/include/glog/log_severity.h \
-  /usr/local/include/glog/vlog_is_on.h
+  /opt/homebrew/include/gflags/gflags.h \
+  /opt/homebrew/include/gflags/gflags_declare.h \
+  /opt/homebrew/include/gflags/gflags_gflags.h \
+  /opt/homebrew/include/glog/log_severity.h \
+  /opt/homebrew/include/glog/vlog_is_on.h

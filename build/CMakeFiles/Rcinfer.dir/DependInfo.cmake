@@ -22,6 +22,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/rcq/home/cppprojs/Rcinfer/src/layer/details/linear.cpp" "CMakeFiles/Rcinfer.dir/src/layer/details/linear.cpp.o" "gcc" "CMakeFiles/Rcinfer.dir/src/layer/details/linear.cpp.o.d"
   "/Users/rcq/home/cppprojs/Rcinfer/src/layer/details/maxpooling.cpp" "CMakeFiles/Rcinfer.dir/src/layer/details/maxpooling.cpp.o" "gcc" "CMakeFiles/Rcinfer.dir/src/layer/details/maxpooling.cpp.o.d"
   "/Users/rcq/home/cppprojs/Rcinfer/src/layer/details/relu.cpp" "CMakeFiles/Rcinfer.dir/src/layer/details/relu.cpp.o" "gcc" "CMakeFiles/Rcinfer.dir/src/layer/details/relu.cpp.o.d"
+  "/Users/rcq/home/cppprojs/Rcinfer/src/layer/details/softmax.cpp" "CMakeFiles/Rcinfer.dir/src/layer/details/softmax.cpp.o" "gcc" "CMakeFiles/Rcinfer.dir/src/layer/details/softmax.cpp.o.d"
   "/Users/rcq/home/cppprojs/Rcinfer/src/runtime/PraseExpression.cpp" "CMakeFiles/Rcinfer.dir/src/runtime/PraseExpression.cpp.o" "gcc" "CMakeFiles/Rcinfer.dir/src/runtime/PraseExpression.cpp.o.d"
   "/Users/rcq/home/cppprojs/Rcinfer/src/runtime/RuntimeGraph.cpp" "CMakeFiles/Rcinfer.dir/src/runtime/RuntimeGraph.cpp.o" "gcc" "CMakeFiles/Rcinfer.dir/src/runtime/RuntimeGraph.cpp.o.d"
   "/Users/rcq/home/cppprojs/Rcinfer/src/runtime/ir.cpp" "CMakeFiles/Rcinfer.dir/src/runtime/ir.cpp.o" "gcc" "CMakeFiles/Rcinfer.dir/src/runtime/ir.cpp.o.d"

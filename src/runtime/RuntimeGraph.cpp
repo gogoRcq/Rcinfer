@@ -2,6 +2,8 @@
 #include "common.h"
 #include "data/Tensor.h"
 #include "glog/logging.h"
+#include "layer/abstract/rcLayer.h"
+#include "layer/abstract/rcLayerRegister.h"
 #include "runtime/RuntimeAttr.h"
 #include "runtime/RuntimeDataType.h"
 #include "runtime/RuntimeOperand.h"
@@ -248,12 +250,15 @@ void RuntimeGraph<T>::Build(const std::string &inputName, const std::string &out
     this->outputOperators.clear();
 
     for (const std::shared_ptr<RuntimeOperator<T>>& op : this->operators_) {
+        CHECK(op != nullptr) << "null operator";
         if (op->type == "pnnx.Input") {
             this->inputOperators.insert({op->name, op});
         } else if (op->type == "pnnx.Output") {
             this->outputOperators.insert({op->name, op});
         } else {
-            // 构建 layer
+            std::shared_ptr<rcLayer<T>> layer = rcLayerRegister<T>::CreateLayer(op);
+            LOG_IF(FATAL, !layer) << "Layer init failed " << op->type;
+            op->layer = layer;
         }
     }
     RuntimeGraphShape<T>::InitOperatorInputTensor(this->operators_);
@@ -501,7 +506,9 @@ std::vector<std::shared_ptr<Tensor<T>>> RuntimeGraph<T>::forward(const std::vect
             CHECK(currentOp->outputOperand != nullptr && !currentOp->outputOperand->datas.empty()) << "layer output data is empty";
             const auto &start = std::chrono::steady_clock::now();
             // excute
-
+            InferStatus statu = currentOp->layer->forwards(layerInputDatas, currentOp->outputOperand->datas);
+            CHECK(statu == InferStatus::rInferSuccess) << currentOp->layer->getLayerName()
+                                                       << " layer forward failed, error code: " << int(statu);
             ProbeNextLayer(currentOp, operatorQueue, currentOp->outputOperand->datas);
             if (debug) {
                 LOG(INFO) << "current operator: " << currentOp->name;

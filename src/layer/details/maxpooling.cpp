@@ -45,8 +45,8 @@ InferStatus rcMaxPoolingLayer<T>::forwards(const std::vector<std::shared_ptr<Ten
         } else {
             uint32_t input_rows = input->rows();
             uint32_t input_cols = input->cols();
-            const uint32_t output_rows = (uint32_t)std::floor((input_rows - poolingH) / strideH + 1);
-            const uint32_t output_cols = (uint32_t)std::floor((input_cols - poolingW) / strideW + 1);
+            const uint32_t output_rows = (uint32_t)std::floor((input_rows + 2 * paddingH - poolingH) / strideH + 1);
+            const uint32_t output_cols = (uint32_t)std::floor((input_cols + 2 * paddingW - poolingW) / strideW + 1);
             if (!output_rows || !output_cols) {
                 LOG(ERROR) << "The output size of max pooling layer is less than zero";
                 return InferStatus::rInferFailedOutputSizeError;

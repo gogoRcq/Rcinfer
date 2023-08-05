@@ -478,6 +478,30 @@ src/layer/details/relu.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/layer/details/relu.cpp.s
 .PHONY : src/layer/details/relu.cpp.s
 
+src/layer/details/softmax.o: src/layer/details/softmax.cpp.o
+.PHONY : src/layer/details/softmax.o
+
+# target to build an object file
+src/layer/details/softmax.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/layer/details/softmax.cpp.o
+.PHONY : src/layer/details/softmax.cpp.o
+
+src/layer/details/softmax.i: src/layer/details/softmax.cpp.i
+.PHONY : src/layer/details/softmax.i
+
+# target to preprocess a source file
+src/layer/details/softmax.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/layer/details/softmax.cpp.i
+.PHONY : src/layer/details/softmax.cpp.i
+
+src/layer/details/softmax.s: src/layer/details/softmax.cpp.s
+.PHONY : src/layer/details/softmax.s
+
+# target to generate assembly for a file
+src/layer/details/softmax.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rcinfer.dir/build.make CMakeFiles/Rcinfer.dir/src/layer/details/softmax.cpp.s
+.PHONY : src/layer/details/softmax.cpp.s
+
 src/runtime/PraseExpression.o: src/runtime/PraseExpression.cpp.o
 .PHONY : src/runtime/PraseExpression.o
 
@@ -626,6 +650,9 @@ help:
 	@echo "... src/layer/details/relu.o"
 	@echo "... src/layer/details/relu.i"
 	@echo "... src/layer/details/relu.s"
+	@echo "... src/layer/details/softmax.o"
+	@echo "... src/layer/details/softmax.i"
+	@echo "... src/layer/details/softmax.s"
 	@echo "... src/runtime/PraseExpression.o"
 	@echo "... src/runtime/PraseExpression.i"
 	@echo "... src/runtime/PraseExpression.s"
