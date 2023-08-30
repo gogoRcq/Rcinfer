@@ -92,9 +92,9 @@ TEST(test_infer, resbet18) {
 
     std::vector<std::string> labels;
     labels.reserve(1000);
-    getLabels(labels, "../tmp/imagenet-classes.txt");
+    getLabels(labels, "/Users/rcq/home/cppprojs/Rcinfer/tmp/imagenet-classes.txt");
 
-    std::string path = "../tmp/dog.jpg";
+    std::string path = "/Users/rcq/home/cppprojs/Rcinfer/tmp/dog.jpg";
     cv::Mat image = cv::imread(path);
     // 图像预处理
     std::shared_ptr<Tensor<float>> input = PreProcessImage(image);
