@@ -2,7 +2,7 @@
 
 #### 简介
 
-这是一个简单的 C++推理框架，目前支持了 ResNet 模型的推理（用于图像分类），后续可能会进一步支持 YOLO模型的推理。学习自：https://github.com/zjhellofss/KuiperInfer 。
+这是一个简单的 C++推理框架，目前支持了 ResNet 模型的推理（用于图像分类），后续会进一步支持 YOLO模型的推理。学习自：https://github.com/zjhellofss/KuiperInfer 。
 
 #### 依赖库
 
