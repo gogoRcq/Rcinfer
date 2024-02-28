@@ -115,163 +115,163 @@
 },
 {
   "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -isystem /opt/homebrew/Cellar/opencv/4.8.0_1/include/opencv4 -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/test_adaptivepooling.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/test/test_adaptivepooling.cpp",
+  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -isystem /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4 -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/test_adaptivepooling.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/test/test_adaptivepooling.cpp",
   "file": "/Users/rcq/home/cppprojs/Rcinfer/test/test_adaptivepooling.cpp",
   "output": "test/CMakeFiles/Gtest.dir/test_adaptivepooling.cpp.o"
 },
 {
   "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -isystem /opt/homebrew/Cellar/opencv/4.8.0_1/include/opencv4 -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/test_convolution.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/test/test_convolution.cpp",
+  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -isystem /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4 -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/test_convolution.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/test/test_convolution.cpp",
   "file": "/Users/rcq/home/cppprojs/Rcinfer/test/test_convolution.cpp",
   "output": "test/CMakeFiles/Gtest.dir/test_convolution.cpp.o"
 },
 {
   "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -isystem /opt/homebrew/Cellar/opencv/4.8.0_1/include/opencv4 -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/test_expression.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/test/test_expression.cpp",
+  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -isystem /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4 -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/test_expression.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/test/test_expression.cpp",
   "file": "/Users/rcq/home/cppprojs/Rcinfer/test/test_expression.cpp",
   "output": "test/CMakeFiles/Gtest.dir/test_expression.cpp.o"
 },
 {
   "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -isystem /opt/homebrew/Cellar/opencv/4.8.0_1/include/opencv4 -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/test_flatten.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/test/test_flatten.cpp",
+  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -isystem /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4 -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/test_flatten.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/test/test_flatten.cpp",
   "file": "/Users/rcq/home/cppprojs/Rcinfer/test/test_flatten.cpp",
   "output": "test/CMakeFiles/Gtest.dir/test_flatten.cpp.o"
 },
 {
   "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -isystem /opt/homebrew/Cellar/opencv/4.8.0_1/include/opencv4 -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/test_infer.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/test/test_infer.cpp",
+  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -isystem /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4 -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/test_infer.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/test/test_infer.cpp",
   "file": "/Users/rcq/home/cppprojs/Rcinfer/test/test_infer.cpp",
   "output": "test/CMakeFiles/Gtest.dir/test_infer.cpp.o"
 },
 {
   "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -isystem /opt/homebrew/Cellar/opencv/4.8.0_1/include/opencv4 -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/test_linear.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/test/test_linear.cpp",
+  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -isystem /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4 -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/test_linear.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/test/test_linear.cpp",
   "file": "/Users/rcq/home/cppprojs/Rcinfer/test/test_linear.cpp",
   "output": "test/CMakeFiles/Gtest.dir/test_linear.cpp.o"
 },
 {
   "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -isystem /opt/homebrew/Cellar/opencv/4.8.0_1/include/opencv4 -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/test_main.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/test/test_main.cpp",
+  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -isystem /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4 -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/test_main.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/test/test_main.cpp",
   "file": "/Users/rcq/home/cppprojs/Rcinfer/test/test_main.cpp",
   "output": "test/CMakeFiles/Gtest.dir/test_main.cpp.o"
 },
 {
   "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -isystem /opt/homebrew/Cellar/opencv/4.8.0_1/include/opencv4 -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/test_maxpooling.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/test/test_maxpooling.cpp",
+  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -isystem /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4 -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/test_maxpooling.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/test/test_maxpooling.cpp",
   "file": "/Users/rcq/home/cppprojs/Rcinfer/test/test_maxpooling.cpp",
   "output": "test/CMakeFiles/Gtest.dir/test_maxpooling.cpp.o"
 },
 {
   "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -isystem /opt/homebrew/Cellar/opencv/4.8.0_1/include/opencv4 -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/test_relu.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/test/test_relu.cpp",
+  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -isystem /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4 -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/test_relu.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/test/test_relu.cpp",
   "file": "/Users/rcq/home/cppprojs/Rcinfer/test/test_relu.cpp",
   "output": "test/CMakeFiles/Gtest.dir/test_relu.cpp.o"
 },
 {
   "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -isystem /opt/homebrew/Cellar/opencv/4.8.0_1/include/opencv4 -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/common.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/common.cpp",
+  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -isystem /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4 -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/common.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/common.cpp",
   "file": "/Users/rcq/home/cppprojs/Rcinfer/src/common.cpp",
   "output": "test/CMakeFiles/Gtest.dir/__/src/common.cpp.o"
 },
 {
   "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -isystem /opt/homebrew/Cellar/opencv/4.8.0_1/include/opencv4 -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/data/LoadData.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/data/LoadData.cpp",
+  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -isystem /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4 -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/data/LoadData.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/data/LoadData.cpp",
   "file": "/Users/rcq/home/cppprojs/Rcinfer/src/data/LoadData.cpp",
   "output": "test/CMakeFiles/Gtest.dir/__/src/data/LoadData.cpp.o"
 },
 {
   "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -isystem /opt/homebrew/Cellar/opencv/4.8.0_1/include/opencv4 -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/data/Tensor.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/data/Tensor.cpp",
+  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -isystem /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4 -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/data/Tensor.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/data/Tensor.cpp",
   "file": "/Users/rcq/home/cppprojs/Rcinfer/src/data/Tensor.cpp",
   "output": "test/CMakeFiles/Gtest.dir/__/src/data/Tensor.cpp.o"
 },
 {
   "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -isystem /opt/homebrew/Cellar/opencv/4.8.0_1/include/opencv4 -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/layer/details/adaptiveaveragepooling.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/details/adaptiveaveragepooling.cpp",
+  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -isystem /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4 -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/layer/details/adaptiveaveragepooling.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/details/adaptiveaveragepooling.cpp",
   "file": "/Users/rcq/home/cppprojs/Rcinfer/src/layer/details/adaptiveaveragepooling.cpp",
   "output": "test/CMakeFiles/Gtest.dir/__/src/layer/details/adaptiveaveragepooling.cpp.o"
 },
 {
   "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -isystem /opt/homebrew/Cellar/opencv/4.8.0_1/include/opencv4 -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/layer/details/convolution.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/details/convolution.cpp",
+  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -isystem /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4 -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/layer/details/convolution.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/details/convolution.cpp",
   "file": "/Users/rcq/home/cppprojs/Rcinfer/src/layer/details/convolution.cpp",
   "output": "test/CMakeFiles/Gtest.dir/__/src/layer/details/convolution.cpp.o"
 },
 {
   "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -isystem /opt/homebrew/Cellar/opencv/4.8.0_1/include/opencv4 -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/layer/details/expression.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/details/expression.cpp",
+  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -isystem /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4 -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/layer/details/expression.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/details/expression.cpp",
   "file": "/Users/rcq/home/cppprojs/Rcinfer/src/layer/details/expression.cpp",
   "output": "test/CMakeFiles/Gtest.dir/__/src/layer/details/expression.cpp.o"
 },
 {
   "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -isystem /opt/homebrew/Cellar/opencv/4.8.0_1/include/opencv4 -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/layer/details/flatten.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/details/flatten.cpp",
+  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -isystem /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4 -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/layer/details/flatten.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/details/flatten.cpp",
   "file": "/Users/rcq/home/cppprojs/Rcinfer/src/layer/details/flatten.cpp",
   "output": "test/CMakeFiles/Gtest.dir/__/src/layer/details/flatten.cpp.o"
 },
 {
   "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -isystem /opt/homebrew/Cellar/opencv/4.8.0_1/include/opencv4 -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/layer/details/linear.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/details/linear.cpp",
+  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -isystem /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4 -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/layer/details/linear.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/details/linear.cpp",
   "file": "/Users/rcq/home/cppprojs/Rcinfer/src/layer/details/linear.cpp",
   "output": "test/CMakeFiles/Gtest.dir/__/src/layer/details/linear.cpp.o"
 },
 {
   "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -isystem /opt/homebrew/Cellar/opencv/4.8.0_1/include/opencv4 -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/layer/details/maxpooling.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/details/maxpooling.cpp",
+  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -isystem /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4 -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/layer/details/maxpooling.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/details/maxpooling.cpp",
   "file": "/Users/rcq/home/cppprojs/Rcinfer/src/layer/details/maxpooling.cpp",
   "output": "test/CMakeFiles/Gtest.dir/__/src/layer/details/maxpooling.cpp.o"
 },
 {
   "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -isystem /opt/homebrew/Cellar/opencv/4.8.0_1/include/opencv4 -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/layer/details/relu.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/details/relu.cpp",
+  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -isystem /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4 -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/layer/details/relu.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/details/relu.cpp",
   "file": "/Users/rcq/home/cppprojs/Rcinfer/src/layer/details/relu.cpp",
   "output": "test/CMakeFiles/Gtest.dir/__/src/layer/details/relu.cpp.o"
 },
 {
   "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -isystem /opt/homebrew/Cellar/opencv/4.8.0_1/include/opencv4 -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/layer/details/softmax.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/details/softmax.cpp",
+  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -isystem /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4 -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/layer/details/softmax.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/details/softmax.cpp",
   "file": "/Users/rcq/home/cppprojs/Rcinfer/src/layer/details/softmax.cpp",
   "output": "test/CMakeFiles/Gtest.dir/__/src/layer/details/softmax.cpp.o"
 },
 {
   "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -isystem /opt/homebrew/Cellar/opencv/4.8.0_1/include/opencv4 -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/layer/abstract/rcLayer.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/abstract/rcLayer.cpp",
+  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -isystem /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4 -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/layer/abstract/rcLayer.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/abstract/rcLayer.cpp",
   "file": "/Users/rcq/home/cppprojs/Rcinfer/src/layer/abstract/rcLayer.cpp",
   "output": "test/CMakeFiles/Gtest.dir/__/src/layer/abstract/rcLayer.cpp.o"
 },
 {
   "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -isystem /opt/homebrew/Cellar/opencv/4.8.0_1/include/opencv4 -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/layer/abstract/rcLayerRegister.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/abstract/rcLayerRegister.cpp",
+  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -isystem /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4 -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/layer/abstract/rcLayerRegister.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/abstract/rcLayerRegister.cpp",
   "file": "/Users/rcq/home/cppprojs/Rcinfer/src/layer/abstract/rcLayerRegister.cpp",
   "output": "test/CMakeFiles/Gtest.dir/__/src/layer/abstract/rcLayerRegister.cpp.o"
 },
 {
   "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -isystem /opt/homebrew/Cellar/opencv/4.8.0_1/include/opencv4 -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/layer/abstract/rcParamLayer.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/abstract/rcParamLayer.cpp",
+  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -isystem /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4 -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/layer/abstract/rcParamLayer.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/layer/abstract/rcParamLayer.cpp",
   "file": "/Users/rcq/home/cppprojs/Rcinfer/src/layer/abstract/rcParamLayer.cpp",
   "output": "test/CMakeFiles/Gtest.dir/__/src/layer/abstract/rcParamLayer.cpp.o"
 },
 {
   "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -isystem /opt/homebrew/Cellar/opencv/4.8.0_1/include/opencv4 -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/runtime/PraseExpression.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/runtime/PraseExpression.cpp",
+  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -isystem /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4 -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/runtime/PraseExpression.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/runtime/PraseExpression.cpp",
   "file": "/Users/rcq/home/cppprojs/Rcinfer/src/runtime/PraseExpression.cpp",
   "output": "test/CMakeFiles/Gtest.dir/__/src/runtime/PraseExpression.cpp.o"
 },
 {
   "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -isystem /opt/homebrew/Cellar/opencv/4.8.0_1/include/opencv4 -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/runtime/RuntimeGraph.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/runtime/RuntimeGraph.cpp",
+  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -isystem /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4 -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/runtime/RuntimeGraph.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/runtime/RuntimeGraph.cpp",
   "file": "/Users/rcq/home/cppprojs/Rcinfer/src/runtime/RuntimeGraph.cpp",
   "output": "test/CMakeFiles/Gtest.dir/__/src/runtime/RuntimeGraph.cpp.o"
 },
 {
   "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -isystem /opt/homebrew/Cellar/opencv/4.8.0_1/include/opencv4 -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/runtime/ir.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/runtime/ir.cpp",
+  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -isystem /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4 -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/runtime/ir.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/runtime/ir.cpp",
   "file": "/Users/rcq/home/cppprojs/Rcinfer/src/runtime/ir.cpp",
   "output": "test/CMakeFiles/Gtest.dir/__/src/runtime/ir.cpp.o"
 },
 {
   "directory": "/Users/rcq/home/cppprojs/Rcinfer/build/test",
-  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -isystem /opt/homebrew/Cellar/opencv/4.8.0_1/include/opencv4 -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/runtime/store_zip.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/runtime/store_zip.cpp",
+  "command": "/usr/bin/clang++  -I/Users/rcq/home/cppprojs/Rcinfer/./include -I/Users/rcq/home/cppprojs/Rcinfer/./src/layer -I/Users/rcq/home/cppprojs/Rcinfer/test/../include -I/Users/rcq/home/cppprojs/Rcinfer/test/../src/layer -isystem /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4 -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/Gtest.dir/__/src/runtime/store_zip.cpp.o -c /Users/rcq/home/cppprojs/Rcinfer/src/runtime/store_zip.cpp",
   "file": "/Users/rcq/home/cppprojs/Rcinfer/src/runtime/store_zip.cpp",
   "output": "test/CMakeFiles/Gtest.dir/__/src/runtime/store_zip.cpp.o"
 }

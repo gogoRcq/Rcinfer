@@ -8,7 +8,7 @@
 #include "runtime/RuntimeGraph.h"
 #include "data/LoadData.h"
 #include "opencv4/opencv2/opencv.hpp"
-#include "data/Tensor.h"
+#include "data/Tensor.h"  
 
 std::shared_ptr<rq::Tensor<float>> PreProcessImage(const cv::Mat& image) {
     using namespace rq;

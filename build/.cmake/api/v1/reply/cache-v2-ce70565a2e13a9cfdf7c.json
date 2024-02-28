@@ -1131,7 +1131,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[/opt/homebrew/Cellar/opencv/4.8.0_1][v4.8.0()]"
+			"value" : "[/opt/homebrew/Cellar/opencv/4.8.0_4][v4.8.0()]"
 		},
 		{
 			"name" : "Gtest_BINARY_DIR",

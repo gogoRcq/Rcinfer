@@ -83,7 +83,7 @@
 				{
 					"backtrace" : 5,
 					"isSystem" : true,
-					"path" : "/opt/homebrew/Cellar/opencv/4.8.0_1/include/opencv4"
+					"path" : "/opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4"
 				}
 			],
 			"language" : "CXX",
